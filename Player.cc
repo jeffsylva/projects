@@ -3,7 +3,8 @@
 Player::Player()
 {
     health = 0;
-    moveSpeed = 5;
+    moveSpeed = 1;
+    bMoveSpeed=3;
 }
 
 Player::~Player()
@@ -21,3 +22,11 @@ void Player::doLogic(Keyboard keyboard)
     else if (keyboard.key[RIGHT]&&x<610)
         x += moveSpeed;
 }
+void Player::MvBullet()
+{
+    bX+=bMoveSpeed;
+}
+void Player::initialbX(){
+    bX=x+10;bY=y;
+}
+

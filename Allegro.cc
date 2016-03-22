@@ -60,15 +60,18 @@ int Allegro::createWindow(float FPS, int width, int height)
     al_register_event_source(event_queue, al_get_keyboard_event_source());
 
     player.setBitmap("player.png");
-
+    player.setBullet("bullet.png");
     return 0;
 }
 
 void Allegro::gameLoop()
 {
+
+
     al_start_timer(timer);
     while (looping)
     {
+
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue, &ev);
 
@@ -88,6 +91,9 @@ void Allegro::gameLoop()
             case ALLEGRO_KEY_RIGHT:
                 keyboard.key[RIGHT] = true;
                 break;
+            case ALLEGRO_KEY_SPACE:
+                keyboard.key[SPACE] =true;
+                break;
             }
         }
 	else if (ev.type == ALLEGRO_EVENT_KEY_UP)
@@ -106,8 +112,9 @@ void Allegro::gameLoop()
             case ALLEGRO_KEY_RIGHT:
                 keyboard.key[RIGHT] = false;
                 break;
+
             }
-	    }
+	}
         if (ev.type == ALLEGRO_EVENT_TIMER)
         {
             player.doLogic(keyboard);
@@ -116,7 +123,32 @@ void Allegro::gameLoop()
 	 else if (ev.type == ALLEGRO_EVENT_DISPLAY_CLOSE)
         {
             looping = false;
-	    }
+        }
+	  if(keyboard.key[SPACE]== true)
+	  {
+             if(player.getbX()>=600){
+               player.initialbX(); 
+               keyboard.key[SPACE]=false;
+               keyboard.key[UP] = false;
+
+
+                keyboard.key[LEFT] = false;
+
+
+                keyboard.key[DOWN] = false;
+
+
+                keyboard.key[RIGHT] = false;
+
+             }
+             player.drawB();
+	   player.MvBullet();
+            al_flip_display();
+            al_clear_to_color(al_map_rgb(0,0,0));
+                                   
+            	
+	  
+          }
 	
 	  if (redraw && al_is_event_queue_empty(event_queue))
         {
@@ -127,7 +159,10 @@ void Allegro::gameLoop()
             // Draw
 	    player.draw();
 
-	 al_flip_display();
-	     }
-    }
+	   al_flip_display();
+	}
+
+
+	  
+    }    
 }
