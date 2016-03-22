@@ -1,11 +1,11 @@
 #ifndef PLAYER_H_
 #define PLAYER_H_
 
-#include "Sprite.h"
+#include "Plane.h"
 #include "Keyboard.h"
 
 class Player :
-    public Sprite
+    public Plane
 {
 private:
     int health, moveSpeed;

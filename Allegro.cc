@@ -72,7 +72,7 @@ void Allegro::gameLoop()
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue, &ev);
 
-	if (ev.type == ALLEGRO_EVENT_KEY_DOWN)
+	if (ev.type == ALLEGRO_EVENT_KEY_DOWN )
         {
             switch (ev.keyboard.keycode)
             {
@@ -117,7 +117,7 @@ void Allegro::gameLoop()
         {
             looping = false;
 	    }
-	//player.draw();
+	
 	  if (redraw && al_is_event_queue_empty(event_queue))
         {
             redraw = false;

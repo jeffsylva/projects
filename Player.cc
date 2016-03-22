@@ -12,12 +12,12 @@ Player::~Player()
 
 void Player::doLogic(Keyboard keyboard)
 {
-    if (keyboard.key[UP])
-        y -= moveSpeed;
-    else if (keyboard.key[DOWN])
+    if (keyboard.key[UP]&&y>70)
+       y -= moveSpeed;
+    else if (keyboard.key[DOWN]&&y<490)
         y += moveSpeed;
-    if (keyboard.key[LEFT])
+    if (keyboard.key[LEFT]&&x>0)
         x -= moveSpeed;
-    else if (keyboard.key[RIGHT])
+    else if (keyboard.key[RIGHT]&&x<610)
         x += moveSpeed;
 }
