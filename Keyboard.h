@@ -1,7 +1,7 @@
 #ifndef KEYBOARD_H_
 #define KEYBOARD_H_
 
-enum keys{ UP, LEFT, DOWN, RIGHT };
+enum keys{ UP, LEFT, DOWN, RIGHT, SPACE };
 
 class Keyboard
 {
@@ -9,7 +9,7 @@ public:
     Keyboard();
     ~Keyboard();
 
-    bool key[4];
+    bool key[5];
 };
 
 #endif
