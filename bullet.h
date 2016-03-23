@@ -18,6 +18,7 @@ class bullet:public Plane
 
    void drawB();
    int getbX();
+   void initbY();
 };
 
 #endif

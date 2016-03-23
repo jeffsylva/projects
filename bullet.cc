@@ -27,3 +27,8 @@ int bullet::getbX()
 {
 return bX;
 }
+
+void bullet::initbY(){
+   bY=y;
+ 
+}

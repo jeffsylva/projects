@@ -6,6 +6,7 @@
 #include <allegro5/allegro_primitives.h>
 #include "Player.h"
 #include "Keyboard.h"
+#include "Enemy.h"
 
 class Allegro
 {
@@ -16,7 +17,7 @@ private:
 
     Keyboard keyboard;
     Player player;
-
+    Enemy enemy;
     bool looping, redraw;
 
 public:

@@ -7,16 +7,16 @@
 
 class Player : public bullet
 {
-private:
-    int health, moveSpeed,bMoveSpeed;
+  private:
+   int health, moveSpeed,bMoveSpeed;
+   
+  public:
+   Player();
+   ~Player();
+   
+   void doLogic(Keyboard keyboard);
 
-public:
-    Player();
-    ~Player();
 
-    void doLogic(Keyboard keyboard);
-void MvBullet();
-void initialbX();
 };
 
 #endif
