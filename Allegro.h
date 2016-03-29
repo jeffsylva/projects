@@ -18,6 +18,7 @@ private:
     Keyboard keyboard;
     Player player;
     Enemy* enemy;
+Enemy* boss;
     bool looping, redraw;
 
 public:
@@ -27,7 +28,8 @@ public:
     int init();
     int createWindow(float FPS, int w, int h);
     void gameLoop();
-    bool collision(int x1,int y1,int x2,int y2,int a, int b, int c, int d);
+    bool collision(Enemy* , int ,int ,int , int , int , int );
+    bool collision1(Enemy* , int ,int ,int , int , int , int );
 };
 
 #endif

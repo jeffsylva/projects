@@ -14,18 +14,13 @@ class Enemytype
   private:
    int x;
    int y;
+   int moveSpeed;
   public:
+
    int getX(){
       return x;
    }
    int getY(){
-      return y;
-   }
-   float getEX(){
-      return x;
-   }
-   
-   float getEY(){
       return y;
    }
    
@@ -38,10 +33,13 @@ class Enemytype
    {
       y=b;
    }
-   
-   Enemytype(int a){
+   int getMS(){
+return moveSpeed;
+}
+   Enemytype(int a,int s){
       x=640;
       y=a;
+moveSpeed=s;
    }
    
 };
@@ -49,16 +47,17 @@ class Enemytype
 class EnemyOne
 {
   protected:
-   list<Enemytype*> Elist;
-   ALLEGRO_BITMAP *Ebitmap;
+ALLEGRO_BITMAP *Ebitmap;
+   ALLEGRO_BITMAP *Ebitmap2;
   public:
+   list<Enemytype*> Elist;   
    EnemyOne();
    virtual ~EnemyOne();
-void addEnemy(Enemytype*);
+void addEnemy(int,int);
    void setEnemy(std::string name);
    ALLEGRO_BITMAP *getEnemy();
    void drawE();
- int getElistX();
+
 };
 
 #endif

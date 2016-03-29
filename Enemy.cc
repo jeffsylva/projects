@@ -5,7 +5,7 @@
 
 Enemy::Enemy(){
    health=0;
-   moveSpeed=rand()%10+5;
+
 
 }
 
@@ -16,10 +16,15 @@ void Enemy::moveEnemy(){
       if((*it) -> getX()<=10)
 	 (*it) -> setX(640);
       else{
-	 (*it) -> setX((*it)->getX()-moveSpeed);
-	 //y+=moveSpeed;
+	 (*it) -> setX((*it)->getX()-(*it)->getMS());
       }
    }
 }
+void Enemy::moveboss(){
+   for (list<Enemytype*>::iterator it = Elist.begin();it!=Elist.end();it++)  { 
 
+	 (*it) -> setX((*it)->getX()-(*it)->getMS());
+      
+   }
+}
 

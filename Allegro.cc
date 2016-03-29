@@ -6,6 +6,7 @@ Allegro::Allegro()
     timer = NULL;
     event_queue = NULL;
 enemy= new Enemy();
+boss = new Enemy();
     looping = true, redraw = false;
 }
 
@@ -14,6 +15,8 @@ Allegro::~Allegro()
     al_destroy_event_queue(event_queue);
     al_destroy_timer(timer);
     al_destroy_display(display);
+delete enemy;
+delete boss;
 }
 
 int Allegro::init()
@@ -58,7 +61,7 @@ int Allegro::createWindow(float FPS, int width, int height)
     al_register_event_source(event_queue, al_get_display_event_source(display));
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
     al_register_event_source(event_queue, al_get_keyboard_event_source());
-
+boss->setEnemy("Enemy2.png");
     enemy->setEnemy("Enemy.png");
     player.setBitmap("player.png");
     player.setBullet("bullet.png");
@@ -67,7 +70,9 @@ int Allegro::createWindow(float FPS, int width, int height)
 
 void Allegro::gameLoop()
 {
-
+int time;
+int old_time=0;
+int Bold_time=0;
 
     al_start_timer(timer);
     while (looping)
@@ -102,7 +107,7 @@ void Allegro::gameLoop()
             switch (ev.keyboard.keycode)
             {
             case ALLEGRO_KEY_UP:
-                keyboard.key[UP] = false;
+                keyboard.key[UP] = false;  
                 break;
             case ALLEGRO_KEY_LEFT:
                 keyboard.key[LEFT] = false;
@@ -115,65 +120,63 @@ void Allegro::gameLoop()
                 break;
             }
 	}
-	//this collision doesn't work for list,need to fix
-/*	if (collision(player.getX(),player.getY(),enemy.getEX(),enemy.getEY(),30,25,28,30))
-	{ break;}
-	if (collision(enemy.getEX(),enemy.getEY(),player.getbX(),player.getbY(),28,30,20,10))
+	// collision for regular enemy
+	if (collision(enemy,player.getX(),player.getY(),30,25,28,30))
+	{ looping=false;}
+	if (collision1(enemy,player.getbX(),player.getbY(),28,30,20,10))
 	   {
-	      enemy.setX(640);
-	      enemy.setY(140);
+
 	      player.initbX();
 	      player.initbY();
 	      keyboard.key[SPACE]=false;
-	      }*/
+	      }
 	
    	if(player.getbX()>=640){
 	   keyboard.key[SPACE]=false;
+ 
 	}
+//collision for boss
+	if (collision(boss,player.getX(),player.getY(),30,25,62,37))
+	{ looping=false;}
+	/*if (collision1(boss,player.getbX(),player.getbY(),62,37,20,10))
+	   {
+
+	      player.initbX();
+	      player.initbY();
+	      keyboard.key[SPACE]=false;
+	      }
+
+*/
 	
+time=al_get_timer_count(timer);
+if(time-old_time>=150){
+enemy->addEnemy(rand()%400,1+rand()%3);
+old_time=time;
+}
+
+	
+
+if(time-Bold_time>=300){
+boss->addEnemy(rand()%400,6);
+Bold_time=time;
+}
+
         if (ev.type == ALLEGRO_EVENT_TIMER)
         {
 
 	   enemy->moveEnemy();
+boss->moveboss();
 //added   
 
-      if(enemy->getElistX()<=10){
-          delete enemy;	  
-          enemy=new Enemy();
-	 }
           player.doLogic(keyboard);
+
 	   redraw = true;
         }
 	 else if (ev.type == ALLEGRO_EVENT_DISPLAY_CLOSE)
         {
             looping = false;
         }
-/*	  if(keyboard.key[SPACE]== true)
-	  {
-             if(player.getbX()>=600){
-               player.initialbX();    
-               keyboard.key[SPACE]=false;
-               keyboard.key[UP] = false;
 
-
-                keyboard.key[LEFT] = false;
-
-
-                keyboard.key[DOWN] = false;
-
-
-                keyboard.key[RIGHT] = false;
-
-             }
-             player.drawB();
-	   player.MvBullet();
-
-  al_flip_display();
-            al_clear_to_color(al_map_rgb(0,0,0));          
-                                   
-            	
-	  
-          }*/
 	
 	  if (redraw && al_is_event_queue_empty(event_queue))
         {
@@ -182,10 +185,15 @@ void Allegro::gameLoop()
 	   al_clear_to_color(al_map_rgb(0, 0, 0));
 
             // Draw
-	   enemy->drawE();
-	   if(keyboard.key[SPACE]== true ){
+
+	      enemy->drawE();
+
+boss->drawE();
+
+	   if(keyboard.key[SPACE] == true ){
 	      player.drawB();
 	   }
+
            player.draw();
 
 	    
@@ -197,12 +205,34 @@ void Allegro::gameLoop()
     }    
 }
 
-bool Allegro::collision(int x1, int y1, int x2, int y2, int a, int b, int c, int d)
+bool Allegro::collision(Enemy* aa,int x1, int y1, int a, int b, int c, int d)
 {
+ for(list<Enemytype*>::iterator it=aa->Elist.begin();it!=aa->Elist.end();it++){
+int x2=(*it)->getX();
+int y2=(*it)->getY();
    if(( (x2>(x1-c))&&(y2>(y1-d)) )&&( (x2<(x1+a))&&(y2>(y1-b)) )
-      && ((x2>(x1-c))&&(y2<(y2+d))) &&((x2<(x1+a))&&(y2<(y1+b))))
-      return true;
-   else
-      return false;
+      && ((x2>(x1-c))&&(y2<(y2+d))) &&((x2<(x1+a))&&(y2<(y1+b)))){
+(*it)->setX(640);
+(*it)->setY(rand()%400);
+      return true;   
+   }
+
+}
+return false;
 }
 
+bool Allegro::collision1(Enemy* aa,int x2, int y2, int a, int b, int c, int d)
+{
+ for(list<Enemytype*>::iterator it=aa->Elist.begin();it!=aa->Elist.end();it++){
+int x1=(*it)->getX();
+int y1=(*it)->getY();
+   if(( (x2>(x1-c))&&(y2>(y1-d)) )&&( (x2<(x1+a))&&(y2>(y1-b)) )
+      && ((x2>(x1-c))&&(y2<(y2+d))) &&((x2<(x1+a))&&(y2<(y1+b)))){
+(*it)->setX(640);
+(*it)->setY(rand()%400);
+      return true;   
+   }
+
+}
+return false;
+}

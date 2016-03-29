@@ -6,13 +6,14 @@
 class Enemy:public EnemyOne
 {
   protected:
-   int health, moveSpeed;
+   int health;
 
   public:
    Enemy();
    ~Enemy();
 
    void moveEnemy();
+void moveboss();
 };
 
 #endif
