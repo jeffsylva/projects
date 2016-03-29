@@ -16,6 +16,7 @@ protected:
 public:
     Plane();
     virtual ~Plane();
+    int getX();
     int getY();
     void setBitmap(std::string filePath);
     ALLEGRO_BITMAP *getBitmap();

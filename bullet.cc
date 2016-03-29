@@ -32,3 +32,13 @@ void bullet::initbY(){
    bY=y;
  
 }
+
+void bullet::initbX(){
+   bX=x;
+ 
+}
+
+int bullet::getbY()
+{
+   return bY;
+}

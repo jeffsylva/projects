@@ -36,3 +36,6 @@ al_draw_bitmap(bitmap, x, y, NULL);
 int Plane::getY(){
    return y;
 }
+int Plane::getX(){
+   return x;
+}

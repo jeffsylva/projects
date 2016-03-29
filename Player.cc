@@ -26,6 +26,7 @@ void Player::doLogic(Keyboard keyboard)
     }
     else {
        bX=x;
+       initbY();
     }
  
 }

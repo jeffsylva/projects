@@ -16,9 +16,11 @@ class bullet:public Plane
   void setBullet(std::string fileName);
   ALLEGRO_BITMAP *getBulletMap();
 
-   void drawB();
-   int getbX();
-   void initbY();
+  void drawB();
+  void initbY();
+  void initbX();
+  int getbX();
+  int getbY();
 };
 
 #endif

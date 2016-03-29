@@ -5,7 +5,7 @@ Allegro::Allegro()
     display = NULL;
     timer = NULL;
     event_queue = NULL;
-
+enemy= new Enemy();
     looping = true, redraw = false;
 }
 
@@ -59,7 +59,7 @@ int Allegro::createWindow(float FPS, int width, int height)
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
     al_register_event_source(event_queue, al_get_keyboard_event_source());
 
-    enemy.setEnemy("Enemy.png");
+    enemy->setEnemy("Enemy.png");
     player.setBitmap("player.png");
     player.setBullet("bullet.png");
     return 0;
@@ -113,17 +113,35 @@ void Allegro::gameLoop()
             case ALLEGRO_KEY_RIGHT:
                 keyboard.key[RIGHT] = false;
                 break;
-
             }
 	}
+	//this collision doesn't work for list,need to fix
+/*	if (collision(player.getX(),player.getY(),enemy.getEX(),enemy.getEY(),30,25,28,30))
+	{ break;}
+	if (collision(enemy.getEX(),enemy.getEY(),player.getbX(),player.getbY(),28,30,20,10))
+	   {
+	      enemy.setX(640);
+	      enemy.setY(140);
+	      player.initbX();
+	      player.initbY();
+	      keyboard.key[SPACE]=false;
+	      }*/
+	
    	if(player.getbX()>=640){
 	   keyboard.key[SPACE]=false;
 	}
 	
         if (ev.type == ALLEGRO_EVENT_TIMER)
         {
-	   enemy.moveEnemy();
-	   player.doLogic(keyboard);
+
+	   enemy->moveEnemy();
+//added   
+
+      if(enemy->getElistX()<=10){
+          delete enemy;	  
+          enemy=new Enemy();
+	 }
+          player.doLogic(keyboard);
 	   redraw = true;
         }
 	 else if (ev.type == ALLEGRO_EVENT_DISPLAY_CLOSE)
@@ -164,10 +182,8 @@ void Allegro::gameLoop()
 	   al_clear_to_color(al_map_rgb(0, 0, 0));
 
             // Draw
-	   enemy.drawE();
+	   enemy->drawE();
 	   if(keyboard.key[SPACE]== true ){
-	    
-	      player.initbY();
 	      player.drawB();
 	   }
            player.draw();
@@ -180,3 +196,13 @@ void Allegro::gameLoop()
 	  
     }    
 }
+
+bool Allegro::collision(int x1, int y1, int x2, int y2, int a, int b, int c, int d)
+{
+   if(( (x2>(x1-c))&&(y2>(y1-d)) )&&( (x2<(x1+a))&&(y2>(y1-b)) )
+      && ((x2>(x1-c))&&(y2<(y2+d))) &&((x2<(x1+a))&&(y2<(y1+b))))
+      return true;
+   else
+      return false;
+}
+

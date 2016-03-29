@@ -1,8 +1,16 @@
 #include "EnemyOne.h"
 #include <allegro5/allegro_primitives.h>
 
-EnemyOne::EnemyOne(){
-   x=640;y=240;
+EnemyOne::EnemyOne(){			
+
+Enemytype *a;
+a=new Enemytype(rand()%210+10);
+addEnemy(a);
+
+Enemytype *b;
+b= new Enemytype(rand()%420+211);
+addEnemy(b);
+   
 }
 
 EnemyOne::~EnemyOne(){}
@@ -16,5 +24,17 @@ ALLEGRO_BITMAP *EnemyOne::getEnemy(){
 }
 
 void EnemyOne::drawE(){
-   al_draw_bitmap(Ebitmap,x,y,NULL);
+   for(list<Enemytype*>::iterator it=Elist.begin();it!=Elist.end();it++)
+   al_draw_bitmap(Ebitmap,(*it)->getX(),(*it)->getY(),NULL);
+   
+}
+
+int EnemyOne::getElistX(){
+   for (list<Enemytype*>::iterator it=Elist.begin();it!=Elist.end();it++)
+      return (*it)->getX();
+}
+
+void EnemyOne::addEnemy(Enemytype* a)
+{
+Elist.push_back(a);
 }
