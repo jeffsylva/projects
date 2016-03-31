@@ -11,8 +11,7 @@ protected:
     ALLEGRO_BITMAP *bitmap;
     int x, y;//x1,y1,x2,y2,y3,x3;
 
-   ALLEGRO_BITMAP *Bbitmap;
-   int bX,bY;
+
 public:
     Plane();
     virtual ~Plane();

@@ -2,6 +2,7 @@
 
 bullet::bullet()
 {
+   Bbitmap=NULL;
 
 }
 
@@ -20,25 +21,15 @@ ALLEGRO_BITMAP *bullet::getBulletMap()
 
 void bullet::drawB()
 {
+   for(list<bulletType*>::iterator it=Blist.begin();it!=Blist.end();it++)
+    al_draw_bitmap(Bbitmap,(*it)->getbX(),(*it)->getbY(),NULL);
 
-al_draw_bitmap(Bbitmap, bX, bY, NULL);
 }
-int bullet::getbX()
+
+
+void bullet::addBullet(int e, int f)
 {
-return bX;
-}
-
-void bullet::initbY(){
-   bY=y;
- 
-}
-
-void bullet::initbX(){
-   bX=x;
- 
-}
-
-int bullet::getbY()
-{
-   return bY;
+bulletType *a;
+a= new bulletType(e,f);
+Blist.push_back(a);
 }

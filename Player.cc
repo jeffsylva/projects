@@ -3,7 +3,7 @@
 Player::Player()
 {
     health = 0;
-    moveSpeed = 4;
+    moveSpeed = 3;
     bMoveSpeed=10;
 }
 
@@ -21,13 +21,17 @@ void Player::doLogic(Keyboard keyboard)
         x -= moveSpeed;
     else if (keyboard.key[RIGHT]&&x<610)
         x += moveSpeed;
-    if(keyboard.key[SPACE]&&bX<640){
-       bX+=bMoveSpeed;
-    }
-    else {
-       bX=x;
-       initbY();
-    }
- 
 }
 
+void Player::doSpaceL(Keyboard keyboard)
+{
+    if(keyboard.key[SPACE]){
+       addBullet(x,y);
+    }
+}
+
+void Player::moveBullet(){
+   for (list<bulletType*>::iterator it = Blist.begin();it!=Blist.end();it++)  { 
+	 (*it) -> setbX((*it)->getbX()+bMoveSpeed);
+      }
+}

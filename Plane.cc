@@ -6,9 +6,6 @@ Plane::Plane()
     bitmap = NULL;
    x = 0;
     y = 240;
-   Bbitmap=NULL;
-   bX=x+10;
-   bY=y;
 
  
 

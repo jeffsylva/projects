@@ -15,7 +15,8 @@ class Player : public bullet
    ~Player();
    
    void doLogic(Keyboard keyboard);
-
+void doSpaceL(Keyboard keyboard);
+void moveBullet();
 
 };
 

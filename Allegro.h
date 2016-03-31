@@ -16,7 +16,7 @@ private:
     ALLEGRO_EVENT_QUEUE *event_queue;
 
     Keyboard keyboard;
-    Player player;
+    Player* player;
     Enemy* enemy;
 Enemy* boss;
     bool looping, redraw;
@@ -29,7 +29,7 @@ public:
     int createWindow(float FPS, int w, int h);
     void gameLoop();
     bool collision(Enemy* , int ,int ,int , int , int , int );
-    bool collision1(Enemy* , int ,int ,int , int , int , int );
+void collision1(Enemy* aa,Player* bb, int a, int b, int c, int d);
 };
 
 #endif
