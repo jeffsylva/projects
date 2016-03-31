@@ -7,7 +7,11 @@ Ebitmap=NULL;
 Ebitmap2=NULL;
 }
 
-EnemyOne::~EnemyOne(){}
+EnemyOne::~EnemyOne(){
+    for(auto it:Elist) {
+      delete it;
+   }
+}
 
 void EnemyOne::setEnemy(std::string name){
    Ebitmap = al_load_bitmap(name.c_str());

@@ -6,7 +6,12 @@ bullet::bullet()
 
 }
 
-bullet::~bullet(){}
+
+bullet::~bullet(){
+    for(auto it:Blist) {
+      delete it;
+   }  
+}
 
 void bullet::setBullet(std::string fileName)
 {
