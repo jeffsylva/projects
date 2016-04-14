@@ -15,9 +15,35 @@ ALLEGRO_SAMPLE *song = NULL;
 ALLEGRO_SAMPLE_INSTANCE *songInstance = NULL;
 
 
-	  
+	  /** @fn void InitBackground(Background &back, float x, float y, float velx, float vely, int width, int height, int dirX, int dirY, ALLEGRO_BITMAP *image)
+    * @brief This function initializes the various background images : acts like a constructor for the background struct
+    * @param &back : a background object with the properties of the background struct
+    * @param x : x coordinate
+    * @param y : y coordinate
+    * @param velx : velocity of the background moving in the x direction
+    * @param vely : velocity of the background moving in the y direction
+    * @param width : width of the background
+    * @param height : height of the background
+    * @param dirX : direction of x
+    * @param dirY : direction of y
+    * @param ALLEGRO_BITMAP : the background image
+    * @return No return value
+    */
 void InitBackground(Background &back, float x, float y, float velx, float vely, int width, int height, int dirX, int dirY, ALLEGRO_BITMAP *image);
+
+
+    /** @fn void UpdateBackground(Background &back)
+    * @brief Initializes the speed at which the background moves
+    * @param &back : Background object with the properties of the background struct 
+    * @return No return value
+    */
 void UpdateBackground(Background &back);
+
+/** @fn void DrawBackground(Background &back)
+    * @brief Draws the background and makes sure it is always cycles through
+    * @param &back : Background object with the properties of the background struct 
+    * @return No return value
+    */
 void DrawBackground(Background &back);
 
 
