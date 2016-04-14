@@ -36,3 +36,8 @@ int Plane::getY(){
 int Plane::getX(){
    return x;
 }
+
+void Plane::initialPlane(){
+   x=10;
+   y=240;
+}
