@@ -1,3 +1,12 @@
+/**@file Plane.cc
+*  @brief Implementation of the Plane class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Plane class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Plane.h"
 #include <allegro5/allegro_primitives.h>
 
