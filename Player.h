@@ -1,3 +1,12 @@
+/**@file Player.h
+*  @brief Definition of the Player class which inherits from the bullet class.
+* 
+*  This contains the public and private member variables 
+*  and functions of the Player class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi
+*  @bug No known bugs.
+*/ 
+
 #ifndef PLAYER_H_
 #define PLAYER_H_
 
