@@ -1,3 +1,12 @@
+/**@file Player.cc
+*  @brief Implementation of the Player class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Player class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Player.h"
 
 Player::Player()
