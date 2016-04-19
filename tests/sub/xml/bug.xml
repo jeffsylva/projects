@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="bug" kind="page">
+    <compoundname>bug</compoundname>
+    <title>Bug List</title>
+    <detaileddescription>
+<para><anchor id="bug_1_bug000001"/> <variablelist>
+<varlistentry><term>File <ref refid="AllegroTest_8cc" kindref="compound">AllegroTest.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000002"/> <variablelist>
+<varlistentry><term>File <ref refid="AllegroTest_8h" kindref="compound">AllegroTest.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000003"/> <variablelist>
+<varlistentry><term>File <ref refid="collisiontests_8h" kindref="compound">collisiontests.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000004"/> <variablelist>
+<varlistentry><term>File <ref refid="mainTest_8cc" kindref="compound">mainTest.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

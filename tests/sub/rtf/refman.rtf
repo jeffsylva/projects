@@ -1,0 +1,981 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\comment Begining font list}
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\comment begin colors}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\comment Beginning style list}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+{\info 
+{\title {\comment DELTAFORCETESTDRIVENDEVELOPMENT {\comment startProjectNumber }
+ {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+CPSC2720PROJECT \par
+}{\comment endProjectNumber }
+}DELTAFORCETESTDRIVENDEVELOPMENT}
+{\comment Generated byDoxgyen. }
+{\creatim \yr2016\mo4\dy18\hr23\min47\sec40}
+}{\comment end of infoblock}
+\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+{\comment begin title page}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt TITLE}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version CPSC2720PROJECT\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt CREATEDATE}}\par
+\page\page{\comment End title page}
+{\comment Table of contents}
+\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+{\comment Beginning Body of RTF Document}
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Bug List{\tc \v Bug List}\par \pard\plain 
+{\comment writeAnchor (bug)}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\par \pard\plain 
+{\comment begin include bug.rtf}
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+ {\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+File {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAB" }{}}{\fldrslt {\cs37\ul\cf2 AllegroTest.cc}}}  \par
+}
+{\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+ {\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+File {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 AllegroTest.h}}}  \par
+}
+{\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+ {\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+File {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 collisiontests.h}}}  \par
+}
+{\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+ {\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+File {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 mainTest.cc}}}  \par
+}
+{\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par}
+}{\comment endTextBlock}
+}
+{\comment endFile}
+{\comment end include bug.rtf}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+{\comment begin include annotated.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List{\comment endTitleHead}
+\par \pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:{\comment endTextBlock}
+}
+{\comment (startIndexList)}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\comment (startIndexKey)}
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 CollisionTests}}}
+{\comment (endIndexKey)}
+{\comment (startIndexValue)}
+ {\comment (endIndexValue)}
+} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+{\comment (newParagraph)}
+\par
+{\comment (endIndexList)}
+\par}{\comment endFile}
+{\comment end include annotated.rtf}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+{\comment begin include files.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List{\comment endTitleHead}
+\par \pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:{\comment endTextBlock}
+}
+{\comment (startIndexList)}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\comment (startIndexKey)}
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAB" }{}}{\fldrslt {\cs37\ul\cf2 AllegroTest.cc}}}
+{\comment (endIndexKey)}
+{\comment (startIndexValue)}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Implementation of the AllegroTest program }{\comment (endIndexValue)}
+)} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+{\comment (newParagraph)}
+\par
+{\comment (startIndexKey)}
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 AllegroTest.h}}}
+{\comment (endIndexKey)}
+{\comment (startIndexValue)}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Definition of the AllegroTest program }{\comment (endIndexValue)}
+)} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+{\comment (newParagraph)}
+\par
+{\comment (startIndexKey)}
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 collisiontests.h}}}
+{\comment (endIndexKey)}
+{\comment (startIndexValue)}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A test driven development method to run some tests on the Delta Force game }{\comment (endIndexValue)}
+)} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+{\comment (newParagraph)}
+\par
+{\comment (startIndexKey)}
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 mainTest.cc}}}
+{\comment (endIndexKey)}
+{\comment (startIndexValue)}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This is the main function for the Test driven development method }{\comment (endIndexValue)}
+)} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+{\comment (newParagraph)}
+\par
+{\comment (endIndexList)}
+\par}{\comment endFile}
+{\comment end include files.rtf}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+{\comment begin include classCollisionTests.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+CollisionTests Class Reference{\comment endTitleHead}
+\par \pard\plain 
+{\tc\tcl2 \v CollisionTests}
+{\xe \v CollisionTests}
+{\comment writeAnchor (classCollisionTests)}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{\comment startParagraph}
+{\comment (newParagraph)}
+\par
+{
+{\f2 #include <collisiontests.h>}{\comment endParagraph}
+}\par
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions{\comment endGroupHeader}
+\par
+\pard\plain 
+
+{\comment (startMemberList) }
+{
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST_SUITE}}}
+ ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 CollisionTests}}}
+){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST}}}
+ (collisiontest){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST}}}
+ (collisiontest1){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAS" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST}}}
+ (bulletcollsiontest){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST}}}
+ (bulletcollsiontest1){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAU" }{}}{\fldrslt {\cs37\ul\cf2 CPPUNIT_TEST_SUITE_END}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 collisiontest}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 collisiontest1}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 bulletcollsiontest}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 bulletcollsiontest1}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment (endMemberList) }
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v bulletcollsiontest\:CollisionTests}
+{\xe \v CollisionTests\:bulletcollsiontest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void CollisionTests::bulletcollsiontest (){\f2  [inline]}{\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v bulletcollsiontest1\:CollisionTests}
+{\xe \v CollisionTests\:bulletcollsiontest1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void CollisionTests::bulletcollsiontest1 (){\f2  [inline]}{\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collisiontest\:CollisionTests}
+{\xe \v CollisionTests\:collisiontest}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void CollisionTests::collisiontest (){\f2  [inline]}{\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collisiontest1\:CollisionTests}
+{\xe \v CollisionTests\:collisiontest1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void CollisionTests::collisiontest1 (){\f2  [inline]}{\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST ({\comment (startParameterList)}
+bulletcollsiontest1){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST ({\comment (startParameterList)}
+bulletcollsiontest){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST ({\comment (startParameterList)}
+collisiontest1){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST ({\comment (startParameterList)}
+collisiontest){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST_SUITE\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST_SUITE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST_SUITE ({\comment (startParameterList)}
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 CollisionTests}}}
+){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v CPPUNIT_TEST_SUITE_END\:CollisionTests}
+{\xe \v CollisionTests\:CPPUNIT_TEST_SUITE_END}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+CollisionTests::CPPUNIT_TEST_SUITE_END (){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following file:{\comment (startItemList level=0) }
+{{\comment (startItemListItem)}
+{\comment (newParagraph)}
+\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 collisiontests.h}}}
+{\comment (endItemListItem)}
+{\comment (newParagraph)}
+\par
+{\comment (endItemList level=1)}
+}{\comment endFile}
+{\comment end include classCollisionTests.rtf}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+{\comment begin include AllegroTest_8cc.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+AllegroTest.cc File Reference{\comment endTitleHead}
+\par \pard\plain 
+{\tc\tcl2 \v AllegroTest.cc}
+{\xe \v AllegroTest.cc}
+{\comment writeAnchor (AllegroTest_8cc)}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{\comment startParagraph}
+{\comment (newParagraph)}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Implementation of the AllegroTest program. }{\comment endParagraph}
+}\par
+{\comment startTextBlock}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "AllegroTest.h"}{\comment (lineBreak)}
+\par
+{\comment endTextBlock}
+}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions{\comment endGroupHeader}
+\par
+\pard\plain 
+
+{\comment (startMemberList) }
+{
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 collision}}}
+ (int x1, int y1, int x2, int y2, int a, int b, int c, int d){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 collision1}}}
+ (int x1, int y1, int x2, int y2, int a, int b, int c, int d){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment (endMemberList) }
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Implementation of the AllegroTest program. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This contains the implementation of the functions of the AllegroTest program to be used to generate test cases.\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Author:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "bug__bug000001" }{}}{\fldrslt {\cs37\ul\cf2 Bug}}}:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par
+}
+}{\comment endTextBlock}
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collision\:AllegroTest.cc}
+{\xe \v AllegroTest.cc\:collision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool collision ({\comment (startParameterList)}
+int {\i x1}, {\comment (startParameterList)}
+  int {\i y1}, {\comment (startParameterList)}
+  int {\i x2}, {\comment (startParameterList)}
+  int {\i y2}, {\comment (startParameterList)}
+  int {\i a}, {\comment (startParameterList)}
+  int {\i b}, {\comment (startParameterList)}
+  int {\i c}, {\comment (startParameterList)}
+  int {\i d}){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collision1\:AllegroTest.cc}
+{\xe \v AllegroTest.cc\:collision1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool collision1 ({\comment (startParameterList)}
+int {\i x1}, {\comment (startParameterList)}
+  int {\i y1}, {\comment (startParameterList)}
+  int {\i x2}, {\comment (startParameterList)}
+  int {\i y2}, {\comment (startParameterList)}
+  int {\i a}, {\comment (startParameterList)}
+  int {\i b}, {\comment (startParameterList)}
+  int {\i c}, {\comment (startParameterList)}
+  int {\i d}){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment endFile}
+{\comment end include AllegroTest_8cc.rtf}
+\par \pard\plain 
+
+{\comment BeginRTFSection}
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+{\comment begin include AllegroTest_8h.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+AllegroTest.h File Reference{\comment endTitleHead}
+\par \pard\plain 
+{\tc\tcl2 \v AllegroTest.h}
+{\xe \v AllegroTest.h}
+{\comment writeAnchor (AllegroTest_8h)}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{\comment startParagraph}
+{\comment (newParagraph)}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Definition of the AllegroTest program. }{\comment endParagraph}
+}\par
+{\comment startTextBlock}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}{\comment (lineBreak)}
+\par
+{\comment endTextBlock}
+}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions{\comment endGroupHeader}
+\par
+\pard\plain 
+
+{\comment (startMemberList) }
+{
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 collision}}}
+ (int, int, int, int, int, int, int, int){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 collision1}}}
+ (int, int, int, int, int a, int b, int c, int d){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment (endMemberList) }
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Definition of the AllegroTest program. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This contains the functions of the AllegroTest program to be used in generating test cases. \par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Author:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "bug__bug000002" }{}}{\fldrslt {\cs37\ul\cf2 Bug}}}:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par
+}
+}{\comment endTextBlock}
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collision\:AllegroTest.h}
+{\xe \v AllegroTest.h\:collision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool collision ({\comment (startParameterList)}
+int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v collision1\:AllegroTest.h}
+{\xe \v AllegroTest.h\:collision1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool collision1 ({\comment (startParameterList)}
+int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int, {\comment (startParameterList)}
+  int {\i a}, {\comment (startParameterList)}
+  int {\i b}, {\comment (startParameterList)}
+  int {\i c}, {\comment (startParameterList)}
+  int {\i d}){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment endFile}
+{\comment end include AllegroTest_8h.rtf}
+\par \pard\plain 
+
+{\comment BeginRTFSection}
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+{\comment begin include collisiontests_8h.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+collisiontests.h File Reference{\comment endTitleHead}
+\par \pard\plain 
+{\tc\tcl2 \v collisiontests.h}
+{\xe \v collisiontests.h}
+{\comment writeAnchor (collisiontests_8h)}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{\comment startParagraph}
+{\comment (newParagraph)}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A test driven development method to run some tests on the Delta Force game. }{\comment endParagraph}
+}\par
+{\comment startTextBlock}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/TestFixture.h>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/extensions/HelperMacros.h>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/ui/text/TestRunner.h>}{\comment (lineBreak)}
+\par
+{\f2 #include "AllegroTest.h"}{\comment (lineBreak)}
+\par
+{\comment endTextBlock}
+}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes{\comment endGroupHeader}
+\par
+\pard\plain 
+
+{\comment (startMemberList) }
+{
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 CollisionTests}}}
+{\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment (endMemberList) }
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+A test driven development method to run some tests on the Delta Force game. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This contains various tests to check for the two types of collisions in the delta force game\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Author:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "bug__bug000003" }{}}{\fldrslt {\cs37\ul\cf2 Bug}}}:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par
+}
+}{\comment endTextBlock}
+}
+{\comment endFile}
+{\comment end include collisiontests_8h.rtf}
+\par \pard\plain 
+
+{\comment BeginRTFSection}
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+{\comment begin include mainTest_8cc.rtf}
+{\comment startTitleHead}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mainTest.cc File Reference{\comment endTitleHead}
+\par \pard\plain 
+{\tc\tcl2 \v mainTest.cc}
+{\xe \v mainTest.cc}
+{\comment writeAnchor (mainTest_8cc)}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{\comment startParagraph}
+{\comment (newParagraph)}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This is the main function for the Test driven development method. }{\comment endParagraph}
+}\par
+{\comment startTextBlock}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/TestFixture.h>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/extensions/HelperMacros.h>}{\comment (lineBreak)}
+\par
+{\f2 #include <cppunit/ui/text/TestRunner.h>}{\comment (lineBreak)}
+\par
+{\f2 #include "collisiontests.h"}{\comment (lineBreak)}
+\par
+{\comment endTextBlock}
+}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions{\comment endGroupHeader}
+\par
+\pard\plain 
+
+{\comment (startMemberList) }
+{
+{\comment startMemberItem }
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 main}}}
+ (){\comment endMemberItem }
+{\comment (newParagraph)}
+\par
+{\comment (endMemberList) }
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startTextBlock}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+This is the main function for the Test driven development method. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Author:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+{\field {\*\fldinst { HYPERLINK  \\l "bug__bug000004" }{}}{\fldrslt {\cs37\ul\cf2 Bug}}}:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par
+}
+}{\comment endTextBlock}
+}
+{\comment (rtfwriteRuler_thin)}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+{\comment startGroupHeader}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation{\comment endGroupHeader}
+\par
+\pard\plain 
+{\comment startDoxyAnchor}
+{\comment startMemberDoc}
+{\xe \v main\:mainTest.cc}
+{\xe \v mainTest.cc\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main (){\comment endMemberDoc}
+}
+}{\comment (newParagraph)}
+\par
+{\comment endDoxyAnchor}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{\comment (startIndent) }
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\comment endFile}
+{\comment end include mainTest_8cc.rtf}
+
+{\comment BeginRTFChapter}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+{\comment endFile}
+}

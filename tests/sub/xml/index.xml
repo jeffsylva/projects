@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="classCollisionTests" kind="class"><name>CollisionTests</name>
+    <member refid="classCollisionTests_1a542155fcf2acb7a46506e5924f32de86" kind="function"><name>CPPUNIT_TEST_SUITE</name></member>
+    <member refid="classCollisionTests_1a6f2e114f6c020b7650a9357386a85084" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classCollisionTests_1aa582a183125d00737483f6ecf9ba1e81" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classCollisionTests_1a516a73cfbac5616bd64518c97b922fb8" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classCollisionTests_1a71fe8a9d6ecb756ffc41dc8cce239944" kind="function"><name>CPPUNIT_TEST</name></member>
+    <member refid="classCollisionTests_1ad9399d823f41c3dcf60d83b3d7b96574" kind="function"><name>CPPUNIT_TEST_SUITE_END</name></member>
+    <member refid="classCollisionTests_1af5e85370e1846385a61da97eeb7e8b28" kind="function"><name>collisiontest</name></member>
+    <member refid="classCollisionTests_1a787429e5b0361daacf1df123560ca7c5" kind="function"><name>collisiontest1</name></member>
+    <member refid="classCollisionTests_1a5e00b872973bc79d09ee1dbc47550ab1" kind="function"><name>bulletcollsiontest</name></member>
+    <member refid="classCollisionTests_1a2e58eacdce778bf4cb996b5cc0388c3f" kind="function"><name>bulletcollsiontest1</name></member>
+  </compound>
+  <compound refid="AllegroTest_8cc" kind="file"><name>AllegroTest.cc</name>
+    <member refid="AllegroTest_8cc_1a06097efd0922a39bda31d17264b6ec68" kind="function"><name>collision</name></member>
+    <member refid="AllegroTest_8cc_1afec33bb30fc1329269f9fd64745a59d3" kind="function"><name>collision1</name></member>
+  </compound>
+  <compound refid="AllegroTest_8h" kind="file"><name>AllegroTest.h</name>
+    <member refid="AllegroTest_8h_1ad380d30060e4ce66e9dac694f9965646" kind="function"><name>collision</name></member>
+    <member refid="AllegroTest_8h_1a72b55e91348797706e42e309431690f5" kind="function"><name>collision1</name></member>
+  </compound>
+  <compound refid="collisiontests_8h" kind="file"><name>collisiontests.h</name>
+  </compound>
+  <compound refid="mainTest_8cc" kind="file"><name>mainTest.cc</name>
+    <member refid="mainTest_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="bug" kind="page"><name>bug</name>
+  </compound>
+</doxygenindex>

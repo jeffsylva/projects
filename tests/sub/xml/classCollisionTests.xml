@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classCollisionTests" kind="class" prot="public">
+    <compoundname>CollisionTests</compoundname>
+    <includes refid="collisiontests_8h" local="no">collisiontests.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCollisionTests_1a542155fcf2acb7a46506e5924f32de86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST_SUITE</definition>
+        <argsstring>(CollisionTests)</argsstring>
+        <name>CPPUNIT_TEST_SUITE</name>
+        <param>
+          <type><ref refid="classCollisionTests" kindref="compound">CollisionTests</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a6f2e114f6c020b7650a9357386a85084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST</definition>
+        <argsstring>(collisiontest)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>collisiontest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1aa582a183125d00737483f6ecf9ba1e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST</definition>
+        <argsstring>(collisiontest1)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>collisiontest1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a516a73cfbac5616bd64518c97b922fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST</definition>
+        <argsstring>(bulletcollsiontest)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>bulletcollsiontest</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a71fe8a9d6ecb756ffc41dc8cce239944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST</definition>
+        <argsstring>(bulletcollsiontest1)</argsstring>
+        <name>CPPUNIT_TEST</name>
+        <param>
+          <type>bulletcollsiontest1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1ad9399d823f41c3dcf60d83b3d7b96574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CollisionTests::CPPUNIT_TEST_SUITE_END</definition>
+        <argsstring>()</argsstring>
+        <name>CPPUNIT_TEST_SUITE_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1af5e85370e1846385a61da97eeb7e8b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionTests::collisiontest</definition>
+        <argsstring>()</argsstring>
+        <name>collisiontest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="31" bodyfile="/home/sylj2720/project/tests/collisiontests.h" bodystart="30" bodyend="33"/>
+        <references refid="AllegroTest_8cc_1a06097efd0922a39bda31d17264b6ec68" compoundref="AllegroTest_8cc" startline="11" endline="22">collision</references>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a787429e5b0361daacf1df123560ca7c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionTests::collisiontest1</definition>
+        <argsstring>()</argsstring>
+        <name>collisiontest1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="35" bodyfile="/home/sylj2720/project/tests/collisiontests.h" bodystart="34" bodyend="37"/>
+        <references refid="AllegroTest_8cc_1a06097efd0922a39bda31d17264b6ec68" compoundref="AllegroTest_8cc" startline="11" endline="22">collision</references>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a5e00b872973bc79d09ee1dbc47550ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionTests::bulletcollsiontest</definition>
+        <argsstring>()</argsstring>
+        <name>bulletcollsiontest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="39" bodyfile="/home/sylj2720/project/tests/collisiontests.h" bodystart="38" bodyend="41"/>
+        <references refid="AllegroTest_8cc_1afec33bb30fc1329269f9fd64745a59d3" compoundref="AllegroTest_8cc" startline="24" endline="35">collision1</references>
+      </memberdef>
+      <memberdef kind="function" id="classCollisionTests_1a2e58eacdce778bf4cb996b5cc0388c3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CollisionTests::bulletcollsiontest1</definition>
+        <argsstring>()</argsstring>
+        <name>bulletcollsiontest1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/tests/collisiontests.h" line="44" bodyfile="/home/sylj2720/project/tests/collisiontests.h" bodystart="43" bodyend="46"/>
+        <references refid="AllegroTest_8cc_1afec33bb30fc1329269f9fd64745a59d3" compoundref="AllegroTest_8cc" startline="24" endline="35">collision1</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylj2720/project/tests/collisiontests.h" line="20" bodyfile="/home/sylj2720/project/tests/collisiontests.h" bodystart="20" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classCollisionTests_1a5e00b872973bc79d09ee1dbc47550ab1" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>bulletcollsiontest</name></member>
+      <member refid="classCollisionTests_1a2e58eacdce778bf4cb996b5cc0388c3f" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>bulletcollsiontest1</name></member>
+      <member refid="classCollisionTests_1af5e85370e1846385a61da97eeb7e8b28" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>collisiontest</name></member>
+      <member refid="classCollisionTests_1a787429e5b0361daacf1df123560ca7c5" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>collisiontest1</name></member>
+      <member refid="classCollisionTests_1a6f2e114f6c020b7650a9357386a85084" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classCollisionTests_1aa582a183125d00737483f6ecf9ba1e81" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classCollisionTests_1a516a73cfbac5616bd64518c97b922fb8" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classCollisionTests_1a71fe8a9d6ecb756ffc41dc8cce239944" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST</name></member>
+      <member refid="classCollisionTests_1a542155fcf2acb7a46506e5924f32de86" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST_SUITE</name></member>
+      <member refid="classCollisionTests_1ad9399d823f41c3dcf60d83b3d7b96574" prot="public" virt="non-virtual"><scope>CollisionTests</scope><name>CPPUNIT_TEST_SUITE_END</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
