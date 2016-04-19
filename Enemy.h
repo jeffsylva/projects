@@ -1,3 +1,12 @@
+/**@file Enemy.h
+*  @brief Definition of the Enemy class.
+*
+*  This contains the public and private member variables 
+*  and functions of the Enemy class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #ifndef ENEMY_H_
 #define ENEMY_H_
 
