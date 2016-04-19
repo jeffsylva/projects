@@ -1,3 +1,12 @@
+/**@file Enemy.cc
+*  @brief Implementation of the Enemy class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Enemy class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Enemy.h"
 #include <stdlib.h> 
 #include <stdio.h>
