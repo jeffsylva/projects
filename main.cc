@@ -1,3 +1,9 @@
+/**@file main.cc
+*  @brief This is the main function that calls the functions and initiates the gameplay
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Allegro.h"
 
 int main()
