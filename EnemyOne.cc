@@ -1,3 +1,12 @@
+/**@file EnemyOne.cc
+*  @brief Implementation of the Enemytype and EnemyOne classes.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Enemytype and EnemyOne classes.
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi
+*  @bug No known bugs.
+*/
+
 #include "EnemyOne.h"
 #include <allegro5/allegro_primitives.h>
 
