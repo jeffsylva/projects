@@ -1,3 +1,12 @@
+/**@file EnemyOne.h
+*  @brief Definition of the Enemytype and EnemyOne classes.
+*
+*  This contains thepublic and private member variables
+*  and functions of the Enemytype and EnemyOne classes
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi
+*  @bug No known bugs.
+*/
+
 #ifndef ENEMYONE_H_
 #define ENEMYONE_H_
 
