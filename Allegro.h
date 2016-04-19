@@ -1,3 +1,12 @@
+/**@file Allegro.h
+*  @brief Definition of the Allegro class.
+*
+*  This contains the public and private member variables 
+*  and functions of the Allegro class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #ifndef ALLEGRO_H_
 #define ALLEGRO_H_
 
