@@ -1,3 +1,12 @@
+/**@file Allegro.cc
+*  @brief Implementation of the Allegro class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Allegro class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Allegro.h"
 #include <stdio.h>
 
