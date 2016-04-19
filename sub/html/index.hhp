@@ -1,0 +1,75 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=DELTAFORCE
+
+[WINDOWS]
+main="DELTAFORCE","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+index.html
+pages.html
+Allegro_8h_source.html
+bullet_8h_source.html
+Enemy_8h_source.html
+EnemyOne_8h_source.html
+Keyboard_8h_source.html
+Plane_8h_source.html
+Player_8h_source.html
+Allegro_8cc.html
+Allegro_8h.html
+bullet_8cc.html
+bullet_8h.html
+Enemy_8cc.html
+Enemy_8h.html
+EnemyOne_8cc.html
+EnemyOne_8h.html
+Keyboard_8cc.html
+Keyboard_8h.html
+main_8cc.html
+Plane_8cc.html
+Plane_8h.html
+Player_8cc.html
+Player_8h.html
+bug.html
+annotated.html
+classes.html
+hierarchy.html
+functions.html
+functions_func.html
+functions_vars.html
+classAllegro.html
+classAllegro-members.html
+structBackground.html
+structBackground-members.html
+classbullet.html
+classbullet-members.html
+classbulletType.html
+classbulletType-members.html
+classEnemy.html
+classEnemy-members.html
+classEnemyOne.html
+classEnemyOne-members.html
+classEnemytype.html
+classEnemytype-members.html
+classKeyboard.html
+classKeyboard-members.html
+classPlane.html
+classPlane-members.html
+classPlayer.html
+classPlayer-members.html
+files.html
+globals.html
+globals_func.html
+globals_vars.html
+globals_enum.html
+globals_eval.html
+tabs.css
+tab_b.gif
+tab_l.gif
+tab_r.gif

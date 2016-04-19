@@ -1,0 +1,100 @@
+\hypertarget{classEnemy}{
+\section{Enemy Class Reference}
+\label{classEnemy}\index{Enemy@{Enemy}}
+}
+
+
+{\ttfamily \#include $<$Enemy.h$>$}Inheritance diagram for Enemy::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classEnemy}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEnemy_a94f30d348b6d2840fd71675472ba38dd}{Enemy} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \item\end{DoxyCompactList}\item 
+\hyperlink{classEnemy_ac0eec4755e28c02688065f9657150ac3}{$\sim$Enemy} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \item\end{DoxyCompactList}\item 
+void \hyperlink{classEnemy_a0dcca8a418323526c286c323a3fb2fd1}{moveEnemy} ()
+\begin{DoxyCompactList}\small\item\em Defines the movement of the first enemy type to move from right to left by subtracting the 'moveSpeed' from the x coordinate. if enemy goes out of the screen on the left, it is reset to the right side. \item\end{DoxyCompactList}\item 
+void \hyperlink{classEnemy_a405168f47abea55981313377385d6c37}{moveboss} ()
+\begin{DoxyCompactList}\small\item\em Defines the movement of the second enemy type to move from right to left by subracting the 'moveSpeed' from the x coordinate. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classEnemy_aedd5e7bf8ef07ee97be433c853a10d8d}{health}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classEnemy_a94f30d348b6d2840fd71675472ba38dd}{
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\subsubsection[{Enemy}]{\setlength{\rightskip}{0pt plus 5cm}Enemy::Enemy ()}}
+\label{classEnemy_a94f30d348b6d2840fd71675472ba38dd}
+
+
+Constructor. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classEnemy_ac0eec4755e28c02688065f9657150ac3}{
+\index{Enemy@{Enemy}!$\sim$Enemy@{$\sim$Enemy}}
+\index{$\sim$Enemy@{$\sim$Enemy}!Enemy@{Enemy}}
+\subsubsection[{$\sim$Enemy}]{\setlength{\rightskip}{0pt plus 5cm}Enemy::$\sim$Enemy ()}}
+\label{classEnemy_ac0eec4755e28c02688065f9657150ac3}
+
+
+Destructor. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classEnemy_a405168f47abea55981313377385d6c37}{
+\index{Enemy@{Enemy}!moveboss@{moveboss}}
+\index{moveboss@{moveboss}!Enemy@{Enemy}}
+\subsubsection[{moveboss}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy::moveboss ()}}
+\label{classEnemy_a405168f47abea55981313377385d6c37}
+
+
+Defines the movement of the second enemy type to move from right to left by subracting the 'moveSpeed' from the x coordinate. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classEnemy_a0dcca8a418323526c286c323a3fb2fd1}{
+\index{Enemy@{Enemy}!moveEnemy@{moveEnemy}}
+\index{moveEnemy@{moveEnemy}!Enemy@{Enemy}}
+\subsubsection[{moveEnemy}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy::moveEnemy ()}}
+\label{classEnemy_a0dcca8a418323526c286c323a3fb2fd1}
+
+
+Defines the movement of the first enemy type to move from right to left by subtracting the 'moveSpeed' from the x coordinate. if enemy goes out of the screen on the left, it is reset to the right side. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classEnemy_aedd5e7bf8ef07ee97be433c853a10d8d}{
+\index{Enemy@{Enemy}!health@{health}}
+\index{health@{health}!Enemy@{Enemy}}
+\subsubsection[{health}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Enemy::health}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classEnemy_aedd5e7bf8ef07ee97be433c853a10d8d}
+the health of the enemy which is set to 0 by the constructor 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Enemy_8h}{Enemy.h}\item 
+\hyperlink{Enemy_8cc}{Enemy.cc}\end{DoxyCompactItemize}

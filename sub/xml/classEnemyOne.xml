@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classEnemyOne" kind="class" prot="public">
+    <compoundname>EnemyOne</compoundname>
+    <derivedcompoundref refid="classEnemy" prot="public" virt="non-virtual">Enemy</derivedcompoundref>
+    <includes refid="EnemyOne_8h" local="no">EnemyOne.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" prot="protected" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* EnemyOne::Ebitmap</definition>
+        <argsstring></argsstring>
+        <name>Ebitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first enemy type </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="93" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" prot="protected" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* EnemyOne::Ebitmap2</definition>
+        <argsstring></argsstring>
+        <name>Ebitmap2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second enemy type </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="94" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" prot="public" static="no" mutable="no">
+        <type>list&lt; <ref refid="classEnemytype" kindref="compound">Enemytype</ref> * &gt;</type>
+        <definition>list&lt;Enemytype*&gt; EnemyOne::Elist</definition>
+        <argsstring></argsstring>
+        <name>Elist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A list that allows for the creation of multiple enemies dynamically </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="96" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEnemyOne_1a876b7dc33899c1627a0ee1e08b34baf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EnemyOne::EnemyOne</definition>
+        <argsstring>()</argsstring>
+        <name>EnemyOne</name>
+        <briefdescription>
+<para>Constructor : Sets the images for the two enemy types to NULL before they are actually initialized. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="103" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="13" bodyend="17"/>
+        <references refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" compoundref="EnemyOne_8h" startline="93">Ebitmap</references>
+        <references refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" compoundref="EnemyOne_8h" startline="94">Ebitmap2</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemyOne_1ad7999ae2c8228030d3f07df562a5aa0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>EnemyOne::~EnemyOne</definition>
+        <argsstring>()</argsstring>
+        <name>~EnemyOne</name>
+        <briefdescription>
+<para>Destructor : Destroys any enemy type created dynamically. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="110" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="19" bodyend="23"/>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">Elist</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyOne::addEnemy</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>addEnemy</name>
+        <param>
+          <type>int</type>
+          <defname>b</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+<para>Creates an <ref refid="classEnemy" kindref="compound">Enemy</ref> object dynamically at the coordinates given by b &amp; s which represent the x and y coordinates respectively. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: x coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: y coordinate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="118" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="44" bodyend="49"/>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">Elist</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyOne::setEnemy</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>setEnemy</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Loads the image name in the parameter list onto the Ebitmap object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the name of the image as stored in the folder </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="125" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="25" bodyend="27"/>
+        <references refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" compoundref="EnemyOne_8h" startline="93">Ebitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemyOne_1a348b86c31e258c7ccf83a4f44397f542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP * EnemyOne::getEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>getEnemy</name>
+        <briefdescription>
+<para>Getter function to get the set <ref refid="classEnemy" kindref="compound">Enemy</ref> image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ALLEGRO_BITMAP type : the enemy image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="132" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="31" bodyend="33"/>
+        <references refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" compoundref="EnemyOne_8h" startline="93">Ebitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyOne::drawE</definition>
+        <argsstring>()</argsstring>
+        <name>drawE</name>
+        <briefdescription>
+<para>A draw function that draws the image loaded onto the enemy bitmap. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="139" bodyfile="/home/sylj2720/project/EnemyOne.cc" bodystart="35" bodyend="40"/>
+        <references refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" compoundref="EnemyOne_8h" startline="93">Ebitmap</references>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">Elist</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>EnemyOne</label>
+        <link refid="classEnemyOne"/>
+      </node>
+      <node id="22">
+        <label>Enemy</label>
+        <link refid="classEnemy"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/sylj2720/project/EnemyOne.h" line="91" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="90" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>addEnemy</name></member>
+      <member refid="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>drawE</name></member>
+      <member refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" prot="protected" virt="non-virtual"><scope>EnemyOne</scope><name>Ebitmap</name></member>
+      <member refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" prot="protected" virt="non-virtual"><scope>EnemyOne</scope><name>Ebitmap2</name></member>
+      <member refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>Elist</name></member>
+      <member refid="classEnemyOne_1a876b7dc33899c1627a0ee1e08b34baf8" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>EnemyOne</name></member>
+      <member refid="classEnemyOne_1a348b86c31e258c7ccf83a4f44397f542" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>getEnemy</name></member>
+      <member refid="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" prot="public" virt="non-virtual"><scope>EnemyOne</scope><name>setEnemy</name></member>
+      <member refid="classEnemyOne_1ad7999ae2c8228030d3f07df562a5aa0a" prot="public" virt="virtual"><scope>EnemyOne</scope><name>~EnemyOne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classbulletType" kind="class" prot="public">
+    <compoundname>bulletType</compoundname>
+    <includes refid="bullet_8h" local="no">bullet.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bulletType::bX</definition>
+        <argsstring></argsstring>
+        <name>bX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>X coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="21" bodyfile="/home/sylj2720/project/bullet.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int bulletType::bY</definition>
+        <argsstring></argsstring>
+        <name>bY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Y coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="22" bodyfile="/home/sylj2720/project/bullet.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbulletType_1ad854048f38d7514caa09af4ab034837b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>bulletType::bulletType</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>bulletType</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="30" bodyfile="/home/sylj2720/project/bullet.h" bodystart="30" bodyend="33"/>
+        <references refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" compoundref="bullet_8h" startline="21">bX</references>
+        <references refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" compoundref="bullet_8h" startline="22">bY</references>
+      </memberdef>
+      <memberdef kind="function" id="classbulletType_1a3a40c67dcf6d3b6dc91e6fa7800cdaf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int bulletType::getbX</definition>
+        <argsstring>()</argsstring>
+        <name>getbX</name>
+        <briefdescription>
+<para>Gets the x coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Integer value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="40" bodyfile="/home/sylj2720/project/bullet.h" bodystart="40" bodyend="42"/>
+        <references refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" compoundref="bullet_8h" startline="21">bX</references>
+      </memberdef>
+      <memberdef kind="function" id="classbulletType_1a623f1eeb1381c512708efccafbb3c192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulletType::setbY</definition>
+        <argsstring>(int a)</argsstring>
+        <name>setbY</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Sets the Y coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> to the value of the int parameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int value of the new Y coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="48" bodyfile="/home/sylj2720/project/bullet.h" bodystart="48" bodyend="51"/>
+        <references refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" compoundref="bullet_8h" startline="22">bY</references>
+      </memberdef>
+      <memberdef kind="function" id="classbulletType_1af69e22a00c81d5610cfb121dabf25b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void bulletType::setbX</definition>
+        <argsstring>(int b)</argsstring>
+        <name>setbX</name>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Sets the X coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> to the value of the int parameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: int value of the new X coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="57" bodyfile="/home/sylj2720/project/bullet.h" bodystart="57" bodyend="60"/>
+        <references refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" compoundref="bullet_8h" startline="21">bX</references>
+      </memberdef>
+      <memberdef kind="function" id="classbulletType_1a6787ea4992f2fead3ee07e9216b06d4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int bulletType::getbY</definition>
+        <argsstring>()</argsstring>
+        <name>getbY</name>
+        <briefdescription>
+<para>Gets the y coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Integer value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="67" bodyfile="/home/sylj2720/project/bullet.h" bodystart="66" bodyend="69"/>
+        <references refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" compoundref="bullet_8h" startline="22">bY</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylj2720/project/bullet.h" line="19" bodyfile="/home/sylj2720/project/bullet.h" bodystart="19" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classbulletType_1ad854048f38d7514caa09af4ab034837b" prot="public" virt="non-virtual"><scope>bulletType</scope><name>bulletType</name></member>
+      <member refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" prot="private" virt="non-virtual"><scope>bulletType</scope><name>bX</name></member>
+      <member refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" prot="private" virt="non-virtual"><scope>bulletType</scope><name>bY</name></member>
+      <member refid="classbulletType_1a3a40c67dcf6d3b6dc91e6fa7800cdaf4" prot="public" virt="non-virtual"><scope>bulletType</scope><name>getbX</name></member>
+      <member refid="classbulletType_1a6787ea4992f2fead3ee07e9216b06d4e" prot="public" virt="non-virtual"><scope>bulletType</scope><name>getbY</name></member>
+      <member refid="classbulletType_1af69e22a00c81d5610cfb121dabf25b2b" prot="public" virt="non-virtual"><scope>bulletType</scope><name>setbX</name></member>
+      <member refid="classbulletType_1a623f1eeb1381c512708efccafbb3c192" prot="public" virt="non-virtual"><scope>bulletType</scope><name>setbY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

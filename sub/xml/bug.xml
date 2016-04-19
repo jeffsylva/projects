@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="bug" kind="page">
+    <compoundname>bug</compoundname>
+    <title>Bug List</title>
+    <detaileddescription>
+<para><anchor id="bug_1_bug000001"/> <variablelist>
+<varlistentry><term>File <ref refid="Allegro_8cc" kindref="compound">Allegro.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000002"/> <variablelist>
+<varlistentry><term>File <ref refid="Allegro_8h" kindref="compound">Allegro.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000003"/> <variablelist>
+<varlistentry><term>File <ref refid="bullet_8cc" kindref="compound">bullet.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000004"/> <variablelist>
+<varlistentry><term>File <ref refid="bullet_8h" kindref="compound">bullet.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000005"/> <variablelist>
+<varlistentry><term>File <ref refid="Enemy_8cc" kindref="compound">Enemy.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000006"/> <variablelist>
+<varlistentry><term>File <ref refid="Enemy_8h" kindref="compound">Enemy.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000007"/> <variablelist>
+<varlistentry><term>File <ref refid="EnemyOne_8cc" kindref="compound">EnemyOne.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000008"/> <variablelist>
+<varlistentry><term>File <ref refid="EnemyOne_8h" kindref="compound">EnemyOne.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000009"/> <variablelist>
+<varlistentry><term>File <ref refid="Keyboard_8cc" kindref="compound">Keyboard.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000010"/> <variablelist>
+<varlistentry><term>File <ref refid="Keyboard_8h" kindref="compound">Keyboard.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000011"/> <variablelist>
+<varlistentry><term>File <ref refid="main_8cc" kindref="compound">main.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000012"/> <variablelist>
+<varlistentry><term>File <ref refid="Plane_8cc" kindref="compound">Plane.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000013"/> <variablelist>
+<varlistentry><term>File <ref refid="Plane_8h" kindref="compound">Plane.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000014"/> <variablelist>
+<varlistentry><term>File <ref refid="Player_8cc" kindref="compound">Player.cc</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para><para><anchor id="bug_1_bug000015"/> <variablelist>
+<varlistentry><term>File <ref refid="Player_8h" kindref="compound">Player.h</ref>  </term></varlistentry>
+<listitem><para>No known bugs. </para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

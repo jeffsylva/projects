@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Keyboard_8h" kind="file">
+    <compoundname>Keyboard.h</compoundname>
+    <includedby refid="Allegro_8h" local="yes">Allegro.h</includedby>
+    <includedby refid="Keyboard_8cc" local="yes">Keyboard.cc</includedby>
+    <includedby refid="Player_8h" local="yes">Player.h</includedby>
+    <invincdepgraph>
+      <node id="123">
+        <label>Keyboard.h</label>
+        <link refid="Keyboard.h"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>Keyboard.cc</label>
+        <link refid="Keyboard_8cc"/>
+      </node>
+      <node id="126">
+        <label>main.cc</label>
+        <link refid="main_8cc"/>
+      </node>
+      <node id="128">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>Allegro.h</label>
+        <link refid="Allegro_8h"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>Player.cc</label>
+        <link refid="Player_8cc"/>
+      </node>
+      <node id="125">
+        <label>Allegro.cc</label>
+        <link refid="Allegro_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classKeyboard" prot="public">Keyboard</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712" prot="public" static="no">
+        <name>keys</name>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" prot="public">
+          <name>UP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" prot="public">
+          <name>LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" prot="public">
+          <name>DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" prot="public">
+          <name>RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95" prot="public">
+          <name>SPACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e" prot="public">
+          <name>ENTER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Keyboard.h" line="13" bodyfile="/home/sylj2720/project/Keyboard.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definition of the <ref refid="classKeyboard" kindref="compound">Keyboard</ref> Class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains the public and private member variables and functions of the <ref refid="classKeyboard" kindref="compound">Keyboard</ref> class <simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. </para></simplesect>
+<xrefsect id="bug_1_bug000010"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>KEYBOARD_H_</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>KEYBOARD_H_</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712" kindref="member">keys</ref>{<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" kindref="member">UP</ref>,<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" kindref="member">LEFT</ref>,<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" kindref="member">DOWN</ref>,<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" kindref="member">RIGHT</ref>,<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95" kindref="member">SPACE</ref>,<sp/><ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e" kindref="member">ENTER</ref><sp/>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classKeyboard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKeyboard" kindref="compound">Keyboard</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classKeyboard_1ad6b0bb849d6bb7cdf63091e40b5f5f7f" kindref="member">Keyboard</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classKeyboard_1af6a99ec66c8c722a45b967bf79167038" kindref="member">~Keyboard</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kindref="member">key</ref>[6];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/Keyboard.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Enemy_8cc" kind="file">
+    <compoundname>Enemy.cc</compoundname>
+    <includes refid="Enemy_8h" local="yes">Enemy.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">time.h</includes>
+    <incdepgraph>
+      <node id="76">
+        <label>list</label>
+      </node>
+      <node id="72">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="73">
+        <label>stdlib.h</label>
+      </node>
+      <node id="70">
+        <label>string</label>
+      </node>
+      <node id="68">
+        <label>Enemy.h</label>
+        <link refid="Enemy_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>EnemyOne.h</label>
+        <link refid="EnemyOne_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>allegro5/allegro.h</label>
+      </node>
+      <node id="67">
+        <label>Enemy.cc</label>
+        <link refid="Enemy.cc"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>time.h</label>
+      </node>
+      <node id="75">
+        <label>iostream</label>
+      </node>
+      <node id="77">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Implementation of the <ref refid="classEnemy" kindref="compound">Enemy</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains the implementation of member variables and functions of the <ref refid="classEnemy" kindref="compound">Enemy</ref> class <simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. </para></simplesect>
+<xrefsect id="bug_1_bug000005"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Enemy_8h" kindref="compound" tooltip="Definition of the Enemy class.">Enemy.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classEnemy_1a94f30d348b6d2840fd71675472ba38dd" refkind="member"><highlight class="normal"><ref refid="classEnemy_1a94f30d348b6d2840fd71675472ba38dd" kindref="member" tooltip="Constructor.">Enemy::Enemy</ref>(){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><ref refid="classEnemy_1aedd5e7bf8ef07ee97be433c853a10d8d" kindref="member">health</ref>=0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classEnemy_1ac0eec4755e28c02688065f9657150ac3" refkind="member"><highlight class="normal"><ref refid="classEnemy_1ac0eec4755e28c02688065f9657150ac3" kindref="member" tooltip="Destructor.">Enemy::~Enemy</ref>(){}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" kindref="member" tooltip="Defines the movement of the first enemy type to move from right to left by subtracting...">Enemy::moveEnemy</ref>(){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(list&lt;Enemytype*&gt;::iterator<sp/>it<sp/>=<sp/><ref refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kindref="member">Elist</ref>.begin();it!=<ref refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kindref="member">Elist</ref>.end();it++)<sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*it)<sp/>-&gt;<sp/>getX()&lt;=10)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*it)<sp/>-&gt;<sp/>setX(640);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*it)<sp/>-&gt;<sp/>setX((*it)-&gt;getX()-(*it)-&gt;getMS());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32" refid="classEnemy_1a405168f47abea55981313377385d6c37" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemy_1a405168f47abea55981313377385d6c37" kindref="member" tooltip="Defines the movement of the second enemy type to move from right to left by subracting...">Enemy::moveboss</ref>(){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(list&lt;Enemytype*&gt;::iterator<sp/>it<sp/>=<sp/><ref refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kindref="member">Elist</ref>.begin();it!=<ref refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kindref="member">Elist</ref>.end();it++)<sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*it)<sp/>-&gt;<sp/>setX((*it)-&gt;getX()-(*it)-&gt;getMS());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/Enemy.cc"/>
+  </compounddef>
+</doxygen>

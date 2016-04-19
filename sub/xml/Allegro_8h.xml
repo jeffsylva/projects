@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Allegro_8h" kind="file">
+    <compoundname>Allegro.h</compoundname>
+    <includes local="no">allegro5/allegro.h</includes>
+    <includes local="no">allegro5/allegro_image.h</includes>
+    <includes local="no">allegro5/allegro_primitives.h</includes>
+    <includes local="no">allegro5/allegro_font.h</includes>
+    <includes local="no">allegro5/allegro_ttf.h</includes>
+    <includes local="no">allegro5/allegro_audio.h</includes>
+    <includes local="no">allegro5/allegro_acodec.h</includes>
+    <includes refid="Player_8h" local="yes">Player.h</includes>
+    <includes refid="Keyboard_8h" local="yes">Keyboard.h</includes>
+    <includes refid="Enemy_8h" local="yes">Enemy.h</includes>
+    <includedby refid="Allegro_8cc" local="yes">Allegro.cc</includedby>
+    <includedby refid="main_8cc" local="yes">main.cc</includedby>
+    <incdepgraph>
+      <node id="35">
+        <label>list</label>
+      </node>
+      <node id="31">
+        <label>Keyboard.h</label>
+        <link refid="Keyboard_8h"/>
+      </node>
+      <node id="32">
+        <label>bullet.h</label>
+        <link refid="bullet_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="38">
+        <label>stdlib.h</label>
+      </node>
+      <node id="34">
+        <label>Plane.h</label>
+        <link refid="Plane_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>string</label>
+      </node>
+      <node id="26">
+        <label>allegro5/allegro_font.h</label>
+      </node>
+      <node id="36">
+        <label>Enemy.h</label>
+        <link refid="Enemy_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>EnemyOne.h</label>
+        <link refid="EnemyOne_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>allegro5/allegro_primitives.h</label>
+      </node>
+      <node id="30">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>allegro5/allegro.h</label>
+      </node>
+      <node id="29">
+        <label>allegro5/allegro_acodec.h</label>
+      </node>
+      <node id="22">
+        <label>Allegro.h</label>
+        <link refid="Allegro.h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>time.h</label>
+      </node>
+      <node id="40">
+        <label>iostream</label>
+      </node>
+      <node id="27">
+        <label>allegro5/allegro_ttf.h</label>
+      </node>
+      <node id="28">
+        <label>allegro5/allegro_audio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="43">
+        <label>main.cc</label>
+        <link refid="main_8cc"/>
+      </node>
+      <node id="41">
+        <label>Allegro.h</label>
+        <link refid="Allegro.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Allegro.cc</label>
+        <link refid="Allegro_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classAllegro" prot="public">Allegro</innerclass>
+    <innerclass refid="structBackground" prot="public">Background</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444" prot="public" static="no">
+        <name>States</name>
+        <enumvalue id="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05" prot="public">
+          <name>TITLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b" prot="public">
+          <name>PLAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317" prot="public">
+          <name>LOST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="25" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definition of the <ref refid="classAllegro" kindref="compound">Allegro</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains the public and private member variables and functions of the <ref refid="classAllegro" kindref="compound">Allegro</ref> class <simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. </para></simplesect>
+<xrefsect id="bug_1_bug000002"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>ALLEGRO_H_</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ALLEGRO_H_</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_primitives.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_font.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_ttf.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_audio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_acodec.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Player_8h" kindref="compound" tooltip="Definition of the Player class which inherits from the bullet class.">Player.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Keyboard_8h" kindref="compound" tooltip="Definition of the Keyboard Class.">Keyboard.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Enemy_8h" kindref="compound" tooltip="Definition of the Enemy class.">Enemy.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444" kindref="member">States</ref>{<ref refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05" kindref="member">TITLE</ref>,<ref refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b" kindref="member">PLAY</ref>,<ref refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317" kindref="member">LOST</ref>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classAllegro" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classAllegro" kindref="compound">Allegro</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30" refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_DISPLAY<sp/>*<ref refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" kindref="member">display</ref>;<sp/></highlight></codeline>
+<codeline lineno="31" refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_TIMER<sp/>*<ref refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" kindref="member">timer</ref>;<sp/></highlight></codeline>
+<codeline lineno="32" refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_EVENT_QUEUE<sp/>*<ref refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" kindref="member">event_queue</ref>;<sp/></highlight></codeline>
+<codeline lineno="33" refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_FONT<sp/>*<ref refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" kindref="member">font</ref>;</highlight></codeline>
+<codeline lineno="34" refid="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classKeyboard" kindref="compound">Keyboard</ref><sp/><ref refid="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" kindref="member">keyboard</ref>;<sp/></highlight></codeline>
+<codeline lineno="35" refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPlayer" kindref="compound">Player</ref>*<sp/><ref refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" kindref="member">player</ref>;<sp/></highlight></codeline>
+<codeline lineno="36" refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEnemy" kindref="compound">Enemy</ref>*<sp/><ref refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" kindref="member">enemy</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="37" refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" kindref="member">BAbitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="38" refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" kindref="member">LObitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="39" refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" kindref="member">EXbitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="40" refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classEnemy" kindref="compound">Enemy</ref>*<sp/><ref refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" kindref="member">boss</ref>;<sp/></highlight></codeline>
+<codeline lineno="41" refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" kindref="member">looping</ref>,<sp/><ref refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" kindref="member">redraw</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAllegro_1a3f5c52ac57364f5587d88766ed75476e" kindref="member" tooltip="Constructor : Creates the various object and object states that will be used in this...">Allegro</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAllegro_1aaa80b9c26288f9d8d9888fc398d91b6c" kindref="member" tooltip="Destructor : Destroys the various objects used in the game.">~Allegro</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" kindref="member" tooltip="Initial function.">init</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" kindref="member" tooltip="Creates the display window using the width and height and initializes all the devices...">createWindow</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FPS,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" kindref="member" tooltip="This function defines the game itself. It loads the start image, the losing image...">gameLoop</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1a10d4912b8dfc5b7b5a13db103e441bfe" kindref="member" tooltip="Defines the collision between the enemy and the player.">collision</ref>(<ref refid="classEnemy" kindref="compound">Enemy</ref>*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classAllegro_1ab73885862f77defd9dac0868f18ca4cd" kindref="member" tooltip="Defines the collision between the bullet and the enemy.">collision1</ref>(<ref refid="classEnemy" kindref="compound">Enemy</ref>*<sp/>aa,<ref refid="classPlayer" kindref="compound">Player</ref>*<sp/>bb,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>void<sp/>InitBackground(Background<sp/>&amp;back,<sp/>float<sp/>x,<sp/>float<sp/>y,<sp/>float<sp/>velx,<sp/>float<sp/>vely,<sp/>int<sp/>width,<sp/>int<sp/>height,<sp/>int<sp/>dirX,<sp/>int<sp/>dirY,<sp/>ALLEGRO_BITMAP<sp/>*image);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>UpdateBackground(Background<sp/>&amp;back);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>DrawBackground(Background<sp/>&amp;back);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="structBackground" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structBackground" kindref="compound">Background</ref></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117" refid="structBackground_1af6650023418d2982420370f87eeff2de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structBackground_1af6650023418d2982420370f87eeff2de" kindref="member">x</ref>;<sp/></highlight></codeline>
+<codeline lineno="118" refid="structBackground_1adb462ce7dc04d3b09698f1baa3d173e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structBackground_1adb462ce7dc04d3b09698f1baa3d173e6" kindref="member">y</ref>;<sp/></highlight></codeline>
+<codeline lineno="119" refid="structBackground_1a3baf341baf83315a91f694bafebf3a0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structBackground_1a3baf341baf83315a91f694bafebf3a0e" kindref="member">velX</ref>;<sp/></highlight></codeline>
+<codeline lineno="120" refid="structBackground_1a012729329c3eaaf671374116d9336fba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structBackground_1a012729329c3eaaf671374116d9336fba" kindref="member">velY</ref>;<sp/></highlight></codeline>
+<codeline lineno="121" refid="structBackground_1afee83ed66ba7a564613525287cc33b32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structBackground_1afee83ed66ba7a564613525287cc33b32" kindref="member">dirX</ref>;<sp/></highlight></codeline>
+<codeline lineno="122" refid="structBackground_1ae85e5871207ab04a678f217b3baf72fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structBackground_1ae85e5871207ab04a678f217b3baf72fc" kindref="member">dirY</ref>;<sp/></highlight></codeline>
+<codeline lineno="124" refid="structBackground_1a43297fc8fceec13bed4e292a45bf564d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structBackground_1a43297fc8fceec13bed4e292a45bf564d" kindref="member">width</ref>;<sp/></highlight></codeline>
+<codeline lineno="125" refid="structBackground_1ab309ccac36fbe6b88cab0e30e8da1452" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structBackground_1ab309ccac36fbe6b88cab0e30e8da1452" kindref="member">height</ref>;<sp/></highlight></codeline>
+<codeline lineno="127" refid="structBackground_1aca1e48275f069718251c7023ddb5c9bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="structBackground_1aca1e48275f069718251c7023ddb5c9bb" kindref="member">image</ref>;<sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/Allegro.h"/>
+  </compounddef>
+</doxygen>

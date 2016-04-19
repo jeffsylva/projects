@@ -1,0 +1,166 @@
+\hypertarget{classPlane}{
+\section{Plane Class Reference}
+\label{classPlane}\index{Plane@{Plane}}
+}
+
+
+{\ttfamily \#include $<$Plane.h$>$}Inheritance diagram for Plane::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3cm]{classPlane}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPlane_acac0d9c003e0ab10d07b146c3566a0c7}{Plane} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \item\end{DoxyCompactList}\item 
+virtual \hyperlink{classPlane_a69abd86051c880dcb44b249ad10c4436}{$\sim$Plane} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \item\end{DoxyCompactList}\item 
+int \hyperlink{classPlane_ab0db534796dff1c2ff490fe989261cda}{getX} ()
+\begin{DoxyCompactList}\small\item\em this function gets the X coordinate of the object \item\end{DoxyCompactList}\item 
+int \hyperlink{classPlane_a8c754851771ba75ecd163a55d2f31800}{getY} ()
+\begin{DoxyCompactList}\small\item\em this function gets the Y coordinate of the object \item\end{DoxyCompactList}\item 
+void \hyperlink{classPlane_a41fc70cf581d5f3d5efaba227d0b406b}{setBitmap} (std::string filePath)
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classPlane_a0d2bb766e1d07c7097fd741adff8c4d8}{getBitmap} ()
+\begin{DoxyCompactList}\small\item\em This function is used to get the object loaded onto the bitmap object by the function 'setBitmap'. \item\end{DoxyCompactList}\item 
+void \hyperlink{classPlane_a6f961e4c2c03b03bac2bd61749ec51e1}{initialPlane} ()
+\begin{DoxyCompactList}\small\item\em This function set the starting point of the player by setting both the x and y coordinates to 10 and 240 respectively. \item\end{DoxyCompactList}\item 
+void \hyperlink{classPlane_a8877358878e91929c4c01bad40cbdb78}{draw} ()
+\begin{DoxyCompactList}\small\item\em this function draws the loaded bitmap to the screen on the point provided by the x and y coordinates provided \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classPlane_a5f3754de26e2b832d79fd83752b0f2df}{bitmap}
+\item 
+int \hyperlink{classPlane_a31fa7567ef20b26ca2cafad6f17a776b}{x}
+\item 
+int \hyperlink{classPlane_ace518f4f4d6d29db13e41276a327c323}{y}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classPlane_acac0d9c003e0ab10d07b146c3566a0c7}{
+\index{Plane@{Plane}!Plane@{Plane}}
+\index{Plane@{Plane}!Plane@{Plane}}
+\subsubsection[{Plane}]{\setlength{\rightskip}{0pt plus 5cm}Plane::Plane ()}}
+\label{classPlane_acac0d9c003e0ab10d07b146c3566a0c7}
+
+
+Constructor. 
+\begin{DoxyParams}{Parameters}
+\item[{\em This}]function doesn't take any parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classPlane_a69abd86051c880dcb44b249ad10c4436}{
+\index{Plane@{Plane}!$\sim$Plane@{$\sim$Plane}}
+\index{$\sim$Plane@{$\sim$Plane}!Plane@{Plane}}
+\subsubsection[{$\sim$Plane}]{\setlength{\rightskip}{0pt plus 5cm}Plane::$\sim$Plane ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classPlane_a69abd86051c880dcb44b249ad10c4436}
+
+
+Destructor. 
+\begin{DoxyParams}{Parameters}
+\item[{\em this}]function doesn't take any parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+no return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classPlane_a8877358878e91929c4c01bad40cbdb78}{
+\index{Plane@{Plane}!draw@{draw}}
+\index{draw@{draw}!Plane@{Plane}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Plane::draw ()}}
+\label{classPlane_a8877358878e91929c4c01bad40cbdb78}
+
+
+this function draws the loaded bitmap to the screen on the point provided by the x and y coordinates provided 
+\begin{DoxyParams}{Parameters}
+\item[{\em takes}]no parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classPlane_a0d2bb766e1d07c7097fd741adff8c4d8}{
+\index{Plane@{Plane}!getBitmap@{getBitmap}}
+\index{getBitmap@{getBitmap}!Plane@{Plane}}
+\subsubsection[{getBitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP $\ast$ Plane::getBitmap ()}}
+\label{classPlane_a0d2bb766e1d07c7097fd741adff8c4d8}
+
+
+This function is used to get the object loaded onto the bitmap object by the function 'setBitmap'. 
+\begin{DoxyParams}{Parameters}
+\item[{\em This}]function takes in no parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns a bitmap object 
+\end{DoxyReturn}
+\hypertarget{classPlane_ab0db534796dff1c2ff490fe989261cda}{
+\index{Plane@{Plane}!getX@{getX}}
+\index{getX@{getX}!Plane@{Plane}}
+\subsubsection[{getX}]{\setlength{\rightskip}{0pt plus 5cm}int Plane::getX ()}}
+\label{classPlane_ab0db534796dff1c2ff490fe989261cda}
+
+
+this function gets the X coordinate of the object 
+\begin{DoxyParams}{Parameters}
+\item[{\em this}]function takes no parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+this function returns the X coordinate of the object 
+\end{DoxyReturn}
+\hypertarget{classPlane_a8c754851771ba75ecd163a55d2f31800}{
+\index{Plane@{Plane}!getY@{getY}}
+\index{getY@{getY}!Plane@{Plane}}
+\subsubsection[{getY}]{\setlength{\rightskip}{0pt plus 5cm}int Plane::getY ()}}
+\label{classPlane_a8c754851771ba75ecd163a55d2f31800}
+
+
+this function gets the Y coordinate of the object 
+\begin{DoxyParams}{Parameters}
+\item[{\em this}]function takes no parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+this function returns the Y coordinate of the object 
+\end{DoxyReturn}
+\hypertarget{classPlane_a6f961e4c2c03b03bac2bd61749ec51e1}{
+\index{Plane@{Plane}!initialPlane@{initialPlane}}
+\index{initialPlane@{initialPlane}!Plane@{Plane}}
+\subsubsection[{initialPlane}]{\setlength{\rightskip}{0pt plus 5cm}void Plane::initialPlane ()}}
+\label{classPlane_a6f961e4c2c03b03bac2bd61749ec51e1}
+
+
+This function set the starting point of the player by setting both the x and y coordinates to 10 and 240 respectively. 
+\begin{DoxyParams}{Parameters}
+\item[{\em This}]function takes in no parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classPlane_a41fc70cf581d5f3d5efaba227d0b406b}{
+\index{Plane@{Plane}!setBitmap@{setBitmap}}
+\index{setBitmap@{setBitmap}!Plane@{Plane}}
+\subsubsection[{setBitmap}]{\setlength{\rightskip}{0pt plus 5cm}void Plane::setBitmap (std::string {\em filePath})}}
+\label{classPlane_a41fc70cf581d5f3d5efaba227d0b406b}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classPlane_a5f3754de26e2b832d79fd83752b0f2df}{
+\index{Plane@{Plane}!bitmap@{bitmap}}
+\index{bitmap@{bitmap}!Plane@{Plane}}
+\subsubsection[{bitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf Plane::bitmap}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classPlane_a5f3754de26e2b832d79fd83752b0f2df}
+The picture of the player \hypertarget{classPlane_a31fa7567ef20b26ca2cafad6f17a776b}{
+\index{Plane@{Plane}!x@{x}}
+\index{x@{x}!Plane@{Plane}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Plane::x}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classPlane_a31fa7567ef20b26ca2cafad6f17a776b}
+x coordinate \hypertarget{classPlane_ace518f4f4d6d29db13e41276a327c323}{
+\index{Plane@{Plane}!y@{y}}
+\index{y@{y}!Plane@{Plane}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf Plane::y}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classPlane_ace518f4f4d6d29db13e41276a327c323}
+y coordinate 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Plane_8h}{Plane.h}\item 
+\hyperlink{Plane_8cc}{Plane.cc}\end{DoxyCompactItemize}

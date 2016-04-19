@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="bullet_8h" kind="file">
+    <compoundname>bullet.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">allegro5/allegro.h</includes>
+    <includes local="no">allegro5/allegro_image.h</includes>
+    <includes local="no">allegro5/allegro_primitives.h</includes>
+    <includes refid="Plane_8h" local="yes">Plane.h</includes>
+    <includes local="no">list</includes>
+    <includedby refid="bullet_8cc" local="yes">bullet.cc</includedby>
+    <includedby refid="Player_8h" local="yes">Player.h</includedby>
+    <incdepgraph>
+      <node id="59">
+        <label>list</label>
+      </node>
+      <node id="53">
+        <label>bullet.h</label>
+        <link refid="bullet.h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="58">
+        <label>Plane.h</label>
+        <link refid="Plane_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>string</label>
+      </node>
+      <node id="57">
+        <label>allegro5/allegro_primitives.h</label>
+      </node>
+      <node id="55">
+        <label>allegro5/allegro.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="60">
+        <label>bullet.h</label>
+        <link refid="bullet.h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>main.cc</label>
+        <link refid="main_8cc"/>
+      </node>
+      <node id="62">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>Allegro.h</label>
+        <link refid="Allegro_8h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>Player.cc</label>
+        <link refid="Player_8cc"/>
+      </node>
+      <node id="64">
+        <label>Allegro.cc</label>
+        <link refid="Allegro_8cc"/>
+      </node>
+      <node id="61">
+        <label>bullet.cc</label>
+        <link refid="bullet_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classbulletType" prot="public">bulletType</innerclass>
+    <innerclass refid="classbullet" prot="public">bullet</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+<para>Definition of the bulleyType and <ref refid="classbullet" kindref="compound">bullet</ref> class (which inherits from the <ref refid="classPlane" kindref="compound">Plane</ref> class). This contains the public and private member variables and functions of the <ref refid="classbullet" kindref="compound">bullet</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.</para></simplesect>
+<xrefsect id="bug_1_bug000004"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="9"><highlight class="preprocessor">#ifndef<sp/>BULLET_H_</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BULLET_H_</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_primitives.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Plane_8h" kindref="compound" tooltip="Definition of the Plane class.">Plane.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="19" refid="classbulletType" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbulletType" kindref="compound">bulletType</ref>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" kindref="member">bX</ref>;<sp/></highlight></codeline>
+<codeline lineno="22" refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" kindref="member">bY</ref>;<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30" refid="classbulletType_1ad854048f38d7514caa09af4ab034837b" refkind="member"><highlight class="normal"><ref refid="classbulletType_1ad854048f38d7514caa09af4ab034837b" kindref="member" tooltip="Constructor.">bulletType</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b){</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" kindref="member">bX</ref>=a;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" kindref="member">bY</ref>=b;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classbulletType_1a3a40c67dcf6d3b6dc91e6fa7800cdaf4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a3a40c67dcf6d3b6dc91e6fa7800cdaf4" kindref="member" tooltip="Gets the x coordinate of the bullet.">getbX</ref>(){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" kindref="member">bX</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48" refid="classbulletType_1a623f1eeb1381c512708efccafbb3c192" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a623f1eeb1381c512708efccafbb3c192" kindref="member" tooltip="Sets the Y coordinate of the bullet to the value of the int parameter.">setbY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a){</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><ref refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" kindref="member">bY</ref>=a;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57" refid="classbulletType_1af69e22a00c81d5610cfb121dabf25b2b" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1af69e22a00c81d5610cfb121dabf25b2b" kindref="member" tooltip="Sets the X coordinate of the bullet to the value of the int parameter.">setbX</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b){</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><ref refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" kindref="member">bX</ref>=b;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66" refid="classbulletType_1a6787ea4992f2fead3ee07e9216b06d4e" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a6787ea4992f2fead3ee07e9216b06d4e" kindref="member" tooltip="Gets the y coordinate of the bullet.">getbY</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" kindref="member">bY</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classbullet" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classbullet" kindref="compound">bullet</ref>:</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classPlane" kindref="compound">Plane</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77" refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" refkind="member"><highlight class="normal"><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" kindref="member">Bbitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79" refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" refkind="member"><highlight class="normal">list&lt;bulletType*&gt;<sp/><ref refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" kindref="member">Blist</ref>;<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><ref refid="classbullet_1a56eac386b0e6268b746bd7ed4883e1df" kindref="member" tooltip="Constructor.">bullet</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="classbullet_1a82a107fafc86d136e4a78ff13d14ceaf" kindref="member" tooltip="Destructor.">~bullet</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbullet_1a426140d3b62940f83861048560a570bd" kindref="member" tooltip="Creates the bullet and sets it at the x and y coordinates given with the two int...">addBullet</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" kindref="member" tooltip="Loads the bitmap image of the bullet.">setBullet</ref>(std::string<sp/>fileName);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classbullet_1a16ea275b798ae9236015b3ff2e8fcb25" kindref="member" tooltip="getter function to get the bitmat image of the bullet">getBulletMap</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" kindref="member" tooltip="Draw function that actually draws the bullet image.">drawB</ref>();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/bullet.h"/>
+  </compounddef>
+</doxygen>

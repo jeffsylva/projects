@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classKeyboard" kind="class" prot="public">
+    <compoundname>Keyboard</compoundname>
+    <includes refid="Keyboard_8h" local="no">Keyboard.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Keyboard::key[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Keyboard.h" line="21" bodyfile="/home/sylj2720/project/Keyboard.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKeyboard_1ad6b0bb849d6bb7cdf63091e40b5f5f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Keyboard::Keyboard</definition>
+        <argsstring>()</argsstring>
+        <name>Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Keyboard.h" line="18" bodyfile="/home/sylj2720/project/Keyboard.cc" bodystart="12" bodyend="18"/>
+        <references refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" compoundref="Keyboard_8h" startline="21">key</references>
+      </memberdef>
+      <memberdef kind="function" id="classKeyboard_1af6a99ec66c8c722a45b967bf79167038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Keyboard::~Keyboard</definition>
+        <argsstring>()</argsstring>
+        <name>~Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Keyboard.h" line="19" bodyfile="/home/sylj2720/project/Keyboard.cc" bodystart="20" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylj2720/project/Keyboard.h" line="16" bodyfile="/home/sylj2720/project/Keyboard.h" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" prot="public" virt="non-virtual"><scope>Keyboard</scope><name>key</name></member>
+      <member refid="classKeyboard_1ad6b0bb849d6bb7cdf63091e40b5f5f7f" prot="public" virt="non-virtual"><scope>Keyboard</scope><name>Keyboard</name></member>
+      <member refid="classKeyboard_1af6a99ec66c8c722a45b967bf79167038" prot="public" virt="non-virtual"><scope>Keyboard</scope><name>~Keyboard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

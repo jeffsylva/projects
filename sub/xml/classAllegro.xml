@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classAllegro" kind="class" prot="public">
+    <compoundname>Allegro</compoundname>
+    <includes refid="Allegro_8h" local="no">Allegro.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAllegro_1a3e51f319f189787a5341d3297727eba5" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_DISPLAY *</type>
+        <definition>ALLEGRO_DISPLAY* Allegro::display</definition>
+        <argsstring></argsstring>
+        <name>display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>display window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="30" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_TIMER *</type>
+        <definition>ALLEGRO_TIMER* Allegro::timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>game timer </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="31" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_EVENT_QUEUE *</type>
+        <definition>ALLEGRO_EVENT_QUEUE* Allegro::event_queue</definition>
+        <argsstring></argsstring>
+        <name>event_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="32" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_FONT *</type>
+        <definition>ALLEGRO_FONT* Allegro::font</definition>
+        <argsstring></argsstring>
+        <name>font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="33" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" prot="private" static="no" mutable="no">
+        <type><ref refid="classKeyboard" kindref="compound">Keyboard</ref></type>
+        <definition>Keyboard Allegro::keyboard</definition>
+        <argsstring></argsstring>
+        <name>keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="34" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" prot="private" static="no" mutable="no">
+        <type><ref refid="classPlayer" kindref="compound">Player</ref> *</type>
+        <definition>Player* Allegro::player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The player object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="35" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" prot="private" static="no" mutable="no">
+        <type><ref refid="classEnemy" kindref="compound">Enemy</ref> *</type>
+        <definition>Enemy* Allegro::enemy</definition>
+        <argsstring></argsstring>
+        <name>enemy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The smaller enemy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="36" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* Allegro::BAbitmap</definition>
+        <argsstring></argsstring>
+        <name>BAbitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image of the start page of the game </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="37" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* Allegro::LObitmap</definition>
+        <argsstring></argsstring>
+        <name>LObitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image of the page displayed when the user gets killed in the game </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="38" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" prot="private" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* Allegro::EXbitmap</definition>
+        <argsstring></argsstring>
+        <name>EXbitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Image of an explosion </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="39" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" prot="private" static="no" mutable="no">
+        <type><ref refid="classEnemy" kindref="compound">Enemy</ref> *</type>
+        <definition>Enemy* Allegro::boss</definition>
+        <argsstring></argsstring>
+        <name>boss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The larger enemy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="40" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Allegro::looping</definition>
+        <argsstring></argsstring>
+        <name>looping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="41" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Allegro::redraw</definition>
+        <argsstring></argsstring>
+        <name>redraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="41" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAllegro_1a3f5c52ac57364f5587d88766ed75476e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Allegro::Allegro</definition>
+        <argsstring>()</argsstring>
+        <name>Allegro</name>
+        <briefdescription>
+<para>Constructor : Creates the various object and object states that will be used in this game. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="49" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="61" bodyend="74"/>
+        <references refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" compoundref="Allegro_8h" startline="37">BAbitmap</references>
+        <references refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" compoundref="Allegro_8h" startline="40">boss</references>
+        <references refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" compoundref="Allegro_8h" startline="30">display</references>
+        <references refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" compoundref="Allegro_8h" startline="36">enemy</references>
+        <references refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" compoundref="Allegro_8h" startline="32">event_queue</references>
+        <references refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" compoundref="Allegro_8h" startline="39">EXbitmap</references>
+        <references refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" compoundref="Allegro_8h" startline="33">font</references>
+        <references refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" compoundref="Allegro_8h" startline="38">LObitmap</references>
+        <references refid="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" compoundref="Allegro_8h" startline="41">looping</references>
+        <references refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" compoundref="Allegro_8h" startline="35">player</references>
+        <references refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" compoundref="Allegro_8h" startline="41">redraw</references>
+        <references refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" compoundref="Allegro_8h" startline="31">timer</references>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1aaa80b9c26288f9d8d9888fc398d91b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Allegro::~Allegro</definition>
+        <argsstring>()</argsstring>
+        <name>~Allegro</name>
+        <briefdescription>
+<para>Destructor : Destroys the various objects used in the game. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="56" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="76" bodyend="95"/>
+        <references refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" compoundref="Allegro_8h" startline="37">BAbitmap</references>
+        <references refid="Allegro_8cc_1a8f860b073e53aafca02767b0f12fc6a0" compoundref="Allegro_8cc" startline="18">bgImage</references>
+        <references refid="Allegro_8cc_1af4226d9561efb980f7c3dd74cba6ba4d" compoundref="Allegro_8cc" startline="22">boom</references>
+        <references refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" compoundref="Allegro_8h" startline="40">boss</references>
+        <references refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" compoundref="Allegro_8h" startline="30">display</references>
+        <references refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" compoundref="Allegro_8h" startline="36">enemy</references>
+        <references refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" compoundref="Allegro_8h" startline="32">event_queue</references>
+        <references refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" compoundref="Allegro_8h" startline="39">EXbitmap</references>
+        <references refid="Allegro_8cc_1a371876e1de9f1b046258f5e860751c98" compoundref="Allegro_8cc" startline="20">fgImage</references>
+        <references refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" compoundref="Allegro_8h" startline="33">font</references>
+        <references refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" compoundref="Allegro_8h" startline="38">LObitmap</references>
+        <references refid="Allegro_8cc_1a524ab98ea9b49e9028efed6857dd74b5" compoundref="Allegro_8cc" startline="19">mgImage</references>
+        <references refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" compoundref="Allegro_8h" startline="35">player</references>
+        <references refid="Allegro_8cc_1ab22ce8a8f989211c6059e8b685fa78d0" compoundref="Allegro_8cc" startline="21">shot</references>
+        <references refid="Allegro_8cc_1ade5ece41d11b17eb4b972f2bf0f6910b" compoundref="Allegro_8cc" startline="23">song</references>
+        <references refid="Allegro_8cc_1ae572dbdea486bf303ed756e2a1f30e0b" compoundref="Allegro_8cc" startline="24">songInstance</references>
+        <references refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" compoundref="Allegro_8h" startline="31">timer</references>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Allegro::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+<para>Initial function. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int : 0 or -1 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="63" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="97" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Allegro::createWindow</definition>
+        <argsstring>(float FPS, int w, int h)</argsstring>
+        <name>createWindow</name>
+        <param>
+          <type>float</type>
+          <declname>FPS</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>Creates the display window using the width and height and initializes all the devices, objects, images, keyboard, audio, background and timer that are used in this game. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the width of the display </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the height of the display </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FPS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int : returns 0 if the display is open, returns -1 if the display stops </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="72" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="107" bodyend="171"/>
+        <references refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" compoundref="Allegro_8h" startline="37">BAbitmap</references>
+        <references refid="Allegro_8cc_1a8f860b073e53aafca02767b0f12fc6a0" compoundref="Allegro_8cc" startline="18">bgImage</references>
+        <references refid="Allegro_8cc_1af4226d9561efb980f7c3dd74cba6ba4d" compoundref="Allegro_8cc" startline="22">boom</references>
+        <references refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" compoundref="Allegro_8h" startline="40">boss</references>
+        <references refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" compoundref="Allegro_8h" startline="30">display</references>
+        <references refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" compoundref="Allegro_8h" startline="36">enemy</references>
+        <references refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" compoundref="Allegro_8h" startline="32">event_queue</references>
+        <references refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" compoundref="Allegro_8h" startline="39">EXbitmap</references>
+        <references refid="Allegro_8cc_1a371876e1de9f1b046258f5e860751c98" compoundref="Allegro_8cc" startline="20">fgImage</references>
+        <references refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" compoundref="Allegro_8h" startline="33">font</references>
+        <references refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" compoundref="Allegro_8h" startline="38">LObitmap</references>
+        <references refid="Allegro_8cc_1a524ab98ea9b49e9028efed6857dd74b5" compoundref="Allegro_8cc" startline="19">mgImage</references>
+        <references refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" compoundref="Allegro_8h" startline="35">player</references>
+        <references refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" compoundref="Plane_8cc" startline="27" endline="30">Plane::setBitmap</references>
+        <references refid="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" compoundref="bullet_8cc" startline="25" endline="28">bullet::setBullet</references>
+        <references refid="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" compoundref="EnemyOne_8cc" startline="25" endline="27">EnemyOne::setEnemy</references>
+        <references refid="Allegro_8cc_1ab22ce8a8f989211c6059e8b685fa78d0" compoundref="Allegro_8cc" startline="21">shot</references>
+        <references refid="Allegro_8cc_1ade5ece41d11b17eb4b972f2bf0f6910b" compoundref="Allegro_8cc" startline="23">song</references>
+        <references refid="Allegro_8cc_1ae572dbdea486bf303ed756e2a1f30e0b" compoundref="Allegro_8cc" startline="24">songInstance</references>
+        <references refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" compoundref="Allegro_8h" startline="31">timer</references>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Allegro::gameLoop</definition>
+        <argsstring>()</argsstring>
+        <name>gameLoop</name>
+        <briefdescription>
+<para>This function defines the game itself. It loads the start image, the losing image, the game sounds, and the conditions of play, losing and collision. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="79" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="173" bodyend="363"/>
+        <references refid="classbullet_1a426140d3b62940f83861048560a570bd" compoundref="bullet_8cc" startline="44" endline="49">bullet::addBullet</references>
+        <references refid="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" compoundref="EnemyOne_8cc" startline="44" endline="49">EnemyOne::addEnemy</references>
+        <references refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" compoundref="Allegro_8h" startline="37">BAbitmap</references>
+        <references refid="Allegro_8cc_1a8f860b073e53aafca02767b0f12fc6a0" compoundref="Allegro_8cc" startline="18">bgImage</references>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">bullet::Blist</references>
+        <references refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" compoundref="Allegro_8h" startline="40">boss</references>
+        <references refid="classAllegro_1a10d4912b8dfc5b7b5a13db103e441bfe" compoundref="Allegro_8cc" startline="365" endline="379">collision</references>
+        <references refid="classAllegro_1ab73885862f77defd9dac0868f18ca4cd" compoundref="Allegro_8cc" startline="381" endline="402">collision1</references>
+        <references refid="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" compoundref="Player_8cc" startline="23" endline="33">Player::doLogic</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" compoundref="Keyboard_8h" startline="13">DOWN</references>
+        <references refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" compoundref="Plane_8cc" startline="37" endline="41">Plane::draw</references>
+        <references refid="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" compoundref="bullet_8cc" startline="36" endline="41">bullet::drawB</references>
+        <references refid="Allegro_8cc_1a5b40a7650f8818fbff0104d84a236cff" compoundref="Allegro_8cc" startline="423" endline="429">DrawBackground</references>
+        <references refid="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" compoundref="EnemyOne_8cc" startline="35" endline="40">EnemyOne::drawE</references>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">EnemyOne::Elist</references>
+        <references refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" compoundref="Allegro_8h" startline="36">enemy</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e" compoundref="Keyboard_8h" startline="13">ENTER</references>
+        <references refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" compoundref="Allegro_8h" startline="32">event_queue</references>
+        <references refid="Allegro_8cc_1a371876e1de9f1b046258f5e860751c98" compoundref="Allegro_8cc" startline="20">fgImage</references>
+        <references refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" compoundref="Allegro_8h" startline="33">font</references>
+        <references refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" compoundref="Plane_8cc" startline="45" endline="47">Plane::getX</references>
+        <references refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" compoundref="Plane_8cc" startline="42" endline="44">Plane::getY</references>
+        <references refid="Allegro_8cc_1a3db5561fa9137b9ac3ec2133a7aa4054" compoundref="Allegro_8cc" startline="404" endline="415">InitBackground</references>
+        <references refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" compoundref="Plane_8cc" startline="49" endline="52">Plane::initialPlane</references>
+        <references refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" compoundref="Keyboard_8h" startline="21">Keyboard::key</references>
+        <references refid="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" compoundref="Allegro_8h" startline="34">keyboard</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" compoundref="Keyboard_8h" startline="13">LEFT</references>
+        <references refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" compoundref="Allegro_8h" startline="38">LObitmap</references>
+        <references refid="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" compoundref="Allegro_8h" startline="41">looping</references>
+        <references refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317" compoundref="Allegro_8h" startline="25">LOST</references>
+        <references refid="Allegro_8cc_1a524ab98ea9b49e9028efed6857dd74b5" compoundref="Allegro_8cc" startline="19">mgImage</references>
+        <references refid="classEnemy_1a405168f47abea55981313377385d6c37" compoundref="Enemy_8cc" startline="32" endline="38">Enemy::moveboss</references>
+        <references refid="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" compoundref="Player_8cc" startline="36" endline="40">Player::moveBullet</references>
+        <references refid="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" compoundref="Enemy_8cc" startline="23" endline="31">Enemy::moveEnemy</references>
+        <references refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b" compoundref="Allegro_8h" startline="25">PLAY</references>
+        <references refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" compoundref="Allegro_8h" startline="35">player</references>
+        <references refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" compoundref="Allegro_8h" startline="41">redraw</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" compoundref="Keyboard_8h" startline="13">RIGHT</references>
+        <references refid="Allegro_8cc_1ab22ce8a8f989211c6059e8b685fa78d0" compoundref="Allegro_8cc" startline="21">shot</references>
+        <references refid="Allegro_8cc_1ade5ece41d11b17eb4b972f2bf0f6910b" compoundref="Allegro_8cc" startline="23">song</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95" compoundref="Keyboard_8h" startline="13">SPACE</references>
+        <references refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" compoundref="Allegro_8h" startline="31">timer</references>
+        <references refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05" compoundref="Allegro_8h" startline="25">TITLE</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" compoundref="Keyboard_8h" startline="13">UP</references>
+        <references refid="Allegro_8cc_1a21e9926b904c50aee54f966cc62dd172" compoundref="Allegro_8cc" startline="417" endline="422">UpdateBackground</references>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1a10d4912b8dfc5b7b5a13db103e441bfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Allegro::collision</definition>
+        <argsstring>(Enemy *, int, int, int, int, int, int)</argsstring>
+        <name>collision</name>
+        <param>
+          <type><ref refid="classEnemy" kindref="compound">Enemy</ref> *</type>
+          <defname>aa</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>x1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>y1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>b</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>c</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+<para>Defines the collision between the enemy and the player. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Enemy*</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: takes in the enemy object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: x coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: y coordinate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the player </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the player </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the player </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the player </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean value: returns true if there is a collision between the player and the enemy and false if there isn&apos;t </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="92" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="365" bodyend="379"/>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">EnemyOne::Elist</references>
+      </memberdef>
+      <memberdef kind="function" id="classAllegro_1ab73885862f77defd9dac0868f18ca4cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>Allegro::collision1</definition>
+        <argsstring>(Enemy *aa, Player *bb, int a, int b, int c, int d)</argsstring>
+        <name>collision1</name>
+        <param>
+          <type><ref refid="classEnemy" kindref="compound">Enemy</ref> *</type>
+          <declname>aa</declname>
+        </param>
+        <param>
+          <type><ref refid="classPlayer" kindref="compound">Player</ref> *</type>
+          <declname>bb</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Defines the collision between the <ref refid="classbullet" kindref="compound">bullet</ref> and the enemy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Enemy*</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: takes in the enemy object </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Player*</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: takes in a player object( which inherits from a bullet object ) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: value used to calculate the boundary between the enemy and the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="104" bodyfile="/home/sylj2720/project/Allegro.cc" bodystart="381" bodyend="402"/>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">bullet::Blist</references>
+        <references refid="Allegro_8cc_1af4226d9561efb980f7c3dd74cba6ba4d" compoundref="Allegro_8cc" startline="22">boom</references>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">EnemyOne::Elist</references>
+        <references refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" compoundref="Allegro_8h" startline="39">EXbitmap</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>EnemyOne</label>
+        <link refid="classEnemyOne"/>
+      </node>
+      <node id="4">
+        <label>Keyboard</label>
+        <link refid="classKeyboard"/>
+      </node>
+      <node id="1">
+        <label>Allegro</label>
+        <link refid="classAllegro"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>enemy</edgelabel>
+          <edgelabel>boss</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>keyboard</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>player</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Enemy</label>
+        <link refid="classEnemy"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Player</label>
+        <link refid="classPlayer"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sylj2720/project/Allegro.h" line="28" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="27" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classAllegro_1a3f5c52ac57364f5587d88766ed75476e" prot="public" virt="non-virtual"><scope>Allegro</scope><name>Allegro</name></member>
+      <member refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" prot="private" virt="non-virtual"><scope>Allegro</scope><name>BAbitmap</name></member>
+      <member refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" prot="private" virt="non-virtual"><scope>Allegro</scope><name>boss</name></member>
+      <member refid="classAllegro_1a10d4912b8dfc5b7b5a13db103e441bfe" prot="public" virt="non-virtual"><scope>Allegro</scope><name>collision</name></member>
+      <member refid="classAllegro_1ab73885862f77defd9dac0868f18ca4cd" prot="public" virt="non-virtual"><scope>Allegro</scope><name>collision1</name></member>
+      <member refid="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" prot="public" virt="non-virtual"><scope>Allegro</scope><name>createWindow</name></member>
+      <member refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" prot="private" virt="non-virtual"><scope>Allegro</scope><name>display</name></member>
+      <member refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" prot="private" virt="non-virtual"><scope>Allegro</scope><name>enemy</name></member>
+      <member refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" prot="private" virt="non-virtual"><scope>Allegro</scope><name>event_queue</name></member>
+      <member refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" prot="private" virt="non-virtual"><scope>Allegro</scope><name>EXbitmap</name></member>
+      <member refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" prot="private" virt="non-virtual"><scope>Allegro</scope><name>font</name></member>
+      <member refid="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" prot="public" virt="non-virtual"><scope>Allegro</scope><name>gameLoop</name></member>
+      <member refid="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" prot="public" virt="non-virtual"><scope>Allegro</scope><name>init</name></member>
+      <member refid="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" prot="private" virt="non-virtual"><scope>Allegro</scope><name>keyboard</name></member>
+      <member refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" prot="private" virt="non-virtual"><scope>Allegro</scope><name>LObitmap</name></member>
+      <member refid="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" prot="private" virt="non-virtual"><scope>Allegro</scope><name>looping</name></member>
+      <member refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" prot="private" virt="non-virtual"><scope>Allegro</scope><name>player</name></member>
+      <member refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" prot="private" virt="non-virtual"><scope>Allegro</scope><name>redraw</name></member>
+      <member refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" prot="private" virt="non-virtual"><scope>Allegro</scope><name>timer</name></member>
+      <member refid="classAllegro_1aaa80b9c26288f9d8d9888fc398d91b6c" prot="public" virt="non-virtual"><scope>Allegro</scope><name>~Allegro</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

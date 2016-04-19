@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classPlane" kind="class" prot="public">
+    <compoundname>Plane</compoundname>
+    <derivedcompoundref refid="classbullet" prot="public" virt="non-virtual">bullet</derivedcompoundref>
+    <includes refid="Plane_8h" local="no">Plane.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" prot="protected" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* Plane::bitmap</definition>
+        <argsstring></argsstring>
+        <name>bitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The picture of the player </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="21" bodyfile="/home/sylj2720/project/Plane.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Plane::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="22" bodyfile="/home/sylj2720/project/Plane.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPlane_1ace518f4f4d6d29db13e41276a327c323" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Plane::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="23" bodyfile="/home/sylj2720/project/Plane.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Plane::Plane</definition>
+        <argsstring>()</argsstring>
+        <name>Plane</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function doesn&apos;t take any parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="34" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="13" bodyend="21"/>
+        <references refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" compoundref="Plane_8h" startline="21">bitmap</references>
+        <references refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" compoundref="Plane_8h" startline="22">x</references>
+        <references refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" compoundref="Plane_8h" startline="22">y</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a69abd86051c880dcb44b249ad10c4436" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Plane::~Plane</definition>
+        <argsstring>()</argsstring>
+        <name>~Plane</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>this</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function doesn&apos;t take any parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>no return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="42" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1ab0db534796dff1c2ff490fe989261cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Plane::getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+<para>this function gets the X coordinate of the object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>this</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this function returns the X coordinate of the object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="50" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="45" bodyend="47"/>
+        <references refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" compoundref="Plane_8h" startline="22">x</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a8c754851771ba75ecd163a55d2f31800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Plane::getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+<para>this function gets the Y coordinate of the object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>this</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>this function returns the Y coordinate of the object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="57" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="42" bodyend="44"/>
+        <references refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" compoundref="Plane_8h" startline="22">y</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Plane::setBitmap</definition>
+        <argsstring>(std::string filePath)</argsstring>
+        <name>setBitmap</name>
+        <param>
+          <type>std::string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="64" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="27" bodyend="30"/>
+        <references refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" compoundref="Plane_8h" startline="21">bitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP * Plane::getBitmap</definition>
+        <argsstring>()</argsstring>
+        <name>getBitmap</name>
+        <briefdescription>
+<para>This function is used to get the object loaded onto the bitmap object by the function &apos;setBitmap&apos;. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes in no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>This function returns a bitmap object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="73" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="32" bodyend="35"/>
+        <references refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" compoundref="Plane_8h" startline="21">bitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Plane::initialPlane</definition>
+        <argsstring>()</argsstring>
+        <name>initialPlane</name>
+        <briefdescription>
+<para>This function set the starting point of the player by setting both the x and y coordinates to 10 and 240 respectively. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes in no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="80" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="49" bodyend="52"/>
+        <references refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" compoundref="Plane_8h" startline="22">x</references>
+        <references refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" compoundref="Plane_8h" startline="22">y</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlane_1a8877358878e91929c4c01bad40cbdb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Plane::draw</definition>
+        <argsstring>()</argsstring>
+        <name>draw</name>
+        <briefdescription>
+<para>this function draws the loaded bitmap to the screen on the point provided by the x and y coordinates provided </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>takes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Plane.h" line="87" bodyfile="/home/sylj2720/project/Plane.cc" bodystart="37" bodyend="41"/>
+        <references refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" compoundref="Plane_8h" startline="21">bitmap</references>
+        <references refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" compoundref="Plane_8h" startline="22">x</references>
+        <references refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" compoundref="Plane_8h" startline="22">y</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Player</label>
+        <link refid="classPlayer"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/sylj2720/project/Plane.h" line="19" bodyfile="/home/sylj2720/project/Plane.h" bodystart="18" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" prot="protected" virt="non-virtual"><scope>Plane</scope><name>bitmap</name></member>
+      <member refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" prot="public" virt="non-virtual"><scope>Plane</scope><name>draw</name></member>
+      <member refid="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" prot="public" virt="non-virtual"><scope>Plane</scope><name>getBitmap</name></member>
+      <member refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" prot="public" virt="non-virtual"><scope>Plane</scope><name>getX</name></member>
+      <member refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" prot="public" virt="non-virtual"><scope>Plane</scope><name>getY</name></member>
+      <member refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" prot="public" virt="non-virtual"><scope>Plane</scope><name>initialPlane</name></member>
+      <member refid="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" virt="non-virtual"><scope>Plane</scope><name>Plane</name></member>
+      <member refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" prot="public" virt="non-virtual"><scope>Plane</scope><name>setBitmap</name></member>
+      <member refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" prot="protected" virt="non-virtual"><scope>Plane</scope><name>x</name></member>
+      <member refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" prot="protected" virt="non-virtual"><scope>Plane</scope><name>y</name></member>
+      <member refid="classPlane_1a69abd86051c880dcb44b249ad10c4436" prot="public" virt="virtual"><scope>Plane</scope><name>~Plane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

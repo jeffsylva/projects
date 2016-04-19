@@ -1,0 +1,147 @@
+\hypertarget{classEnemyOne}{
+\section{EnemyOne Class Reference}
+\label{classEnemyOne}\index{EnemyOne@{EnemyOne}}
+}
+
+
+{\ttfamily \#include $<$EnemyOne.h$>$}Inheritance diagram for EnemyOne::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classEnemyOne}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classEnemyOne_a876b7dc33899c1627a0ee1e08b34baf8}{EnemyOne} ()
+\begin{DoxyCompactList}\small\item\em Constructor : Sets the images for the two enemy types to NULL before they are actually initialized. \item\end{DoxyCompactList}\item 
+virtual \hyperlink{classEnemyOne_ad7999ae2c8228030d3f07df562a5aa0a}{$\sim$EnemyOne} ()
+\begin{DoxyCompactList}\small\item\em Destructor : Destroys any enemy type created dynamically. \item\end{DoxyCompactList}\item 
+void \hyperlink{classEnemyOne_a428e216932e0a454b59b705f62d1c1a0}{addEnemy} (int, int)
+\begin{DoxyCompactList}\small\item\em Creates an \hyperlink{classEnemy}{Enemy} object dynamically at the coordinates given by b \& s which represent the x and y coordinates respectively. \item\end{DoxyCompactList}\item 
+void \hyperlink{classEnemyOne_a53c380bf26465df0f0f7beaca93b952d}{setEnemy} (std::string name)
+\begin{DoxyCompactList}\small\item\em Loads the image name in the parameter list onto the Ebitmap object. \item\end{DoxyCompactList}\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classEnemyOne_a348b86c31e258c7ccf83a4f44397f542}{getEnemy} ()
+\begin{DoxyCompactList}\small\item\em Getter function to get the set \hyperlink{classEnemy}{Enemy} image. \item\end{DoxyCompactList}\item 
+void \hyperlink{classEnemyOne_a8017eb7f3cf8510043e542ed5314fbf9}{drawE} ()
+\begin{DoxyCompactList}\small\item\em A draw function that draws the image loaded onto the enemy bitmap. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list$<$ \hyperlink{classEnemytype}{Enemytype} $\ast$ $>$ \hyperlink{classEnemyOne_a1e46e43f2fe68dad65a79d57671159b6}{Elist}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classEnemyOne_a186a44174a5f8c35d805209c1806d967}{Ebitmap}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classEnemyOne_ab42c5298a1849dd5a422dfaa1dc0f459}{Ebitmap2}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classEnemyOne_a876b7dc33899c1627a0ee1e08b34baf8}{
+\index{EnemyOne@{EnemyOne}!EnemyOne@{EnemyOne}}
+\index{EnemyOne@{EnemyOne}!EnemyOne@{EnemyOne}}
+\subsubsection[{EnemyOne}]{\setlength{\rightskip}{0pt plus 5cm}EnemyOne::EnemyOne ()}}
+\label{classEnemyOne_a876b7dc33899c1627a0ee1e08b34baf8}
+
+
+Constructor : Sets the images for the two enemy types to NULL before they are actually initialized. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classEnemyOne_ad7999ae2c8228030d3f07df562a5aa0a}{
+\index{EnemyOne@{EnemyOne}!$\sim$EnemyOne@{$\sim$EnemyOne}}
+\index{$\sim$EnemyOne@{$\sim$EnemyOne}!EnemyOne@{EnemyOne}}
+\subsubsection[{$\sim$EnemyOne}]{\setlength{\rightskip}{0pt plus 5cm}EnemyOne::$\sim$EnemyOne ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classEnemyOne_ad7999ae2c8228030d3f07df562a5aa0a}
+
+
+Destructor : Destroys any enemy type created dynamically. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classEnemyOne_a428e216932e0a454b59b705f62d1c1a0}{
+\index{EnemyOne@{EnemyOne}!addEnemy@{addEnemy}}
+\index{addEnemy@{addEnemy}!EnemyOne@{EnemyOne}}
+\subsubsection[{addEnemy}]{\setlength{\rightskip}{0pt plus 5cm}void EnemyOne::addEnemy (int {\em b}, \/  int {\em s})}}
+\label{classEnemyOne_a428e216932e0a454b59b705f62d1c1a0}
+
+
+Creates an \hyperlink{classEnemy}{Enemy} object dynamically at the coordinates given by b \& s which represent the x and y coordinates respectively. 
+\begin{DoxyParams}{Parameters}
+\item[{\em b}]: x coordinate \item[{\em s}]: y coordinate \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classEnemyOne_a8017eb7f3cf8510043e542ed5314fbf9}{
+\index{EnemyOne@{EnemyOne}!drawE@{drawE}}
+\index{drawE@{drawE}!EnemyOne@{EnemyOne}}
+\subsubsection[{drawE}]{\setlength{\rightskip}{0pt plus 5cm}void EnemyOne::drawE ()}}
+\label{classEnemyOne_a8017eb7f3cf8510043e542ed5314fbf9}
+
+
+A draw function that draws the image loaded onto the enemy bitmap. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classEnemyOne_a348b86c31e258c7ccf83a4f44397f542}{
+\index{EnemyOne@{EnemyOne}!getEnemy@{getEnemy}}
+\index{getEnemy@{getEnemy}!EnemyOne@{EnemyOne}}
+\subsubsection[{getEnemy}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP $\ast$ EnemyOne::getEnemy ()}}
+\label{classEnemyOne_a348b86c31e258c7ccf83a4f44397f542}
+
+
+Getter function to get the set \hyperlink{classEnemy}{Enemy} image. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ALLEGRO\_\-BITMAP type : the enemy image 
+\end{DoxyReturn}
+\hypertarget{classEnemyOne_a53c380bf26465df0f0f7beaca93b952d}{
+\index{EnemyOne@{EnemyOne}!setEnemy@{setEnemy}}
+\index{setEnemy@{setEnemy}!EnemyOne@{EnemyOne}}
+\subsubsection[{setEnemy}]{\setlength{\rightskip}{0pt plus 5cm}void EnemyOne::setEnemy (std::string {\em name})}}
+\label{classEnemyOne_a53c380bf26465df0f0f7beaca93b952d}
+
+
+Loads the image name in the parameter list onto the Ebitmap object. 
+\begin{DoxyParams}{Parameters}
+\item[{\em name}]: the name of the image as stored in the folder \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classEnemyOne_a186a44174a5f8c35d805209c1806d967}{
+\index{EnemyOne@{EnemyOne}!Ebitmap@{Ebitmap}}
+\index{Ebitmap@{Ebitmap}!EnemyOne@{EnemyOne}}
+\subsubsection[{Ebitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf EnemyOne::Ebitmap}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classEnemyOne_a186a44174a5f8c35d805209c1806d967}
+The first enemy type \hypertarget{classEnemyOne_ab42c5298a1849dd5a422dfaa1dc0f459}{
+\index{EnemyOne@{EnemyOne}!Ebitmap2@{Ebitmap2}}
+\index{Ebitmap2@{Ebitmap2}!EnemyOne@{EnemyOne}}
+\subsubsection[{Ebitmap2}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf EnemyOne::Ebitmap2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}
+\label{classEnemyOne_ab42c5298a1849dd5a422dfaa1dc0f459}
+The second enemy type \hypertarget{classEnemyOne_a1e46e43f2fe68dad65a79d57671159b6}{
+\index{EnemyOne@{EnemyOne}!Elist@{Elist}}
+\index{Elist@{Elist}!EnemyOne@{EnemyOne}}
+\subsubsection[{Elist}]{\setlength{\rightskip}{0pt plus 5cm}list$<${\bf Enemytype}$\ast$$>$ {\bf EnemyOne::Elist}}}
+\label{classEnemyOne_a1e46e43f2fe68dad65a79d57671159b6}
+A list that allows for the creation of multiple enemies dynamically 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{EnemyOne_8h}{EnemyOne.h}\item 
+\hyperlink{EnemyOne_8cc}{EnemyOne.cc}\end{DoxyCompactItemize}

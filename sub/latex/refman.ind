@@ -1,0 +1,411 @@
+\begin{theindex}
+
+  \item {$\sim $Allegro}
+    \subitem {Allegro}, \hyperpage{10}
+  \item {$\sim $Enemy}
+    \subitem {Enemy}, \hyperpage{21}
+  \item {$\sim $EnemyOne}
+    \subitem {EnemyOne}, \hyperpage{24}
+  \item {$\sim $Keyboard}
+    \subitem {Keyboard}, \hyperpage{29}
+  \item {$\sim $Plane}
+    \subitem {Plane}, \hyperpage{31}
+  \item {$\sim $Player}
+    \subitem {Player}, \hyperpage{33}
+  \item {$\sim $bullet}
+    \subitem {bullet}, \hyperpage{17}
+
+  \indexspace
+
+  \item {addBullet}
+    \subitem {bullet}, \hyperpage{17}
+  \item {addEnemy}
+    \subitem {EnemyOne}, \hyperpage{24}
+  \item {Allegro}, \hyperpage{9}
+    \subitem {$\sim $Allegro}, \hyperpage{10}
+    \subitem {Allegro}, \hyperpage{10}
+    \subitem {BAbitmap}, \hyperpage{12}
+    \subitem {boss}, \hyperpage{12}
+    \subitem {collision}, \hyperpage{10}
+    \subitem {collision1}, \hyperpage{11}
+    \subitem {createWindow}, \hyperpage{11}
+    \subitem {display}, \hyperpage{12}
+    \subitem {enemy}, \hyperpage{12}
+    \subitem {event\_\discretionary {-}{}{}queue}, \hyperpage{12}
+    \subitem {EXbitmap}, \hyperpage{12}
+    \subitem {font}, \hyperpage{12}
+    \subitem {gameLoop}, \hyperpage{11}
+    \subitem {init}, \hyperpage{11}
+    \subitem {keyboard}, \hyperpage{12}
+    \subitem {LObitmap}, \hyperpage{12}
+    \subitem {looping}, \hyperpage{12}
+    \subitem {player}, \hyperpage{12}
+    \subitem {redraw}, \hyperpage{12}
+    \subitem {timer}, \hyperpage{13}
+  \item {Allegro.cc}, \hyperpage{35}
+    \subitem {BG}, \hyperpage{37}
+    \subitem {bgImage}, \hyperpage{37}
+    \subitem {boom}, \hyperpage{37}
+    \subitem {DrawBackground}, \hyperpage{36}
+    \subitem {FG}, \hyperpage{37}
+    \subitem {fgImage}, \hyperpage{37}
+    \subitem {HEIGHT}, \hyperpage{37}
+    \subitem {InitBackground}, \hyperpage{36}
+    \subitem {MG}, \hyperpage{37}
+    \subitem {mgImage}, \hyperpage{37}
+    \subitem {shot}, \hyperpage{37}
+    \subitem {song}, \hyperpage{37}
+    \subitem {songInstance}, \hyperpage{37}
+    \subitem {UpdateBackground}, \hyperpage{36}
+    \subitem {WIDTH}, \hyperpage{37}
+  \item {Allegro.h}, \hyperpage{38}
+    \subitem {LOST}, \hyperpage{38}
+    \subitem {PLAY}, \hyperpage{38}
+    \subitem {States}, \hyperpage{38}
+    \subitem {TITLE}, \hyperpage{38}
+
+  \indexspace
+
+  \item {BAbitmap}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {Background}, \hyperpage{14}
+    \subitem {dirX}, \hyperpage{14}
+    \subitem {dirY}, \hyperpage{14}
+    \subitem {height}, \hyperpage{14}
+    \subitem {image}, \hyperpage{14}
+    \subitem {velX}, \hyperpage{14}
+    \subitem {velY}, \hyperpage{14}
+    \subitem {width}, \hyperpage{14}
+    \subitem {x}, \hyperpage{14}
+    \subitem {y}, \hyperpage{15}
+  \item {Bbitmap}
+    \subitem {bullet}, \hyperpage{18}
+  \item {BG}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {bgImage}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {bitmap}
+    \subitem {Plane}, \hyperpage{32}
+  \item {Blist}
+    \subitem {bullet}, \hyperpage{18}
+  \item {bMoveSpeed}
+    \subitem {Player}, \hyperpage{34}
+  \item {boom}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {boss}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {bullet}, \hyperpage{16}
+    \subitem {$\sim $bullet}, \hyperpage{17}
+    \subitem {addBullet}, \hyperpage{17}
+    \subitem {Bbitmap}, \hyperpage{18}
+    \subitem {Blist}, \hyperpage{18}
+    \subitem {bullet}, \hyperpage{16}
+    \subitem {drawB}, \hyperpage{17}
+    \subitem {getBulletMap}, \hyperpage{17}
+    \subitem {setBullet}, \hyperpage{18}
+  \item {bullet.cc}, \hyperpage{39}
+  \item {bullet.h}, \hyperpage{40}
+  \item {bulletType}, \hyperpage{19}
+    \subitem {bulletType}, \hyperpage{19}
+    \subitem {bX}, \hyperpage{20}
+    \subitem {bY}, \hyperpage{20}
+    \subitem {getbX}, \hyperpage{19}
+    \subitem {getbY}, \hyperpage{20}
+    \subitem {setbX}, \hyperpage{20}
+    \subitem {setbY}, \hyperpage{20}
+  \item {bX}
+    \subitem {bulletType}, \hyperpage{20}
+  \item {bY}
+    \subitem {bulletType}, \hyperpage{20}
+
+  \indexspace
+
+  \item {collision}
+    \subitem {Allegro}, \hyperpage{10}
+  \item {collision1}
+    \subitem {Allegro}, \hyperpage{11}
+  \item {createWindow}
+    \subitem {Allegro}, \hyperpage{11}
+
+  \indexspace
+
+  \item {dirX}
+    \subitem {Background}, \hyperpage{14}
+  \item {dirY}
+    \subitem {Background}, \hyperpage{14}
+  \item {display}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {doLogic}
+    \subitem {Player}, \hyperpage{34}
+  \item {DOWN}
+    \subitem {Keyboard.h}, \hyperpage{46}
+  \item {draw}
+    \subitem {Plane}, \hyperpage{31}
+  \item {drawB}
+    \subitem {bullet}, \hyperpage{17}
+  \item {DrawBackground}
+    \subitem {Allegro.cc}, \hyperpage{36}
+  \item {drawE}
+    \subitem {EnemyOne}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Ebitmap}
+    \subitem {EnemyOne}, \hyperpage{25}
+  \item {Ebitmap2}
+    \subitem {EnemyOne}, \hyperpage{25}
+  \item {Elist}
+    \subitem {EnemyOne}, \hyperpage{25}
+  \item {Enemy}, \hyperpage{21}
+    \subitem {$\sim $Enemy}, \hyperpage{21}
+    \subitem {Enemy}, \hyperpage{21}
+    \subitem {health}, \hyperpage{22}
+    \subitem {moveboss}, \hyperpage{22}
+    \subitem {moveEnemy}, \hyperpage{22}
+  \item {enemy}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {Enemy.cc}, \hyperpage{41}
+  \item {Enemy.h}, \hyperpage{42}
+  \item {EnemyOne}, \hyperpage{23}
+    \subitem {$\sim $EnemyOne}, \hyperpage{24}
+    \subitem {addEnemy}, \hyperpage{24}
+    \subitem {drawE}, \hyperpage{24}
+    \subitem {Ebitmap}, \hyperpage{25}
+    \subitem {Ebitmap2}, \hyperpage{25}
+    \subitem {Elist}, \hyperpage{25}
+    \subitem {EnemyOne}, \hyperpage{23}
+    \subitem {getEnemy}, \hyperpage{24}
+    \subitem {setEnemy}, \hyperpage{25}
+  \item {EnemyOne.cc}, \hyperpage{43}
+  \item {EnemyOne.h}, \hyperpage{44}
+  \item {Enemytype}, \hyperpage{26}
+    \subitem {Enemytype}, \hyperpage{26}
+    \subitem {getMS}, \hyperpage{27}
+    \subitem {getX}, \hyperpage{27}
+    \subitem {getY}, \hyperpage{27}
+    \subitem {moveSpeed}, \hyperpage{28}
+    \subitem {setX}, \hyperpage{27}
+    \subitem {setY}, \hyperpage{27}
+    \subitem {x}, \hyperpage{28}
+    \subitem {y}, \hyperpage{28}
+  \item {ENTER}
+    \subitem {Keyboard.h}, \hyperpage{46}
+  \item {event\_\discretionary {-}{}{}queue}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {EXbitmap}
+    \subitem {Allegro}, \hyperpage{12}
+
+  \indexspace
+
+  \item {FG}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {fgImage}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {font}
+    \subitem {Allegro}, \hyperpage{12}
+
+  \indexspace
+
+  \item {gameLoop}
+    \subitem {Allegro}, \hyperpage{11}
+  \item {getBitmap}
+    \subitem {Plane}, \hyperpage{31}
+  \item {getBulletMap}
+    \subitem {bullet}, \hyperpage{17}
+  \item {getbX}
+    \subitem {bulletType}, \hyperpage{19}
+  \item {getbY}
+    \subitem {bulletType}, \hyperpage{20}
+  \item {getEnemy}
+    \subitem {EnemyOne}, \hyperpage{24}
+  \item {getMS}
+    \subitem {Enemytype}, \hyperpage{27}
+  \item {getX}
+    \subitem {Enemytype}, \hyperpage{27}
+    \subitem {Plane}, \hyperpage{31}
+  \item {getY}
+    \subitem {Enemytype}, \hyperpage{27}
+    \subitem {Plane}, \hyperpage{32}
+
+  \indexspace
+
+  \item {health}
+    \subitem {Enemy}, \hyperpage{22}
+    \subitem {Player}, \hyperpage{34}
+  \item {HEIGHT}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {height}
+    \subitem {Background}, \hyperpage{14}
+
+  \indexspace
+
+  \item {image}
+    \subitem {Background}, \hyperpage{14}
+  \item {init}
+    \subitem {Allegro}, \hyperpage{11}
+  \item {InitBackground}
+    \subitem {Allegro.cc}, \hyperpage{36}
+  \item {initialPlane}
+    \subitem {Plane}, \hyperpage{32}
+
+  \indexspace
+
+  \item {key}
+    \subitem {Keyboard}, \hyperpage{29}
+  \item {Keyboard}, \hyperpage{29}
+    \subitem {$\sim $Keyboard}, \hyperpage{29}
+    \subitem {key}, \hyperpage{29}
+    \subitem {Keyboard}, \hyperpage{29}
+  \item {keyboard}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {Keyboard.cc}, \hyperpage{45}
+  \item {Keyboard.h}, \hyperpage{46}
+    \subitem {DOWN}, \hyperpage{46}
+    \subitem {ENTER}, \hyperpage{46}
+    \subitem {keys}, \hyperpage{46}
+    \subitem {LEFT}, \hyperpage{46}
+    \subitem {RIGHT}, \hyperpage{46}
+    \subitem {SPACE}, \hyperpage{46}
+    \subitem {UP}, \hyperpage{46}
+  \item {keys}
+    \subitem {Keyboard.h}, \hyperpage{46}
+
+  \indexspace
+
+  \item {LEFT}
+    \subitem {Keyboard.h}, \hyperpage{46}
+  \item {LObitmap}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {looping}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {LOST}
+    \subitem {Allegro.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cc}, \hyperpage{47}
+  \item {main.cc}, \hyperpage{47}
+    \subitem {main}, \hyperpage{47}
+  \item {MG}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {mgImage}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {moveboss}
+    \subitem {Enemy}, \hyperpage{22}
+  \item {moveBullet}
+    \subitem {Player}, \hyperpage{34}
+  \item {moveEnemy}
+    \subitem {Enemy}, \hyperpage{22}
+  \item {moveSpeed}
+    \subitem {Enemytype}, \hyperpage{28}
+    \subitem {Player}, \hyperpage{34}
+
+  \indexspace
+
+  \item {Plane}, \hyperpage{30}
+    \subitem {$\sim $Plane}, \hyperpage{31}
+    \subitem {bitmap}, \hyperpage{32}
+    \subitem {draw}, \hyperpage{31}
+    \subitem {getBitmap}, \hyperpage{31}
+    \subitem {getX}, \hyperpage{31}
+    \subitem {getY}, \hyperpage{32}
+    \subitem {initialPlane}, \hyperpage{32}
+    \subitem {Plane}, \hyperpage{30}
+    \subitem {setBitmap}, \hyperpage{32}
+    \subitem {x}, \hyperpage{32}
+    \subitem {y}, \hyperpage{32}
+  \item {Plane.cc}, \hyperpage{48}
+  \item {Plane.h}, \hyperpage{49}
+  \item {PLAY}
+    \subitem {Allegro.h}, \hyperpage{38}
+  \item {Player}, \hyperpage{33}
+    \subitem {$\sim $Player}, \hyperpage{33}
+    \subitem {bMoveSpeed}, \hyperpage{34}
+    \subitem {doLogic}, \hyperpage{34}
+    \subitem {health}, \hyperpage{34}
+    \subitem {moveBullet}, \hyperpage{34}
+    \subitem {moveSpeed}, \hyperpage{34}
+    \subitem {Player}, \hyperpage{33}
+  \item {player}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {Player.cc}, \hyperpage{50}
+  \item {Player.h}, \hyperpage{51}
+
+  \indexspace
+
+  \item {redraw}
+    \subitem {Allegro}, \hyperpage{12}
+  \item {RIGHT}
+    \subitem {Keyboard.h}, \hyperpage{46}
+
+  \indexspace
+
+  \item {setBitmap}
+    \subitem {Plane}, \hyperpage{32}
+  \item {setBullet}
+    \subitem {bullet}, \hyperpage{18}
+  \item {setbX}
+    \subitem {bulletType}, \hyperpage{20}
+  \item {setbY}
+    \subitem {bulletType}, \hyperpage{20}
+  \item {setEnemy}
+    \subitem {EnemyOne}, \hyperpage{25}
+  \item {setX}
+    \subitem {Enemytype}, \hyperpage{27}
+  \item {setY}
+    \subitem {Enemytype}, \hyperpage{27}
+  \item {shot}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {song}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {songInstance}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {SPACE}
+    \subitem {Keyboard.h}, \hyperpage{46}
+  \item {States}
+    \subitem {Allegro.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {timer}
+    \subitem {Allegro}, \hyperpage{13}
+  \item {TITLE}
+    \subitem {Allegro.h}, \hyperpage{38}
+
+  \indexspace
+
+  \item {UP}
+    \subitem {Keyboard.h}, \hyperpage{46}
+  \item {UpdateBackground}
+    \subitem {Allegro.cc}, \hyperpage{36}
+
+  \indexspace
+
+  \item {velX}
+    \subitem {Background}, \hyperpage{14}
+  \item {velY}
+    \subitem {Background}, \hyperpage{14}
+
+  \indexspace
+
+  \item {WIDTH}
+    \subitem {Allegro.cc}, \hyperpage{37}
+  \item {width}
+    \subitem {Background}, \hyperpage{14}
+
+  \indexspace
+
+  \item {x}
+    \subitem {Background}, \hyperpage{14}
+    \subitem {Enemytype}, \hyperpage{28}
+    \subitem {Plane}, \hyperpage{32}
+
+  \indexspace
+
+  \item {y}
+    \subitem {Background}, \hyperpage{15}
+    \subitem {Enemytype}, \hyperpage{28}
+    \subitem {Plane}, \hyperpage{32}
+
+\end{theindex}

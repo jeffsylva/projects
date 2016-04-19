@@ -1,0 +1,158 @@
+\hypertarget{Allegro_8cc}{
+\section{Allegro.cc File Reference}
+\label{Allegro_8cc}\index{Allegro.cc@{Allegro.cc}}
+}
+
+
+Implementation of the \hyperlink{classAllegro}{Allegro} class.  
+{\ttfamily \#include \char`\"{}Allegro.h\char`\"{}}\par
+{\ttfamily \#include $<$stdio.h$>$}\par
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{Allegro_8cc_a3db5561fa9137b9ac3ec2133a7aa4054}{InitBackground} (\hyperlink{structBackground}{Background} \&back, float x, float y, float velx, float vely, int width, int height, int dirX, int dirY, ALLEGRO\_\-BITMAP $\ast$image)
+\begin{DoxyCompactList}\small\item\em This function initializes the various background images : acts like a constructor for the background struct. \item\end{DoxyCompactList}\item 
+void \hyperlink{Allegro_8cc_a21e9926b904c50aee54f966cc62dd172}{UpdateBackground} (\hyperlink{structBackground}{Background} \&back)
+\begin{DoxyCompactList}\small\item\em Initializes the speed at which the background moves. \item\end{DoxyCompactList}\item 
+void \hyperlink{Allegro_8cc_a5b40a7650f8818fbff0104d84a236cff}{DrawBackground} (\hyperlink{structBackground}{Background} \&back)
+\begin{DoxyCompactList}\small\item\em Draws the background and makes sure it is always cycles through. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{Allegro_8cc_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH} = 640
+\item 
+const int \hyperlink{Allegro_8cc_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT} = 480
+\item 
+\hyperlink{structBackground}{Background} \hyperlink{Allegro_8cc_a517498b88bc80c8256f1344b9e545844}{BG}
+\item 
+\hyperlink{structBackground}{Background} \hyperlink{Allegro_8cc_a03c6c56b2413727c4d2aa30878a4c9dd}{MG}
+\item 
+\hyperlink{structBackground}{Background} \hyperlink{Allegro_8cc_a8ab41d06d3c524eb6a6f981aec1a2f1b}{FG}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{Allegro_8cc_a8f860b073e53aafca02767b0f12fc6a0}{bgImage} = NULL
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{Allegro_8cc_a524ab98ea9b49e9028efed6857dd74b5}{mgImage} = NULL
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{Allegro_8cc_a371876e1de9f1b046258f5e860751c98}{fgImage} = NULL
+\item 
+ALLEGRO\_\-SAMPLE $\ast$ \hyperlink{Allegro_8cc_ab22ce8a8f989211c6059e8b685fa78d0}{shot} = NULL
+\item 
+ALLEGRO\_\-SAMPLE $\ast$ \hyperlink{Allegro_8cc_af4226d9561efb980f7c3dd74cba6ba4d}{boom} = NULL
+\item 
+ALLEGRO\_\-SAMPLE $\ast$ \hyperlink{Allegro_8cc_ade5ece41d11b17eb4b972f2bf0f6910b}{song} = NULL
+\item 
+ALLEGRO\_\-SAMPLE\_\-INSTANCE $\ast$ \hyperlink{Allegro_8cc_ae572dbdea486bf303ed756e2a1f30e0b}{songInstance} = NULL
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of the \hyperlink{classAllegro}{Allegro} class. This contains the implementation of member variables and functions of the \hyperlink{classAllegro}{Allegro} class \begin{DoxyAuthor}{Author}
+Wang Kangning, Jefferson Sylva-\/Iriogbe and Yuhai Shi. 
+\end{DoxyAuthor}
+\begin{Desc}
+\item[\hyperlink{bug__bug000001}{Bug}]No known bugs. \end{Desc}
+
+
+\subsection{Function Documentation}
+\hypertarget{Allegro_8cc_a5b40a7650f8818fbff0104d84a236cff}{
+\index{Allegro.cc@{Allegro.cc}!DrawBackground@{DrawBackground}}
+\index{DrawBackground@{DrawBackground}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{DrawBackground}]{\setlength{\rightskip}{0pt plus 5cm}void DrawBackground ({\bf Background} \& {\em back})}}
+\label{Allegro_8cc_a5b40a7650f8818fbff0104d84a236cff}
+
+
+Draws the background and makes sure it is always cycles through. 
+\begin{DoxyParams}{Parameters}
+\item[{\em \&back}]: \hyperlink{structBackground}{Background} object with the properties of the background struct \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{Allegro_8cc_a3db5561fa9137b9ac3ec2133a7aa4054}{
+\index{Allegro.cc@{Allegro.cc}!InitBackground@{InitBackground}}
+\index{InitBackground@{InitBackground}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{InitBackground}]{\setlength{\rightskip}{0pt plus 5cm}void InitBackground ({\bf Background} \& {\em back}, \/  float {\em x}, \/  float {\em y}, \/  float {\em velx}, \/  float {\em vely}, \/  int {\em width}, \/  int {\em height}, \/  int {\em dirX}, \/  int {\em dirY}, \/  ALLEGRO\_\-BITMAP $\ast$ {\em image})}}
+\label{Allegro_8cc_a3db5561fa9137b9ac3ec2133a7aa4054}
+
+
+This function initializes the various background images : acts like a constructor for the background struct. 
+\begin{DoxyParams}{Parameters}
+\item[{\em \&back}]: a background object with the properties of the background struct \item[{\em x}]: x coordinate \item[{\em y}]: y coordinate \item[{\em velx}]: velocity of the background moving in the x direction \item[{\em vely}]: velocity of the background moving in the y direction \item[{\em width}]: width of the background \item[{\em height}]: height of the background \item[{\em dirX}]: direction of x \item[{\em dirY}]: direction of y \item[{\em ALLEGRO\_\-BITMAP}]: the background image \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{Allegro_8cc_a21e9926b904c50aee54f966cc62dd172}{
+\index{Allegro.cc@{Allegro.cc}!UpdateBackground@{UpdateBackground}}
+\index{UpdateBackground@{UpdateBackground}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{UpdateBackground}]{\setlength{\rightskip}{0pt plus 5cm}void UpdateBackground ({\bf Background} \& {\em back})}}
+\label{Allegro_8cc_a21e9926b904c50aee54f966cc62dd172}
+
+
+Initializes the speed at which the background moves. 
+\begin{DoxyParams}{Parameters}
+\item[{\em \&back}]: \hyperlink{structBackground}{Background} object with the properties of the background struct \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\hypertarget{Allegro_8cc_a517498b88bc80c8256f1344b9e545844}{
+\index{Allegro.cc@{Allegro.cc}!BG@{BG}}
+\index{BG@{BG}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{BG}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Background} {\bf BG}}}
+\label{Allegro_8cc_a517498b88bc80c8256f1344b9e545844}
+\hypertarget{Allegro_8cc_a8f860b073e53aafca02767b0f12fc6a0}{
+\index{Allegro.cc@{Allegro.cc}!bgImage@{bgImage}}
+\index{bgImage@{bgImage}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{bgImage}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf bgImage} = NULL}}
+\label{Allegro_8cc_a8f860b073e53aafca02767b0f12fc6a0}
+\hypertarget{Allegro_8cc_af4226d9561efb980f7c3dd74cba6ba4d}{
+\index{Allegro.cc@{Allegro.cc}!boom@{boom}}
+\index{boom@{boom}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{boom}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-SAMPLE$\ast$ {\bf boom} = NULL}}
+\label{Allegro_8cc_af4226d9561efb980f7c3dd74cba6ba4d}
+\hypertarget{Allegro_8cc_a8ab41d06d3c524eb6a6f981aec1a2f1b}{
+\index{Allegro.cc@{Allegro.cc}!FG@{FG}}
+\index{FG@{FG}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{FG}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Background} {\bf FG}}}
+\label{Allegro_8cc_a8ab41d06d3c524eb6a6f981aec1a2f1b}
+\hypertarget{Allegro_8cc_a371876e1de9f1b046258f5e860751c98}{
+\index{Allegro.cc@{Allegro.cc}!fgImage@{fgImage}}
+\index{fgImage@{fgImage}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{fgImage}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf fgImage} = NULL}}
+\label{Allegro_8cc_a371876e1de9f1b046258f5e860751c98}
+\hypertarget{Allegro_8cc_af728b7647e0b8c49832983a31f9a2e9b}{
+\index{Allegro.cc@{Allegro.cc}!HEIGHT@{HEIGHT}}
+\index{HEIGHT@{HEIGHT}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{HEIGHT}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf HEIGHT} = 480}}
+\label{Allegro_8cc_af728b7647e0b8c49832983a31f9a2e9b}
+\hypertarget{Allegro_8cc_a03c6c56b2413727c4d2aa30878a4c9dd}{
+\index{Allegro.cc@{Allegro.cc}!MG@{MG}}
+\index{MG@{MG}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{MG}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Background} {\bf MG}}}
+\label{Allegro_8cc_a03c6c56b2413727c4d2aa30878a4c9dd}
+\hypertarget{Allegro_8cc_a524ab98ea9b49e9028efed6857dd74b5}{
+\index{Allegro.cc@{Allegro.cc}!mgImage@{mgImage}}
+\index{mgImage@{mgImage}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{mgImage}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf mgImage} = NULL}}
+\label{Allegro_8cc_a524ab98ea9b49e9028efed6857dd74b5}
+\hypertarget{Allegro_8cc_ab22ce8a8f989211c6059e8b685fa78d0}{
+\index{Allegro.cc@{Allegro.cc}!shot@{shot}}
+\index{shot@{shot}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{shot}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-SAMPLE$\ast$ {\bf shot} = NULL}}
+\label{Allegro_8cc_ab22ce8a8f989211c6059e8b685fa78d0}
+\hypertarget{Allegro_8cc_ade5ece41d11b17eb4b972f2bf0f6910b}{
+\index{Allegro.cc@{Allegro.cc}!song@{song}}
+\index{song@{song}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{song}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-SAMPLE$\ast$ {\bf song} = NULL}}
+\label{Allegro_8cc_ade5ece41d11b17eb4b972f2bf0f6910b}
+\hypertarget{Allegro_8cc_ae572dbdea486bf303ed756e2a1f30e0b}{
+\index{Allegro.cc@{Allegro.cc}!songInstance@{songInstance}}
+\index{songInstance@{songInstance}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{songInstance}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-SAMPLE\_\-INSTANCE$\ast$ {\bf songInstance} = NULL}}
+\label{Allegro_8cc_ae572dbdea486bf303ed756e2a1f30e0b}
+\hypertarget{Allegro_8cc_a9649ab8139c4c2ea5c93625b30d92a05}{
+\index{Allegro.cc@{Allegro.cc}!WIDTH@{WIDTH}}
+\index{WIDTH@{WIDTH}!Allegro.cc@{Allegro.cc}}
+\subsubsection[{WIDTH}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf WIDTH} = 640}}
+\label{Allegro_8cc_a9649ab8139c4c2ea5c93625b30d92a05}

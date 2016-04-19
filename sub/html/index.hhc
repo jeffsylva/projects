@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Bug List"><param name="Local" value="bug.html"><param name="ImageNumber" value="11"></OBJECT>
+  <UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Allegro"><param name="Local" value="classAllegro.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Background"><param name="Local" value="structBackground.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="bullet"><param name="Local" value="classbullet.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="bulletType"><param name="Local" value="classbulletType.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemy"><param name="Local" value="classEnemy.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EnemyOne"><param name="Local" value="classEnemyOne.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemytype"><param name="Local" value="classEnemytype.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Keyboard"><param name="Local" value="classKeyboard.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Plane"><param name="Local" value="classPlane.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Player"><param name="Local" value="classPlayer.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Allegro"><param name="Local" value="classAllegro.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Background"><param name="Local" value="structBackground.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="bulletType"><param name="Local" value="classbulletType.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EnemyOne"><param name="Local" value="classEnemyOne.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemy"><param name="Local" value="classEnemy.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemytype"><param name="Local" value="classEnemytype.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Keyboard"><param name="Local" value="classKeyboard.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Plane"><param name="Local" value="classPlane.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="bullet"><param name="Local" value="classbullet.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Player"><param name="Local" value="classPlayer.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Allegro.cc"><param name="Local" value="Allegro_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Allegro.h"><param name="Local" value="Allegro_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="bullet.cc"><param name="Local" value="bullet_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="bullet.h"><param name="Local" value="bullet_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemy.cc"><param name="Local" value="Enemy_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Enemy.h"><param name="Local" value="Enemy_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EnemyOne.cc"><param name="Local" value="EnemyOne_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="EnemyOne.h"><param name="Local" value="EnemyOne_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Keyboard.cc"><param name="Local" value="Keyboard_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Keyboard.h"><param name="Local" value="Keyboard_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="main.cc"><param name="Local" value="main_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Plane.cc"><param name="Local" value="Plane_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Plane.h"><param name="Local" value="Plane_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Player.cc"><param name="Local" value="Player_8cc.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Player.h"><param name="Local" value="Player_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="File Members"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,223 @@
+\hypertarget{classAllegro}{
+\section{Allegro Class Reference}
+\label{classAllegro}\index{Allegro@{Allegro}}
+}
+
+
+{\ttfamily \#include $<$Allegro.h$>$}\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classAllegro_a3f5c52ac57364f5587d88766ed75476e}{Allegro} ()
+\begin{DoxyCompactList}\small\item\em Constructor : Creates the various object and object states that will be used in this game. \item\end{DoxyCompactList}\item 
+\hyperlink{classAllegro_aaa80b9c26288f9d8d9888fc398d91b6c}{$\sim$Allegro} ()
+\begin{DoxyCompactList}\small\item\em Destructor : Destroys the various objects used in the game. \item\end{DoxyCompactList}\item 
+int \hyperlink{classAllegro_a5e00fb24164087bd89b0d6bfc6b319b7}{init} ()
+\begin{DoxyCompactList}\small\item\em Initial function. \item\end{DoxyCompactList}\item 
+int \hyperlink{classAllegro_a5669e6448fac3a62871a2fe5dcf00aeb}{createWindow} (float FPS, int w, int h)
+\begin{DoxyCompactList}\small\item\em Creates the display window using the width and height and initializes all the devices, objects, images, keyboard, audio, background and timer that are used in this game. \item\end{DoxyCompactList}\item 
+void \hyperlink{classAllegro_ae0fe43326c885fa115169c68d74e7ff5}{gameLoop} ()
+\begin{DoxyCompactList}\small\item\em This function defines the game itself. It loads the start image, the losing image, the game sounds, and the conditions of play, losing and collision. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classAllegro_a10d4912b8dfc5b7b5a13db103e441bfe}{collision} (\hyperlink{classEnemy}{Enemy} $\ast$, int, int, int, int, int, int)
+\begin{DoxyCompactList}\small\item\em Defines the collision between the enemy and the player. \item\end{DoxyCompactList}\item 
+void \hyperlink{classAllegro_ab73885862f77defd9dac0868f18ca4cd}{collision1} (\hyperlink{classEnemy}{Enemy} $\ast$aa, \hyperlink{classPlayer}{Player} $\ast$bb, int a, int b, int c, int d)
+\begin{DoxyCompactList}\small\item\em Defines the collision between the \hyperlink{classbullet}{bullet} and the enemy. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+ALLEGRO\_\-DISPLAY $\ast$ \hyperlink{classAllegro_a3e51f319f189787a5341d3297727eba5}{display}
+\item 
+ALLEGRO\_\-TIMER $\ast$ \hyperlink{classAllegro_a34a3f6946a82531b3cd7855bf96dfec5}{timer}
+\item 
+ALLEGRO\_\-EVENT\_\-QUEUE $\ast$ \hyperlink{classAllegro_a4a2c1d6a0009b87fb04ac4726814623a}{event\_\-queue}
+\item 
+ALLEGRO\_\-FONT $\ast$ \hyperlink{classAllegro_a2c2276e5a5822696792c9c11c00731f2}{font}
+\item 
+\hyperlink{classKeyboard}{Keyboard} \hyperlink{classAllegro_a4bef38bf146ab5025f9a4f39bc7016f7}{keyboard}
+\item 
+\hyperlink{classPlayer}{Player} $\ast$ \hyperlink{classAllegro_a888f6af0c64c1c1eac49fc54d283e035}{player}
+\item 
+\hyperlink{classEnemy}{Enemy} $\ast$ \hyperlink{classAllegro_a70ea4292a405eb94fc4165fe19c7eaa4}{enemy}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classAllegro_ae10751d99b7a4921df87ac34b3757e24}{BAbitmap}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classAllegro_aa9dd463e9143160fd90433e5eea920b0}{LObitmap}
+\item 
+ALLEGRO\_\-BITMAP $\ast$ \hyperlink{classAllegro_ad2c4aa4c19d5dbadb8c5c95b1e69dfa9}{EXbitmap}
+\item 
+\hyperlink{classEnemy}{Enemy} $\ast$ \hyperlink{classAllegro_a5711e0348cbd0cfa61bca6bb8badae45}{boss}
+\item 
+bool \hyperlink{classAllegro_ae15c8aa4996c4a2063f5678630eb9e65}{looping}
+\item 
+bool \hyperlink{classAllegro_a09c325f5ec95db410ce99ea5c4312b4b}{redraw}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classAllegro_a3f5c52ac57364f5587d88766ed75476e}{
+\index{Allegro@{Allegro}!Allegro@{Allegro}}
+\index{Allegro@{Allegro}!Allegro@{Allegro}}
+\subsubsection[{Allegro}]{\setlength{\rightskip}{0pt plus 5cm}Allegro::Allegro ()}}
+\label{classAllegro_a3f5c52ac57364f5587d88766ed75476e}
+
+
+Constructor : Creates the various object and object states that will be used in this game. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classAllegro_aaa80b9c26288f9d8d9888fc398d91b6c}{
+\index{Allegro@{Allegro}!$\sim$Allegro@{$\sim$Allegro}}
+\index{$\sim$Allegro@{$\sim$Allegro}!Allegro@{Allegro}}
+\subsubsection[{$\sim$Allegro}]{\setlength{\rightskip}{0pt plus 5cm}Allegro::$\sim$Allegro ()}}
+\label{classAllegro_aaa80b9c26288f9d8d9888fc398d91b6c}
+
+
+Destructor : Destroys the various objects used in the game. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classAllegro_a10d4912b8dfc5b7b5a13db103e441bfe}{
+\index{Allegro@{Allegro}!collision@{collision}}
+\index{collision@{collision}!Allegro@{Allegro}}
+\subsubsection[{collision}]{\setlength{\rightskip}{0pt plus 5cm}bool Allegro::collision ({\bf Enemy} $\ast$ {\em aa}, \/  int {\em x1}, \/  int {\em y1}, \/  int {\em a}, \/  int {\em b}, \/  int {\em c}, \/  int {\em d})}}
+\label{classAllegro_a10d4912b8dfc5b7b5a13db103e441bfe}
+
+
+Defines the collision between the enemy and the player. 
+\begin{DoxyParams}{Parameters}
+\item[{\em Enemy$\ast$}]: takes in the enemy object \item[{\em int}]: x coordinate \item[{\em int}]: y coordinate \item[{\em int}]: value used to calculate the boundary between the enemy and the player \item[{\em int}]: value used to calculate the boundary between the enemy and the player \item[{\em int}]: value used to calculate the boundary between the enemy and the player \item[{\em int}]: value used to calculate the boundary between the enemy and the player \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean value: returns true if there is a collision between the player and the enemy and false if there isn't 
+\end{DoxyReturn}
+\hypertarget{classAllegro_ab73885862f77defd9dac0868f18ca4cd}{
+\index{Allegro@{Allegro}!collision1@{collision1}}
+\index{collision1@{collision1}!Allegro@{Allegro}}
+\subsubsection[{collision1}]{\setlength{\rightskip}{0pt plus 5cm}Allegro::collision1 ({\bf Enemy} $\ast$ {\em aa}, \/  {\bf Player} $\ast$ {\em bb}, \/  int {\em a}, \/  int {\em b}, \/  int {\em c}, \/  int {\em d})}}
+\label{classAllegro_ab73885862f77defd9dac0868f18ca4cd}
+
+
+Defines the collision between the \hyperlink{classbullet}{bullet} and the enemy. 
+\begin{DoxyParams}{Parameters}
+\item[{\em Enemy$\ast$}]: takes in the enemy object \item[{\em Player$\ast$}]: takes in a player object( which inherits from a bullet object ) \item[{\em int}]: value used to calculate the boundary between the enemy and the \hyperlink{classbullet}{bullet} \item[{\em int}]: value used to calculate the boundary between the enemy and the \hyperlink{classbullet}{bullet} \item[{\em int}]: value used to calculate the boundary between the enemy and the \hyperlink{classbullet}{bullet} \item[{\em int}]: value used to calculate the boundary between the enemy and the \hyperlink{classbullet}{bullet} \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classAllegro_a5669e6448fac3a62871a2fe5dcf00aeb}{
+\index{Allegro@{Allegro}!createWindow@{createWindow}}
+\index{createWindow@{createWindow}!Allegro@{Allegro}}
+\subsubsection[{createWindow}]{\setlength{\rightskip}{0pt plus 5cm}int Allegro::createWindow (float {\em FPS}, \/  int {\em w}, \/  int {\em h})}}
+\label{classAllegro_a5669e6448fac3a62871a2fe5dcf00aeb}
+
+
+Creates the display window using the width and height and initializes all the devices, objects, images, keyboard, audio, background and timer that are used in this game. 
+\begin{DoxyParams}{Parameters}
+\item[{\em w}]: the width of the display \item[{\em h}]: the height of the display \item[{\em FPS}]\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int : returns 0 if the display is open, returns -\/1 if the display stops 
+\end{DoxyReturn}
+\hypertarget{classAllegro_ae0fe43326c885fa115169c68d74e7ff5}{
+\index{Allegro@{Allegro}!gameLoop@{gameLoop}}
+\index{gameLoop@{gameLoop}!Allegro@{Allegro}}
+\subsubsection[{gameLoop}]{\setlength{\rightskip}{0pt plus 5cm}void Allegro::gameLoop ()}}
+\label{classAllegro_ae0fe43326c885fa115169c68d74e7ff5}
+
+
+This function defines the game itself. It loads the start image, the losing image, the game sounds, and the conditions of play, losing and collision. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\hypertarget{classAllegro_a5e00fb24164087bd89b0d6bfc6b319b7}{
+\index{Allegro@{Allegro}!init@{init}}
+\index{init@{init}!Allegro@{Allegro}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}int Allegro::init ()}}
+\label{classAllegro_a5e00fb24164087bd89b0d6bfc6b319b7}
+
+
+Initial function. 
+\begin{DoxyParams}{Parameters}
+\item[{\em No}]parameters \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int : 0 or -\/1 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAllegro_ae10751d99b7a4921df87ac34b3757e24}{
+\index{Allegro@{Allegro}!BAbitmap@{BAbitmap}}
+\index{BAbitmap@{BAbitmap}!Allegro@{Allegro}}
+\subsubsection[{BAbitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf Allegro::BAbitmap}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_ae10751d99b7a4921df87ac34b3757e24}
+Image of the start page of the game \hypertarget{classAllegro_a5711e0348cbd0cfa61bca6bb8badae45}{
+\index{Allegro@{Allegro}!boss@{boss}}
+\index{boss@{boss}!Allegro@{Allegro}}
+\subsubsection[{boss}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enemy}$\ast$ {\bf Allegro::boss}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a5711e0348cbd0cfa61bca6bb8badae45}
+The larger enemy \hypertarget{classAllegro_a3e51f319f189787a5341d3297727eba5}{
+\index{Allegro@{Allegro}!display@{display}}
+\index{display@{display}!Allegro@{Allegro}}
+\subsubsection[{display}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-DISPLAY$\ast$ {\bf Allegro::display}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a3e51f319f189787a5341d3297727eba5}
+display window \hypertarget{classAllegro_a70ea4292a405eb94fc4165fe19c7eaa4}{
+\index{Allegro@{Allegro}!enemy@{enemy}}
+\index{enemy@{enemy}!Allegro@{Allegro}}
+\subsubsection[{enemy}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Enemy}$\ast$ {\bf Allegro::enemy}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a70ea4292a405eb94fc4165fe19c7eaa4}
+The smaller enemy \hypertarget{classAllegro_a4a2c1d6a0009b87fb04ac4726814623a}{
+\index{Allegro@{Allegro}!event\_\-queue@{event\_\-queue}}
+\index{event\_\-queue@{event\_\-queue}!Allegro@{Allegro}}
+\subsubsection[{event\_\-queue}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-EVENT\_\-QUEUE$\ast$ {\bf Allegro::event\_\-queue}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a4a2c1d6a0009b87fb04ac4726814623a}
+\hypertarget{classAllegro_ad2c4aa4c19d5dbadb8c5c95b1e69dfa9}{
+\index{Allegro@{Allegro}!EXbitmap@{EXbitmap}}
+\index{EXbitmap@{EXbitmap}!Allegro@{Allegro}}
+\subsubsection[{EXbitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf Allegro::EXbitmap}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_ad2c4aa4c19d5dbadb8c5c95b1e69dfa9}
+Image of an explosion \hypertarget{classAllegro_a2c2276e5a5822696792c9c11c00731f2}{
+\index{Allegro@{Allegro}!font@{font}}
+\index{font@{font}!Allegro@{Allegro}}
+\subsubsection[{font}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-FONT$\ast$ {\bf Allegro::font}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a2c2276e5a5822696792c9c11c00731f2}
+\hypertarget{classAllegro_a4bef38bf146ab5025f9a4f39bc7016f7}{
+\index{Allegro@{Allegro}!keyboard@{keyboard}}
+\index{keyboard@{keyboard}!Allegro@{Allegro}}
+\subsubsection[{keyboard}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Keyboard} {\bf Allegro::keyboard}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a4bef38bf146ab5025f9a4f39bc7016f7}
+\hypertarget{classAllegro_aa9dd463e9143160fd90433e5eea920b0}{
+\index{Allegro@{Allegro}!LObitmap@{LObitmap}}
+\index{LObitmap@{LObitmap}!Allegro@{Allegro}}
+\subsubsection[{LObitmap}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-BITMAP$\ast$ {\bf Allegro::LObitmap}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_aa9dd463e9143160fd90433e5eea920b0}
+Image of the page displayed when the user gets killed in the game \hypertarget{classAllegro_ae15c8aa4996c4a2063f5678630eb9e65}{
+\index{Allegro@{Allegro}!looping@{looping}}
+\index{looping@{looping}!Allegro@{Allegro}}
+\subsubsection[{looping}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Allegro::looping}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_ae15c8aa4996c4a2063f5678630eb9e65}
+\hypertarget{classAllegro_a888f6af0c64c1c1eac49fc54d283e035}{
+\index{Allegro@{Allegro}!player@{player}}
+\index{player@{player}!Allegro@{Allegro}}
+\subsubsection[{player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player}$\ast$ {\bf Allegro::player}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a888f6af0c64c1c1eac49fc54d283e035}
+The player object \hypertarget{classAllegro_a09c325f5ec95db410ce99ea5c4312b4b}{
+\index{Allegro@{Allegro}!redraw@{redraw}}
+\index{redraw@{redraw}!Allegro@{Allegro}}
+\subsubsection[{redraw}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf Allegro::redraw}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a09c325f5ec95db410ce99ea5c4312b4b}
+\hypertarget{classAllegro_a34a3f6946a82531b3cd7855bf96dfec5}{
+\index{Allegro@{Allegro}!timer@{timer}}
+\index{timer@{timer}!Allegro@{Allegro}}
+\subsubsection[{timer}]{\setlength{\rightskip}{0pt plus 5cm}ALLEGRO\_\-TIMER$\ast$ {\bf Allegro::timer}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classAllegro_a34a3f6946a82531b3cd7855bf96dfec5}
+game timer 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Allegro_8h}{Allegro.h}\item 
+\hyperlink{Allegro_8cc}{Allegro.cc}\end{DoxyCompactItemize}

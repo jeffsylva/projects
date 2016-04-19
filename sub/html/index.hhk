@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a426140d3b62940f83861048560a570bd"><param name="Name" value="addBullet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a428e216932e0a454b59b705f62d1c1a0"><param name="Name" value="addEnemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html"><param name="Name" value="Allegro.cc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a517498b88bc80c8256f1344b9e545844"><param name="Name" value="BG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a8f860b073e53aafca02767b0f12fc6a0"><param name="Name" value="bgImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#af4226d9561efb980f7c3dd74cba6ba4d"><param name="Name" value="boom"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a5b40a7650f8818fbff0104d84a236cff"><param name="Name" value="DrawBackground"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a8ab41d06d3c524eb6a6f981aec1a2f1b"><param name="Name" value="FG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a371876e1de9f1b046258f5e860751c98"><param name="Name" value="fgImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#af728b7647e0b8c49832983a31f9a2e9b"><param name="Name" value="HEIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a3db5561fa9137b9ac3ec2133a7aa4054"><param name="Name" value="InitBackground"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a03c6c56b2413727c4d2aa30878a4c9dd"><param name="Name" value="MG"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a524ab98ea9b49e9028efed6857dd74b5"><param name="Name" value="mgImage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ab22ce8a8f989211c6059e8b685fa78d0"><param name="Name" value="shot"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ade5ece41d11b17eb4b972f2bf0f6910b"><param name="Name" value="song"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ae572dbdea486bf303ed756e2a1f30e0b"><param name="Name" value="songInstance"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a21e9926b904c50aee54f966cc62dd172"><param name="Name" value="UpdateBackground"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a9649ab8139c4c2ea5c93625b30d92a05"><param name="Name" value="WIDTH"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html"><param name="Name" value="Allegro.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317"><param name="Name" value="LOST"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b"><param name="Name" value="PLAY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05"><param name="Name" value="TITLE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html"><param name="Name" value="Allegro"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a3f5c52ac57364f5587d88766ed75476e"><param name="Name" value="Allegro"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae10751d99b7a4921df87ac34b3757e24"><param name="Name" value="BAbitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5711e0348cbd0cfa61bca6bb8badae45"><param name="Name" value="boss"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a10d4912b8dfc5b7b5a13db103e441bfe"><param name="Name" value="collision"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ab73885862f77defd9dac0868f18ca4cd"><param name="Name" value="collision1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5669e6448fac3a62871a2fe5dcf00aeb"><param name="Name" value="createWindow"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a3e51f319f189787a5341d3297727eba5"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a70ea4292a405eb94fc4165fe19c7eaa4"><param name="Name" value="enemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a4a2c1d6a0009b87fb04ac4726814623a"><param name="Name" value="event_queue"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ad2c4aa4c19d5dbadb8c5c95b1e69dfa9"><param name="Name" value="EXbitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a2c2276e5a5822696792c9c11c00731f2"><param name="Name" value="font"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae0fe43326c885fa115169c68d74e7ff5"><param name="Name" value="gameLoop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5e00fb24164087bd89b0d6bfc6b319b7"><param name="Name" value="init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a4bef38bf146ab5025f9a4f39bc7016f7"><param name="Name" value="keyboard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#aa9dd463e9143160fd90433e5eea920b0"><param name="Name" value="LObitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae15c8aa4996c4a2063f5678630eb9e65"><param name="Name" value="looping"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a888f6af0c64c1c1eac49fc54d283e035"><param name="Name" value="player"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a09c325f5ec95db410ce99ea5c4312b4b"><param name="Name" value="redraw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a34a3f6946a82531b3cd7855bf96dfec5"><param name="Name" value="timer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#aaa80b9c26288f9d8d9888fc398d91b6c"><param name="Name" value="~Allegro"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae10751d99b7a4921df87ac34b3757e24"><param name="Name" value="BAbitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html"><param name="Name" value="Background"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#afee83ed66ba7a564613525287cc33b32"><param name="Name" value="dirX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#ae85e5871207ab04a678f217b3baf72fc"><param name="Name" value="dirY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#ab309ccac36fbe6b88cab0e30e8da1452"><param name="Name" value="height"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#aca1e48275f069718251c7023ddb5c9bb"><param name="Name" value="image"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a3baf341baf83315a91f694bafebf3a0e"><param name="Name" value="velX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a012729329c3eaaf671374116d9336fba"><param name="Name" value="velY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a43297fc8fceec13bed4e292a45bf564d"><param name="Name" value="width"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#af6650023418d2982420370f87eeff2de"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#adb462ce7dc04d3b09698f1baa3d173e6"><param name="Name" value="y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#ae5e6772fcf149f67b495de01c350d83f"><param name="Name" value="Bbitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a517498b88bc80c8256f1344b9e545844"><param name="Name" value="BG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a8f860b073e53aafca02767b0f12fc6a0"><param name="Name" value="bgImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a5f3754de26e2b832d79fd83752b0f2df"><param name="Name" value="bitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#ae700876dfc6875705a5c40ff4b80f94d"><param name="Name" value="Blist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a33023a67c031eceeef05268f01eae43d"><param name="Name" value="bMoveSpeed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#af4226d9561efb980f7c3dd74cba6ba4d"><param name="Name" value="boom"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5711e0348cbd0cfa61bca6bb8badae45"><param name="Name" value="boss"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html"><param name="Name" value="bullet"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a426140d3b62940f83861048560a570bd"><param name="Name" value="addBullet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#ae5e6772fcf149f67b495de01c350d83f"><param name="Name" value="Bbitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#ae700876dfc6875705a5c40ff4b80f94d"><param name="Name" value="Blist"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a56eac386b0e6268b746bd7ed4883e1df"><param name="Name" value="bullet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a93cf5a76bb99163b52f5e42a359ea2e8"><param name="Name" value="drawB"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a16ea275b798ae9236015b3ff2e8fcb25"><param name="Name" value="getBulletMap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a32b293b38ec5efd19c86c5cc95ab0e25"><param name="Name" value="setBullet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a82a107fafc86d136e4a78ff13d14ceaf"><param name="Name" value="~bullet"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html"><param name="Name" value="bulletType"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#ad854048f38d7514caa09af4ab034837b"><param name="Name" value="bulletType"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a0078ec4eb7df2062788ae69200a73bf3"><param name="Name" value="bX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a7083d68e84fe928b1e46575fda710d5d"><param name="Name" value="bY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a3a40c67dcf6d3b6dc91e6fa7800cdaf4"><param name="Name" value="getbX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a6787ea4992f2fead3ee07e9216b06d4e"><param name="Name" value="getbY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#af69e22a00c81d5610cfb121dabf25b2b"><param name="Name" value="setbX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a623f1eeb1381c512708efccafbb3c192"><param name="Name" value="setbY"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a0078ec4eb7df2062788ae69200a73bf3"><param name="Name" value="bX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a7083d68e84fe928b1e46575fda710d5d"><param name="Name" value="bY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ab73885862f77defd9dac0868f18ca4cd"><param name="Name" value="collision1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a10d4912b8dfc5b7b5a13db103e441bfe"><param name="Name" value="collision"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5669e6448fac3a62871a2fe5dcf00aeb"><param name="Name" value="createWindow"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#afee83ed66ba7a564613525287cc33b32"><param name="Name" value="dirX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#ae85e5871207ab04a678f217b3baf72fc"><param name="Name" value="dirY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a3e51f319f189787a5341d3297727eba5"><param name="Name" value="display"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#addf356ccfe6223db41eb4a06d5661a60"><param name="Name" value="doLogic"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da"><param name="Name" value="DOWN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a8877358878e91929c4c01bad40cbdb78"><param name="Name" value="draw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a93cf5a76bb99163b52f5e42a359ea2e8"><param name="Name" value="drawB"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a5b40a7650f8818fbff0104d84a236cff"><param name="Name" value="DrawBackground"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a8017eb7f3cf8510043e542ed5314fbf9"><param name="Name" value="drawE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#ab42c5298a1849dd5a422dfaa1dc0f459"><param name="Name" value="Ebitmap2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a186a44174a5f8c35d805209c1806d967"><param name="Name" value="Ebitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a1e46e43f2fe68dad65a79d57671159b6"><param name="Name" value="Elist"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a70ea4292a405eb94fc4165fe19c7eaa4"><param name="Name" value="enemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html"><param name="Name" value="Enemy"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#a94f30d348b6d2840fd71675472ba38dd"><param name="Name" value="Enemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#aedd5e7bf8ef07ee97be433c853a10d8d"><param name="Name" value="health"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#a405168f47abea55981313377385d6c37"><param name="Name" value="moveboss"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#a0dcca8a418323526c286c323a3fb2fd1"><param name="Name" value="moveEnemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#ac0eec4755e28c02688065f9657150ac3"><param name="Name" value="~Enemy"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html"><param name="Name" value="EnemyOne"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a428e216932e0a454b59b705f62d1c1a0"><param name="Name" value="addEnemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a8017eb7f3cf8510043e542ed5314fbf9"><param name="Name" value="drawE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a186a44174a5f8c35d805209c1806d967"><param name="Name" value="Ebitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#ab42c5298a1849dd5a422dfaa1dc0f459"><param name="Name" value="Ebitmap2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a1e46e43f2fe68dad65a79d57671159b6"><param name="Name" value="Elist"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a876b7dc33899c1627a0ee1e08b34baf8"><param name="Name" value="EnemyOne"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a348b86c31e258c7ccf83a4f44397f542"><param name="Name" value="getEnemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a53c380bf26465df0f0f7beaca93b952d"><param name="Name" value="setEnemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#ad7999ae2c8228030d3f07df562a5aa0a"><param name="Name" value="~EnemyOne"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html"><param name="Name" value="Enemytype"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a315e220bfb4ffe6c67f31ac57b015679"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#adc3cce767c80a8dee47acd0e48691ac3"><param name="Name" value="getMS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a641488fb71b330a7104abe92acd0601a"><param name="Name" value="getX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#aca1ceba65fea5f547abcfaa957c7e5ce"><param name="Name" value="getY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a7fbb15c1e006c25cc926b55cd3ea23dd"><param name="Name" value="moveSpeed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a19472039711c84c97ef8d11921b9e510"><param name="Name" value="setX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a873a843e7f6eba7dd8ef41d4041661f6"><param name="Name" value="setY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#ac73360c104ab8e6f4cad79af69e904dd"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a22ab8ba090798eb7fad364b0319f4d13"><param name="Name" value="y"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e"><param name="Name" value="ENTER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a4a2c1d6a0009b87fb04ac4726814623a"><param name="Name" value="event_queue"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ad2c4aa4c19d5dbadb8c5c95b1e69dfa9"><param name="Name" value="EXbitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a8ab41d06d3c524eb6a6f981aec1a2f1b"><param name="Name" value="FG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a371876e1de9f1b046258f5e860751c98"><param name="Name" value="fgImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a2c2276e5a5822696792c9c11c00731f2"><param name="Name" value="font"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae0fe43326c885fa115169c68d74e7ff5"><param name="Name" value="gameLoop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a0d2bb766e1d07c7097fd741adff8c4d8"><param name="Name" value="getBitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a16ea275b798ae9236015b3ff2e8fcb25"><param name="Name" value="getBulletMap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a3a40c67dcf6d3b6dc91e6fa7800cdaf4"><param name="Name" value="getbX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a6787ea4992f2fead3ee07e9216b06d4e"><param name="Name" value="getbY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a348b86c31e258c7ccf83a4f44397f542"><param name="Name" value="getEnemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#adc3cce767c80a8dee47acd0e48691ac3"><param name="Name" value="getMS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a641488fb71b330a7104abe92acd0601a"><param name="Name" value="getX"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a641488fb71b330a7104abe92acd0601a"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#ab0db534796dff1c2ff490fe989261cda"><param name="Name" value="Plane"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#aca1ceba65fea5f547abcfaa957c7e5ce"><param name="Name" value="getY"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#aca1ceba65fea5f547abcfaa957c7e5ce"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a8c754851771ba75ecd163a55d2f31800"><param name="Name" value="Plane"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#aedd5e7bf8ef07ee97be433c853a10d8d"><param name="Name" value="health"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#aedd5e7bf8ef07ee97be433c853a10d8d"><param name="Name" value="Enemy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#aad33b52bfe73c4c978a3135172f286a0"><param name="Name" value="Player"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#af728b7647e0b8c49832983a31f9a2e9b"><param name="Name" value="HEIGHT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#ab309ccac36fbe6b88cab0e30e8da1452"><param name="Name" value="height"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#aca1e48275f069718251c7023ddb5c9bb"><param name="Name" value="image"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a5e00fb24164087bd89b0d6bfc6b319b7"><param name="Name" value="init"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a3db5561fa9137b9ac3ec2133a7aa4054"><param name="Name" value="InitBackground"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a6f961e4c2c03b03bac2bd61749ec51e1"><param name="Name" value="initialPlane"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html#aad6d0d22cffc14a293b3a3b6a98da05d"><param name="Name" value="key"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html"><param name="Name" value="Keyboard.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da"><param name="Name" value="DOWN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e"><param name="Name" value="ENTER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065"><param name="Name" value="LEFT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38"><param name="Name" value="RIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95"><param name="Name" value="SPACE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa"><param name="Name" value="UP"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a4bef38bf146ab5025f9a4f39bc7016f7"><param name="Name" value="keyboard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html"><param name="Name" value="Keyboard"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html#aad6d0d22cffc14a293b3a3b6a98da05d"><param name="Name" value="key"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html#ad6b0bb849d6bb7cdf63091e40b5f5f7f"><param name="Name" value="Keyboard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html#af6a99ec66c8c722a45b967bf79167038"><param name="Name" value="~Keyboard"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065"><param name="Name" value="LEFT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#aa9dd463e9143160fd90433e5eea920b0"><param name="Name" value="LObitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#ae15c8aa4996c4a2063f5678630eb9e65"><param name="Name" value="looping"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317"><param name="Name" value="LOST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cc.html"><param name="Name" value="main.cc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a03c6c56b2413727c4d2aa30878a4c9dd"><param name="Name" value="MG"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a524ab98ea9b49e9028efed6857dd74b5"><param name="Name" value="mgImage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#a405168f47abea55981313377385d6c37"><param name="Name" value="moveboss"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a4c994edd3d4c3b3378501353d73e30cb"><param name="Name" value="moveBullet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#a0dcca8a418323526c286c323a3fb2fd1"><param name="Name" value="moveEnemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a7fbb15c1e006c25cc926b55cd3ea23dd"><param name="Name" value="moveSpeed"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a7fbb15c1e006c25cc926b55cd3ea23dd"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a84469d0950bc9151404b8930e6cf0ebb"><param name="Name" value="Player"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html"><param name="Name" value="Plane"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a5f3754de26e2b832d79fd83752b0f2df"><param name="Name" value="bitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a8877358878e91929c4c01bad40cbdb78"><param name="Name" value="draw"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a0d2bb766e1d07c7097fd741adff8c4d8"><param name="Name" value="getBitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#ab0db534796dff1c2ff490fe989261cda"><param name="Name" value="getX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a8c754851771ba75ecd163a55d2f31800"><param name="Name" value="getY"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a6f961e4c2c03b03bac2bd61749ec51e1"><param name="Name" value="initialPlane"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#acac0d9c003e0ab10d07b146c3566a0c7"><param name="Name" value="Plane"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a41fc70cf581d5f3d5efaba227d0b406b"><param name="Name" value="setBitmap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a31fa7567ef20b26ca2cafad6f17a776b"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#ace518f4f4d6d29db13e41276a327c323"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a69abd86051c880dcb44b249ad10c4436"><param name="Name" value="~Plane"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b"><param name="Name" value="PLAY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a888f6af0c64c1c1eac49fc54d283e035"><param name="Name" value="player"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html"><param name="Name" value="Player"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a33023a67c031eceeef05268f01eae43d"><param name="Name" value="bMoveSpeed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#addf356ccfe6223db41eb4a06d5661a60"><param name="Name" value="doLogic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#aad33b52bfe73c4c978a3135172f286a0"><param name="Name" value="health"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a4c994edd3d4c3b3378501353d73e30cb"><param name="Name" value="moveBullet"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a84469d0950bc9151404b8930e6cf0ebb"><param name="Name" value="moveSpeed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8"><param name="Name" value="Player"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062"><param name="Name" value="~Player"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a09c325f5ec95db410ce99ea5c4312b4b"><param name="Name" value="redraw"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38"><param name="Name" value="RIGHT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a41fc70cf581d5f3d5efaba227d0b406b"><param name="Name" value="setBitmap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a32b293b38ec5efd19c86c5cc95ab0e25"><param name="Name" value="setBullet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#af69e22a00c81d5610cfb121dabf25b2b"><param name="Name" value="setbX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbulletType.html#a623f1eeb1381c512708efccafbb3c192"><param name="Name" value="setbY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#a53c380bf26465df0f0f7beaca93b952d"><param name="Name" value="setEnemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a19472039711c84c97ef8d11921b9e510"><param name="Name" value="setX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a873a843e7f6eba7dd8ef41d4041661f6"><param name="Name" value="setY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ab22ce8a8f989211c6059e8b685fa78d0"><param name="Name" value="shot"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ade5ece41d11b17eb4b972f2bf0f6910b"><param name="Name" value="song"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#ae572dbdea486bf303ed756e2a1f30e0b"><param name="Name" value="songInstance"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95"><param name="Name" value="SPACE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#a34a3f6946a82531b3cd7855bf96dfec5"><param name="Name" value="timer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8h.html#a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05"><param name="Name" value="TITLE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Keyboard_8h.html#a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa"><param name="Name" value="UP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a21e9926b904c50aee54f966cc62dd172"><param name="Name" value="UpdateBackground"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a3baf341baf83315a91f694bafebf3a0e"><param name="Name" value="velX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a012729329c3eaaf671374116d9336fba"><param name="Name" value="velY"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="Allegro_8cc.html#a9649ab8139c4c2ea5c93625b30d92a05"><param name="Name" value="WIDTH"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#a43297fc8fceec13bed4e292a45bf564d"><param name="Name" value="width"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#af6650023418d2982420370f87eeff2de"><param name="Name" value="x"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#af6650023418d2982420370f87eeff2de"><param name="Name" value="Background"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#ac73360c104ab8e6f4cad79af69e904dd"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a31fa7567ef20b26ca2cafad6f17a776b"><param name="Name" value="Plane"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#adb462ce7dc04d3b09698f1baa3d173e6"><param name="Name" value="y"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structBackground.html#adb462ce7dc04d3b09698f1baa3d173e6"><param name="Name" value="Background"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemytype.html#a22ab8ba090798eb7fad364b0319f4d13"><param name="Name" value="Enemytype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#ace518f4f4d6d29db13e41276a327c323"><param name="Name" value="Plane"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAllegro.html#aaa80b9c26288f9d8d9888fc398d91b6c"><param name="Name" value="~Allegro"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classbullet.html#a82a107fafc86d136e4a78ff13d14ceaf"><param name="Name" value="~bullet"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemy.html#ac0eec4755e28c02688065f9657150ac3"><param name="Name" value="~Enemy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEnemyOne.html#ad7999ae2c8228030d3f07df562a5aa0a"><param name="Name" value="~EnemyOne"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classKeyboard.html#af6a99ec66c8c722a45b967bf79167038"><param name="Name" value="~Keyboard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlane.html#a69abd86051c880dcb44b249ad10c4436"><param name="Name" value="~Plane"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPlayer.html#a749d2c00e1fe0f5c2746f7505a58c062"><param name="Name" value="~Player"></OBJECT>
+</UL>
+</BODY>
+</HTML>

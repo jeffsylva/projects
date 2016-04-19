@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="structBackground" kind="struct" prot="public">
+    <compoundname>Background</compoundname>
+    <includes refid="Allegro_8h" local="no">Allegro.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structBackground_1af6650023418d2982420370f87eeff2de" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Background::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="117" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1adb462ce7dc04d3b09698f1baa3d173e6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Background::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y coordinate </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="118" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1a3baf341baf83315a91f694bafebf3a0e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Background::velX</definition>
+        <argsstring></argsstring>
+        <name>velX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Velocity of the background moving in the X direction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="119" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1a012729329c3eaaf671374116d9336fba" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Background::velY</definition>
+        <argsstring></argsstring>
+        <name>velY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Velocity of the background moving in the Y direction </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="120" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1afee83ed66ba7a564613525287cc33b32" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Background::dirX</definition>
+        <argsstring></argsstring>
+        <name>dirX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Direction of the background on the x axis </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="121" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1ae85e5871207ab04a678f217b3baf72fc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Background::dirY</definition>
+        <argsstring></argsstring>
+        <name>dirY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Direction of the background on the y axis </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="122" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1a43297fc8fceec13bed4e292a45bf564d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Background::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>width of the background image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="124" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1ab309ccac36fbe6b88cab0e30e8da1452" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Background::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>height of the background image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="125" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBackground_1aca1e48275f069718251c7023ddb5c9bb" prot="public" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* Background::image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The background image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Allegro.h" line="127" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylj2720/project/Allegro.h" line="116" bodyfile="/home/sylj2720/project/Allegro.h" bodystart="115" bodyend="128"/>
+    <listofallmembers>
+      <member refid="structBackground_1afee83ed66ba7a564613525287cc33b32" prot="public" virt="non-virtual"><scope>Background</scope><name>dirX</name></member>
+      <member refid="structBackground_1ae85e5871207ab04a678f217b3baf72fc" prot="public" virt="non-virtual"><scope>Background</scope><name>dirY</name></member>
+      <member refid="structBackground_1ab309ccac36fbe6b88cab0e30e8da1452" prot="public" virt="non-virtual"><scope>Background</scope><name>height</name></member>
+      <member refid="structBackground_1aca1e48275f069718251c7023ddb5c9bb" prot="public" virt="non-virtual"><scope>Background</scope><name>image</name></member>
+      <member refid="structBackground_1a3baf341baf83315a91f694bafebf3a0e" prot="public" virt="non-virtual"><scope>Background</scope><name>velX</name></member>
+      <member refid="structBackground_1a012729329c3eaaf671374116d9336fba" prot="public" virt="non-virtual"><scope>Background</scope><name>velY</name></member>
+      <member refid="structBackground_1a43297fc8fceec13bed4e292a45bf564d" prot="public" virt="non-virtual"><scope>Background</scope><name>width</name></member>
+      <member refid="structBackground_1af6650023418d2982420370f87eeff2de" prot="public" virt="non-virtual"><scope>Background</scope><name>x</name></member>
+      <member refid="structBackground_1adb462ce7dc04d3b09698f1baa3d173e6" prot="public" virt="non-virtual"><scope>Background</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

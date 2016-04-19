@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Player_8cc" kind="file">
+    <compoundname>Player.cc</compoundname>
+    <includes refid="Player_8h" local="yes">Player.h</includes>
+    <incdepgraph>
+      <node id="180">
+        <label>list</label>
+      </node>
+      <node id="173">
+        <label>Keyboard.h</label>
+        <link refid="Keyboard_8h"/>
+      </node>
+      <node id="174">
+        <label>bullet.h</label>
+        <link refid="bullet_8h"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="179">
+        <label>Plane.h</label>
+        <link refid="Plane_8h"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>string</label>
+      </node>
+      <node id="178">
+        <label>allegro5/allegro_primitives.h</label>
+      </node>
+      <node id="172">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>allegro5/allegro.h</label>
+      </node>
+      <node id="171">
+        <label>Player.cc</label>
+        <link refid="Player.cc"/>
+        <childnode refid="172" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+<para>Implementation of the <ref refid="classPlayer" kindref="compound">Player</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains the implementation of member variables and functions of the <ref refid="classPlayer" kindref="compound">Player</ref> class <simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. </para></simplesect>
+<xrefsect id="bug_1_bug000014"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Player_8h" kindref="compound" tooltip="Definition of the Player class which inherits from the bullet class.">Player.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classPlayer_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" refkind="member"><highlight class="normal"><ref refid="classPlayer_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kindref="member" tooltip="Constructor.">Player::Player</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPlayer_1aad33b52bfe73c4c978a3135172f286a0" kindref="member">health</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kindref="member">moveSpeed</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" kindref="member">bMoveSpeed</ref>=10;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classPlayer_1a749d2c00e1fe0f5c2746f7505a58c062" refkind="member"><highlight class="normal"><ref refid="classPlayer_1a749d2c00e1fe0f5c2746f7505a58c062" kindref="member" tooltip="Destructor.">Player::~Player</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" kindref="member" tooltip="Defines the movement key controls for the player object so it can be moved using...">Player::doLogic</ref>(<ref refid="classKeyboard" kindref="compound">Keyboard</ref><sp/>keyboard)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyboard.<ref refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kindref="member">key</ref>[<ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" kindref="member">UP</ref>]&amp;&amp;<ref refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kindref="member">y</ref>&gt;27)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kindref="member">y</ref><sp/>-=<sp/><ref refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyboard.<ref refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kindref="member">key</ref>[<ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" kindref="member">DOWN</ref>]&amp;&amp;<ref refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kindref="member">y</ref>&lt;450)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kindref="member">y</ref><sp/>+=<sp/><ref refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyboard.<ref refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kindref="member">key</ref>[<ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" kindref="member">LEFT</ref>]&amp;&amp;<ref refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kindref="member">x</ref>&gt;0)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kindref="member">x</ref><sp/>-=<sp/><ref refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(keyboard.<ref refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kindref="member">key</ref>[<ref refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" kindref="member">RIGHT</ref>]&amp;&amp;<ref refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kindref="member">x</ref>&lt;610)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kindref="member">x</ref><sp/>+=<sp/><ref refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" kindref="member" tooltip="This function initializes the movement of the bullet through the display.">Player::moveBullet</ref>(){</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(list&lt;bulletType*&gt;::iterator<sp/>it<sp/>=<sp/><ref refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" kindref="member">Blist</ref>.begin();it!=<ref refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" kindref="member">Blist</ref>.end();it++)<sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*it)<sp/>-&gt;<sp/>setbX((*it)-&gt;getbX()+<ref refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" kindref="member">bMoveSpeed</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/Player.cc"/>
+  </compounddef>
+</doxygen>

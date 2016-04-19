@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classEnemytype" kind="class" prot="public">
+    <compoundname>Enemytype</compoundname>
+    <includes refid="EnemyOne_8h" local="no">EnemyOne.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Enemytype::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the x coordinate of the enemy object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="24" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Enemytype::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the y coordinate of the enemy object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="25" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Enemytype::moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the speed at which the enemy object is moving </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="26" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEnemytype_1a641488fb71b330a7104abe92acd0601a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Enemytype::getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+<para>Getter function for the X coordinate of the enemy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="34" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="34" bodyend="36"/>
+        <references refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" compoundref="EnemyOne_8h" startline="24">x</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemytype_1aca1ceba65fea5f547abcfaa957c7e5ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Enemytype::getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+<para>Getter function for the Y coordinate of the enemy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int : the y coordinate of the enemy </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="43" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="43" bodyend="45"/>
+        <references refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" compoundref="EnemyOne_8h" startline="25">y</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemytype_1a19472039711c84c97ef8d11921b9e510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemytype::setX</definition>
+        <argsstring>(int a)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Setter function which sets the x coordinate of the enemy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the value which the X coordinate of the enemy will be set to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="53" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="52" bodyend="55"/>
+        <references refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" compoundref="EnemyOne_8h" startline="24">x</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemytype_1a873a843e7f6eba7dd8ef41d4041661f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemytype::setY</definition>
+        <argsstring>(int b)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Setter function which sets the Y coordinate of the enemy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the value which the Y coordinate of the enemy will be set to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="63" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="62" bodyend="65"/>
+        <references refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" compoundref="EnemyOne_8h" startline="25">y</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemytype_1adc3cce767c80a8dee47acd0e48691ac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Enemytype::getMS</definition>
+        <argsstring>()</argsstring>
+        <name>getMS</name>
+        <briefdescription>
+<para>a getter function which gets the set speed of the enemy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>moveSpeed : the speed of the enemy </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="72" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="72" bodyend="74"/>
+        <references refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" compoundref="EnemyOne_8h" startline="26">moveSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemytype_1a315e220bfb4ffe6c67f31ac57b015679" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Enemytype::Enemytype</definition>
+        <argsstring>(int a, int s)</argsstring>
+        <name>Enemytype</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Constructor : Creates the enemy to come from the right side of the screen(the x coordinate is automatically set to 640) and sets the speed at which they move. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the y coordinate of the enemy </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+<parametername>:</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the speed at which the enemies move </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/EnemyOne.h" line="82" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="82" bodyend="86"/>
+        <references refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" compoundref="EnemyOne_8h" startline="26">moveSpeed</references>
+        <references refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" compoundref="EnemyOne_8h" startline="24">x</references>
+        <references refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" compoundref="EnemyOne_8h" startline="25">y</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sylj2720/project/EnemyOne.h" line="22" bodyfile="/home/sylj2720/project/EnemyOne.h" bodystart="21" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classEnemytype_1a315e220bfb4ffe6c67f31ac57b015679" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>Enemytype</name></member>
+      <member refid="classEnemytype_1adc3cce767c80a8dee47acd0e48691ac3" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>getMS</name></member>
+      <member refid="classEnemytype_1a641488fb71b330a7104abe92acd0601a" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>getX</name></member>
+      <member refid="classEnemytype_1aca1ceba65fea5f547abcfaa957c7e5ce" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>getY</name></member>
+      <member refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" prot="private" virt="non-virtual"><scope>Enemytype</scope><name>moveSpeed</name></member>
+      <member refid="classEnemytype_1a19472039711c84c97ef8d11921b9e510" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>setX</name></member>
+      <member refid="classEnemytype_1a873a843e7f6eba7dd8ef41d4041661f6" prot="public" virt="non-virtual"><scope>Enemytype</scope><name>setY</name></member>
+      <member refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" prot="private" virt="non-virtual"><scope>Enemytype</scope><name>x</name></member>
+      <member refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" prot="private" virt="non-virtual"><scope>Enemytype</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

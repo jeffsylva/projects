@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classbullet" kind="class" prot="public">
+    <compoundname>bullet</compoundname>
+    <basecompoundref refid="classPlane" prot="public" virt="non-virtual">Plane</basecompoundref>
+    <derivedcompoundref refid="classPlayer" prot="public" virt="non-virtual">Player</derivedcompoundref>
+    <includes refid="bullet_8h" local="no">bullet.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classbullet_1ae5e6772fcf149f67b495de01c350d83f" prot="protected" static="no" mutable="no">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP* bullet::Bbitmap</definition>
+        <argsstring></argsstring>
+        <name>Bbitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a Bitmap object that will hold the <ref refid="classbullet" kindref="compound">bullet</ref> image </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="77" bodyfile="/home/sylj2720/project/bullet.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" prot="public" static="no" mutable="no">
+        <type>list&lt; <ref refid="classbulletType" kindref="compound">bulletType</ref> * &gt;</type>
+        <definition>list&lt;bulletType*&gt; bullet::Blist</definition>
+        <argsstring></argsstring>
+        <name>Blist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a list of the bullets </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="79" bodyfile="/home/sylj2720/project/bullet.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbullet_1a56eac386b0e6268b746bd7ed4883e1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bullet::bullet</definition>
+        <argsstring>()</argsstring>
+        <name>bullet</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="86" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="12" bodyend="16"/>
+        <references refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" compoundref="bullet_8h" startline="77">Bbitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classbullet_1a82a107fafc86d136e4a78ff13d14ceaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>bullet::~bullet</definition>
+        <argsstring>()</argsstring>
+        <name>~bullet</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="93" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="19" bodyend="23"/>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">Blist</references>
+      </memberdef>
+      <memberdef kind="function" id="classbullet_1a426140d3b62940f83861048560a570bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void bullet::addBullet</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>addBullet</name>
+        <param>
+          <type>int</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+<para>Creates the <ref refid="classbullet" kindref="compound">bullet</ref> and sets it at the x and y coordinates given with the two int parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: representing the x coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: representing the y coordinate of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="101" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="44" bodyend="49"/>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">Blist</references>
+      </memberdef>
+      <memberdef kind="function" id="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>bullet::setBullet</definition>
+        <argsstring>(std::string fileName)</argsstring>
+        <name>setBullet</name>
+        <param>
+          <type>std::string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Loads the bitmap image of the <ref refid="classbullet" kindref="compound">bullet</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: the file name/path that contains the image of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="108" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="25" bodyend="28"/>
+        <references refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" compoundref="bullet_8h" startline="77">Bbitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classbullet_1a16ea275b798ae9236015b3ff2e8fcb25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALLEGRO_BITMAP *</type>
+        <definition>ALLEGRO_BITMAP * bullet::getBulletMap</definition>
+        <argsstring>()</argsstring>
+        <name>getBulletMap</name>
+        <briefdescription>
+<para>getter function to get the bitmat image of the <ref refid="classbullet" kindref="compound">bullet</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Bitmap image of the <ref refid="classbullet" kindref="compound">bullet</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="115" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="31" bodyend="34"/>
+        <references refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" compoundref="bullet_8h" startline="77">Bbitmap</references>
+      </memberdef>
+      <memberdef kind="function" id="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>bullet::drawB</definition>
+        <argsstring>()</argsstring>
+        <name>drawB</name>
+        <briefdescription>
+<para>Draw function that actually draws the <ref refid="classbullet" kindref="compound">bullet</ref> image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/bullet.h" line="122" bodyfile="/home/sylj2720/project/bullet.cc" bodystart="36" bodyend="41"/>
+        <references refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" compoundref="bullet_8h" startline="77">Bbitmap</references>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">Blist</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Player</label>
+        <link refid="classPlayer"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sylj2720/project/bullet.h" line="75" bodyfile="/home/sylj2720/project/bullet.h" bodystart="74" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classbullet_1a426140d3b62940f83861048560a570bd" prot="public" virt="non-virtual"><scope>bullet</scope><name>addBullet</name></member>
+      <member refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" prot="protected" virt="non-virtual"><scope>bullet</scope><name>Bbitmap</name></member>
+      <member refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" prot="protected" virt="non-virtual"><scope>bullet</scope><name>bitmap</name></member>
+      <member refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" prot="public" virt="non-virtual"><scope>bullet</scope><name>Blist</name></member>
+      <member refid="classbullet_1a56eac386b0e6268b746bd7ed4883e1df" prot="public" virt="non-virtual"><scope>bullet</scope><name>bullet</name></member>
+      <member refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" prot="public" virt="non-virtual"><scope>bullet</scope><name>draw</name></member>
+      <member refid="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" prot="public" virt="non-virtual"><scope>bullet</scope><name>drawB</name></member>
+      <member refid="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" prot="public" virt="non-virtual"><scope>bullet</scope><name>getBitmap</name></member>
+      <member refid="classbullet_1a16ea275b798ae9236015b3ff2e8fcb25" prot="public" virt="non-virtual"><scope>bullet</scope><name>getBulletMap</name></member>
+      <member refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" prot="public" virt="non-virtual"><scope>bullet</scope><name>getX</name></member>
+      <member refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" prot="public" virt="non-virtual"><scope>bullet</scope><name>getY</name></member>
+      <member refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" prot="public" virt="non-virtual"><scope>bullet</scope><name>initialPlane</name></member>
+      <member refid="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" virt="non-virtual"><scope>bullet</scope><name>Plane</name></member>
+      <member refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" prot="public" virt="non-virtual"><scope>bullet</scope><name>setBitmap</name></member>
+      <member refid="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" prot="public" virt="non-virtual"><scope>bullet</scope><name>setBullet</name></member>
+      <member refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" prot="protected" virt="non-virtual"><scope>bullet</scope><name>x</name></member>
+      <member refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" prot="protected" virt="non-virtual"><scope>bullet</scope><name>y</name></member>
+      <member refid="classbullet_1a82a107fafc86d136e4a78ff13d14ceaf" prot="public" virt="non-virtual"><scope>bullet</scope><name>~bullet</name></member>
+      <member refid="classPlane_1a69abd86051c880dcb44b249ad10c4436" prot="public" virt="virtual"><scope>bullet</scope><name>~Plane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

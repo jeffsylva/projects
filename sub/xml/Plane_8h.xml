@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="Plane_8h" kind="file">
+    <compoundname>Plane.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">allegro5/allegro.h</includes>
+    <includes local="no">allegro5/allegro_image.h</includes>
+    <includedby refid="bullet_8h" local="yes">bullet.h</includedby>
+    <includedby refid="Plane_8cc" local="yes">Plane.cc</includedby>
+    <incdepgraph>
+      <node id="161">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="158">
+        <label>Plane.h</label>
+        <link refid="Plane.h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>string</label>
+      </node>
+      <node id="160">
+        <label>allegro5/allegro.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="170">
+        <label>Plane.cc</label>
+        <link refid="Plane_8cc"/>
+      </node>
+      <node id="163">
+        <label>bullet.h</label>
+        <link refid="bullet_8h"/>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>Plane.h</label>
+        <link refid="Plane.h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>main.cc</label>
+        <link refid="main_8cc"/>
+      </node>
+      <node id="165">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Allegro.h</label>
+        <link refid="Allegro_8h"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>Player.cc</label>
+        <link refid="Player_8cc"/>
+      </node>
+      <node id="167">
+        <label>Allegro.cc</label>
+        <link refid="Allegro_8cc"/>
+      </node>
+      <node id="164">
+        <label>bullet.cc</label>
+        <link refid="bullet_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPlane" prot="public">Plane</innerclass>
+    <briefdescription>
+<para>Definition of the <ref refid="classPlane" kindref="compound">Plane</ref> class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains the public and private member variables and functions of the <ref refid="classPlane" kindref="compound">Plane</ref> class.</para><para><simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi </para></simplesect>
+<xrefsect id="bug_1_bug000013"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="11"><highlight class="preprocessor">#ifndef<sp/>PLANE_H_</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLANE_H_</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classPlane" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPlane" kindref="compound">Plane</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" kindref="member">bitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="22" refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kindref="member">x</ref>,<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kindref="member">y</ref>;<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//x1,y1,x2,y2,y3,x3;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" kindref="member" tooltip="Constructor.">Plane</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a69abd86051c880dcb44b249ad10c4436" kindref="member" tooltip="Destructor.">~Plane</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" kindref="member" tooltip="this function gets the X coordinate of the object">getX</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" kindref="member" tooltip="this function gets the Y coordinate of the object">getY</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" kindref="member">setBitmap</ref>(std::string<sp/>filePath);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" kindref="member" tooltip="This function is used to get the object loaded onto the bitmap object by the function...">getBitmap</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" kindref="member" tooltip="This function set the starting point of the player by setting both the x and y coordinates...">initialPlane</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" kindref="member" tooltip="this function draws the loaded bitmap to the screen on the point provided by the...">draw</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/Plane.h"/>
+  </compounddef>
+</doxygen>

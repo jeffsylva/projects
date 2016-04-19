@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="main_8cc" kind="file">
+    <compoundname>main.cc</compoundname>
+    <includes refid="Allegro_8h" local="yes">Allegro.h</includes>
+    <incdepgraph>
+      <node id="144">
+        <label>list</label>
+      </node>
+      <node id="140">
+        <label>Keyboard.h</label>
+        <link refid="Keyboard_8h"/>
+      </node>
+      <node id="141">
+        <label>bullet.h</label>
+        <link refid="bullet_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="147">
+        <label>stdlib.h</label>
+      </node>
+      <node id="143">
+        <label>Plane.h</label>
+        <link refid="Plane_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>main.cc</label>
+        <link refid="main.cc"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>string</label>
+      </node>
+      <node id="135">
+        <label>allegro5/allegro_font.h</label>
+      </node>
+      <node id="145">
+        <label>Enemy.h</label>
+        <link refid="Enemy_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>EnemyOne.h</label>
+        <link refid="EnemyOne_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>allegro5/allegro_primitives.h</label>
+      </node>
+      <node id="139">
+        <label>Player.h</label>
+        <link refid="Player_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>allegro5/allegro.h</label>
+      </node>
+      <node id="138">
+        <label>allegro5/allegro_acodec.h</label>
+      </node>
+      <node id="131">
+        <label>Allegro.h</label>
+        <link refid="Allegro_8h"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>time.h</label>
+      </node>
+      <node id="149">
+        <label>iostream</label>
+      </node>
+      <node id="136">
+        <label>allegro5/allegro_ttf.h</label>
+      </node>
+      <node id="137">
+        <label>allegro5/allegro_audio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/main.cc" line="10" bodyfile="/home/sylj2720/project/main.cc" bodystart="9" bodyend="18"/>
+        <references refid="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" compoundref="Allegro_8cc" startline="107" endline="171">Allegro::createWindow</references>
+        <references refid="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" compoundref="Allegro_8cc" startline="173" endline="363">Allegro::gameLoop</references>
+        <references refid="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" compoundref="Allegro_8cc" startline="97" endline="105">Allegro::init</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the main function that calls the functions and initiates the gameplay. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi. </para></simplesect>
+<xrefsect id="bug_1_bug000011"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Allegro_8h" kindref="compound" tooltip="Definition of the Allegro class.">Allegro.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="main_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><ref refid="classAllegro" kindref="compound">Allegro</ref><sp/>*allegro<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classAllegro" kindref="compound">Allegro</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/>allegro-&gt;<ref refid="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" kindref="member" tooltip="Initial function.">init</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/>allegro-&gt;<ref refid="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" kindref="member" tooltip="Creates the display window using the width and height and initializes all the devices...">createWindow</ref>(60.0,<sp/>640,<sp/>480);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/>allegro-&gt;<ref refid="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" kindref="member" tooltip="This function defines the game itself. It loads the start image, the losing image...">gameLoop</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/main.cc"/>
+  </compounddef>
+</doxygen>

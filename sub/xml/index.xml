@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="classAllegro" kind="class"><name>Allegro</name>
+    <member refid="classAllegro_1a3e51f319f189787a5341d3297727eba5" kind="variable"><name>display</name></member>
+    <member refid="classAllegro_1a34a3f6946a82531b3cd7855bf96dfec5" kind="variable"><name>timer</name></member>
+    <member refid="classAllegro_1a4a2c1d6a0009b87fb04ac4726814623a" kind="variable"><name>event_queue</name></member>
+    <member refid="classAllegro_1a2c2276e5a5822696792c9c11c00731f2" kind="variable"><name>font</name></member>
+    <member refid="classAllegro_1a4bef38bf146ab5025f9a4f39bc7016f7" kind="variable"><name>keyboard</name></member>
+    <member refid="classAllegro_1a888f6af0c64c1c1eac49fc54d283e035" kind="variable"><name>player</name></member>
+    <member refid="classAllegro_1a70ea4292a405eb94fc4165fe19c7eaa4" kind="variable"><name>enemy</name></member>
+    <member refid="classAllegro_1ae10751d99b7a4921df87ac34b3757e24" kind="variable"><name>BAbitmap</name></member>
+    <member refid="classAllegro_1aa9dd463e9143160fd90433e5eea920b0" kind="variable"><name>LObitmap</name></member>
+    <member refid="classAllegro_1ad2c4aa4c19d5dbadb8c5c95b1e69dfa9" kind="variable"><name>EXbitmap</name></member>
+    <member refid="classAllegro_1a5711e0348cbd0cfa61bca6bb8badae45" kind="variable"><name>boss</name></member>
+    <member refid="classAllegro_1ae15c8aa4996c4a2063f5678630eb9e65" kind="variable"><name>looping</name></member>
+    <member refid="classAllegro_1a09c325f5ec95db410ce99ea5c4312b4b" kind="variable"><name>redraw</name></member>
+    <member refid="classAllegro_1a3f5c52ac57364f5587d88766ed75476e" kind="function"><name>Allegro</name></member>
+    <member refid="classAllegro_1aaa80b9c26288f9d8d9888fc398d91b6c" kind="function"><name>~Allegro</name></member>
+    <member refid="classAllegro_1a5e00fb24164087bd89b0d6bfc6b319b7" kind="function"><name>init</name></member>
+    <member refid="classAllegro_1a5669e6448fac3a62871a2fe5dcf00aeb" kind="function"><name>createWindow</name></member>
+    <member refid="classAllegro_1ae0fe43326c885fa115169c68d74e7ff5" kind="function"><name>gameLoop</name></member>
+    <member refid="classAllegro_1a10d4912b8dfc5b7b5a13db103e441bfe" kind="function"><name>collision</name></member>
+    <member refid="classAllegro_1ab73885862f77defd9dac0868f18ca4cd" kind="function"><name>collision1</name></member>
+  </compound>
+  <compound refid="structBackground" kind="struct"><name>Background</name>
+    <member refid="structBackground_1af6650023418d2982420370f87eeff2de" kind="variable"><name>x</name></member>
+    <member refid="structBackground_1adb462ce7dc04d3b09698f1baa3d173e6" kind="variable"><name>y</name></member>
+    <member refid="structBackground_1a3baf341baf83315a91f694bafebf3a0e" kind="variable"><name>velX</name></member>
+    <member refid="structBackground_1a012729329c3eaaf671374116d9336fba" kind="variable"><name>velY</name></member>
+    <member refid="structBackground_1afee83ed66ba7a564613525287cc33b32" kind="variable"><name>dirX</name></member>
+    <member refid="structBackground_1ae85e5871207ab04a678f217b3baf72fc" kind="variable"><name>dirY</name></member>
+    <member refid="structBackground_1a43297fc8fceec13bed4e292a45bf564d" kind="variable"><name>width</name></member>
+    <member refid="structBackground_1ab309ccac36fbe6b88cab0e30e8da1452" kind="variable"><name>height</name></member>
+    <member refid="structBackground_1aca1e48275f069718251c7023ddb5c9bb" kind="variable"><name>image</name></member>
+  </compound>
+  <compound refid="classbullet" kind="class"><name>bullet</name>
+    <member refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" kind="variable"><name>Bbitmap</name></member>
+    <member refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" kind="variable"><name>Blist</name></member>
+    <member refid="classbullet_1a56eac386b0e6268b746bd7ed4883e1df" kind="function"><name>bullet</name></member>
+    <member refid="classbullet_1a82a107fafc86d136e4a78ff13d14ceaf" kind="function"><name>~bullet</name></member>
+    <member refid="classbullet_1a426140d3b62940f83861048560a570bd" kind="function"><name>addBullet</name></member>
+    <member refid="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" kind="function"><name>setBullet</name></member>
+    <member refid="classbullet_1a16ea275b798ae9236015b3ff2e8fcb25" kind="function"><name>getBulletMap</name></member>
+    <member refid="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" kind="function"><name>drawB</name></member>
+  </compound>
+  <compound refid="classbulletType" kind="class"><name>bulletType</name>
+    <member refid="classbulletType_1a0078ec4eb7df2062788ae69200a73bf3" kind="variable"><name>bX</name></member>
+    <member refid="classbulletType_1a7083d68e84fe928b1e46575fda710d5d" kind="variable"><name>bY</name></member>
+    <member refid="classbulletType_1ad854048f38d7514caa09af4ab034837b" kind="function"><name>bulletType</name></member>
+    <member refid="classbulletType_1a3a40c67dcf6d3b6dc91e6fa7800cdaf4" kind="function"><name>getbX</name></member>
+    <member refid="classbulletType_1a623f1eeb1381c512708efccafbb3c192" kind="function"><name>setbY</name></member>
+    <member refid="classbulletType_1af69e22a00c81d5610cfb121dabf25b2b" kind="function"><name>setbX</name></member>
+    <member refid="classbulletType_1a6787ea4992f2fead3ee07e9216b06d4e" kind="function"><name>getbY</name></member>
+  </compound>
+  <compound refid="classEnemy" kind="class"><name>Enemy</name>
+    <member refid="classEnemy_1aedd5e7bf8ef07ee97be433c853a10d8d" kind="variable"><name>health</name></member>
+    <member refid="classEnemy_1a94f30d348b6d2840fd71675472ba38dd" kind="function"><name>Enemy</name></member>
+    <member refid="classEnemy_1ac0eec4755e28c02688065f9657150ac3" kind="function"><name>~Enemy</name></member>
+    <member refid="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" kind="function"><name>moveEnemy</name></member>
+    <member refid="classEnemy_1a405168f47abea55981313377385d6c37" kind="function"><name>moveboss</name></member>
+  </compound>
+  <compound refid="classEnemyOne" kind="class"><name>EnemyOne</name>
+    <member refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" kind="variable"><name>Ebitmap</name></member>
+    <member refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" kind="variable"><name>Ebitmap2</name></member>
+    <member refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kind="variable"><name>Elist</name></member>
+    <member refid="classEnemyOne_1a876b7dc33899c1627a0ee1e08b34baf8" kind="function"><name>EnemyOne</name></member>
+    <member refid="classEnemyOne_1ad7999ae2c8228030d3f07df562a5aa0a" kind="function"><name>~EnemyOne</name></member>
+    <member refid="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" kind="function"><name>addEnemy</name></member>
+    <member refid="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" kind="function"><name>setEnemy</name></member>
+    <member refid="classEnemyOne_1a348b86c31e258c7ccf83a4f44397f542" kind="function"><name>getEnemy</name></member>
+    <member refid="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" kind="function"><name>drawE</name></member>
+  </compound>
+  <compound refid="classEnemytype" kind="class"><name>Enemytype</name>
+    <member refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" kind="variable"><name>x</name></member>
+    <member refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" kind="variable"><name>y</name></member>
+    <member refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" kind="variable"><name>moveSpeed</name></member>
+    <member refid="classEnemytype_1a641488fb71b330a7104abe92acd0601a" kind="function"><name>getX</name></member>
+    <member refid="classEnemytype_1aca1ceba65fea5f547abcfaa957c7e5ce" kind="function"><name>getY</name></member>
+    <member refid="classEnemytype_1a19472039711c84c97ef8d11921b9e510" kind="function"><name>setX</name></member>
+    <member refid="classEnemytype_1a873a843e7f6eba7dd8ef41d4041661f6" kind="function"><name>setY</name></member>
+    <member refid="classEnemytype_1adc3cce767c80a8dee47acd0e48691ac3" kind="function"><name>getMS</name></member>
+    <member refid="classEnemytype_1a315e220bfb4ffe6c67f31ac57b015679" kind="function"><name>Enemytype</name></member>
+  </compound>
+  <compound refid="classKeyboard" kind="class"><name>Keyboard</name>
+    <member refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" kind="variable"><name>key</name></member>
+    <member refid="classKeyboard_1ad6b0bb849d6bb7cdf63091e40b5f5f7f" kind="function"><name>Keyboard</name></member>
+    <member refid="classKeyboard_1af6a99ec66c8c722a45b967bf79167038" kind="function"><name>~Keyboard</name></member>
+  </compound>
+  <compound refid="classPlane" kind="class"><name>Plane</name>
+    <member refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" kind="variable"><name>bitmap</name></member>
+    <member refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" kind="variable"><name>x</name></member>
+    <member refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" kind="variable"><name>y</name></member>
+    <member refid="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" kind="function"><name>Plane</name></member>
+    <member refid="classPlane_1a69abd86051c880dcb44b249ad10c4436" kind="function"><name>~Plane</name></member>
+    <member refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" kind="function"><name>getX</name></member>
+    <member refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" kind="function"><name>getY</name></member>
+    <member refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" kind="function"><name>setBitmap</name></member>
+    <member refid="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" kind="function"><name>getBitmap</name></member>
+    <member refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" kind="function"><name>initialPlane</name></member>
+    <member refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" kind="function"><name>draw</name></member>
+  </compound>
+  <compound refid="classPlayer" kind="class"><name>Player</name>
+    <member refid="classPlayer_1aad33b52bfe73c4c978a3135172f286a0" kind="variable"><name>health</name></member>
+    <member refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" kind="variable"><name>moveSpeed</name></member>
+    <member refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" kind="variable"><name>bMoveSpeed</name></member>
+    <member refid="classPlayer_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" kind="function"><name>Player</name></member>
+    <member refid="classPlayer_1a749d2c00e1fe0f5c2746f7505a58c062" kind="function"><name>~Player</name></member>
+    <member refid="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" kind="function"><name>doLogic</name></member>
+    <member refid="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" kind="function"><name>moveBullet</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="Allegro_8cc" kind="file"><name>Allegro.cc</name>
+    <member refid="Allegro_8cc_1a9649ab8139c4c2ea5c93625b30d92a05" kind="variable"><name>WIDTH</name></member>
+    <member refid="Allegro_8cc_1af728b7647e0b8c49832983a31f9a2e9b" kind="variable"><name>HEIGHT</name></member>
+    <member refid="Allegro_8cc_1a517498b88bc80c8256f1344b9e545844" kind="variable"><name>BG</name></member>
+    <member refid="Allegro_8cc_1a03c6c56b2413727c4d2aa30878a4c9dd" kind="variable"><name>MG</name></member>
+    <member refid="Allegro_8cc_1a8ab41d06d3c524eb6a6f981aec1a2f1b" kind="variable"><name>FG</name></member>
+    <member refid="Allegro_8cc_1a8f860b073e53aafca02767b0f12fc6a0" kind="variable"><name>bgImage</name></member>
+    <member refid="Allegro_8cc_1a524ab98ea9b49e9028efed6857dd74b5" kind="variable"><name>mgImage</name></member>
+    <member refid="Allegro_8cc_1a371876e1de9f1b046258f5e860751c98" kind="variable"><name>fgImage</name></member>
+    <member refid="Allegro_8cc_1ab22ce8a8f989211c6059e8b685fa78d0" kind="variable"><name>shot</name></member>
+    <member refid="Allegro_8cc_1af4226d9561efb980f7c3dd74cba6ba4d" kind="variable"><name>boom</name></member>
+    <member refid="Allegro_8cc_1ade5ece41d11b17eb4b972f2bf0f6910b" kind="variable"><name>song</name></member>
+    <member refid="Allegro_8cc_1ae572dbdea486bf303ed756e2a1f30e0b" kind="variable"><name>songInstance</name></member>
+    <member refid="Allegro_8cc_1a3db5561fa9137b9ac3ec2133a7aa4054" kind="function"><name>InitBackground</name></member>
+    <member refid="Allegro_8cc_1a21e9926b904c50aee54f966cc62dd172" kind="function"><name>UpdateBackground</name></member>
+    <member refid="Allegro_8cc_1a5b40a7650f8818fbff0104d84a236cff" kind="function"><name>DrawBackground</name></member>
+  </compound>
+  <compound refid="Allegro_8h" kind="file"><name>Allegro.h</name>
+    <member refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444" kind="enum"><name>States</name></member>
+    <member refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0a041e18d712f7b239eac5375daf4a05" kind="enumvalue"><name>TITLE</name></member>
+    <member refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a0352906d1ea1dfcd663c918f3a86755b" kind="enumvalue"><name>PLAY</name></member>
+    <member refid="Allegro_8h_1a808e5cd4979462d3bbe3070d7d147444a339435bd0d4a842c6107333c908a5317" kind="enumvalue"><name>LOST</name></member>
+  </compound>
+  <compound refid="bullet_8cc" kind="file"><name>bullet.cc</name>
+  </compound>
+  <compound refid="bullet_8h" kind="file"><name>bullet.h</name>
+  </compound>
+  <compound refid="Enemy_8cc" kind="file"><name>Enemy.cc</name>
+  </compound>
+  <compound refid="Enemy_8h" kind="file"><name>Enemy.h</name>
+  </compound>
+  <compound refid="EnemyOne_8cc" kind="file"><name>EnemyOne.cc</name>
+  </compound>
+  <compound refid="EnemyOne_8h" kind="file"><name>EnemyOne.h</name>
+  </compound>
+  <compound refid="Keyboard_8cc" kind="file"><name>Keyboard.cc</name>
+  </compound>
+  <compound refid="Keyboard_8h" kind="file"><name>Keyboard.h</name>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712" kind="enum"><name>keys</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" kind="enumvalue"><name>UP</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" kind="enumvalue"><name>LEFT</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" kind="enumvalue"><name>DOWN</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" kind="enumvalue"><name>RIGHT</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712ac08dae7edcb5c5bb959fee5971fbad95" kind="enumvalue"><name>SPACE</name></member>
+    <member refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a951ab68bb8f7daafb78951107080904e" kind="enumvalue"><name>ENTER</name></member>
+  </compound>
+  <compound refid="main_8cc" kind="file"><name>main.cc</name>
+    <member refid="main_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="Plane_8cc" kind="file"><name>Plane.cc</name>
+  </compound>
+  <compound refid="Plane_8h" kind="file"><name>Plane.h</name>
+  </compound>
+  <compound refid="Player_8cc" kind="file"><name>Player.cc</name>
+  </compound>
+  <compound refid="Player_8h" kind="file"><name>Player.h</name>
+  </compound>
+  <compound refid="bug" kind="page"><name>bug</name>
+  </compound>
+</doxygenindex>

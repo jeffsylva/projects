@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="EnemyOne_8h" kind="file">
+    <compoundname>EnemyOne.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">allegro5/allegro.h</includes>
+    <includes local="no">allegro5/allegro_image.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">list</includes>
+    <includedby refid="Enemy_8h" local="yes">Enemy.h</includedby>
+    <includedby refid="EnemyOne_8cc" local="yes">EnemyOne.cc</includedby>
+    <incdepgraph>
+      <node id="111">
+        <label>list</label>
+      </node>
+      <node id="107">
+        <label>allegro5/allegro_image.h</label>
+      </node>
+      <node id="108">
+        <label>stdlib.h</label>
+      </node>
+      <node id="105">
+        <label>string</label>
+      </node>
+      <node id="104">
+        <label>EnemyOne.h</label>
+        <link refid="EnemyOne.h"/>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>allegro5/allegro.h</label>
+      </node>
+      <node id="109">
+        <label>time.h</label>
+      </node>
+      <node id="110">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="116">
+        <label>main.cc</label>
+        <link refid="main_8cc"/>
+      </node>
+      <node id="113">
+        <label>Enemy.h</label>
+        <link refid="Enemy_8h"/>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>EnemyOne.h</label>
+        <link refid="EnemyOne.h"/>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>Allegro.h</label>
+        <link refid="Allegro_8h"/>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>Enemy.cc</label>
+        <link refid="Enemy_8cc"/>
+      </node>
+      <node id="115">
+        <label>Allegro.cc</label>
+        <link refid="Allegro_8cc"/>
+      </node>
+      <node id="118">
+        <label>EnemyOne.cc</label>
+        <link refid="EnemyOne_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classEnemytype" prot="public">Enemytype</innerclass>
+    <innerclass refid="classEnemyOne" prot="public">EnemyOne</innerclass>
+    <briefdescription>
+<para>Definition of the <ref refid="classEnemytype" kindref="compound">Enemytype</ref> and <ref refid="classEnemyOne" kindref="compound">EnemyOne</ref> classes. </para>    </briefdescription>
+    <detaileddescription>
+<para>This contains thepublic and private member variables and functions of the <ref refid="classEnemytype" kindref="compound">Enemytype</ref> and <ref refid="classEnemyOne" kindref="compound">EnemyOne</ref> classes <simplesect kind="author"><para>Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi </para></simplesect>
+<xrefsect id="bug_1_bug000008"><xreftitle>Bug</xreftitle><xrefdescription><para>No known bugs. </para></xrefdescription></xrefsect></para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>ENEMYONE_H_</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ENEMYONE_H_</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;allegro5/allegro_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="21" refid="classEnemytype" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEnemytype" kindref="compound">Enemytype</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" kindref="member">x</ref>;<sp/></highlight></codeline>
+<codeline lineno="25" refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" kindref="member">y</ref>;<sp/></highlight></codeline>
+<codeline lineno="26" refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" kindref="member">moveSpeed</ref>;<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="classEnemytype_1a641488fb71b330a7104abe92acd0601a" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a641488fb71b330a7104abe92acd0601a" kindref="member" tooltip="Getter function for the X coordinate of the enemy.">getX</ref>(){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classEnemytype_1aca1ceba65fea5f547abcfaa957c7e5ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1aca1ceba65fea5f547abcfaa957c7e5ce" kindref="member" tooltip="Getter function for the Y coordinate of the enemy.">getY</ref>(){</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52" refid="classEnemytype_1a19472039711c84c97ef8d11921b9e510" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a19472039711c84c97ef8d11921b9e510" kindref="member" tooltip="Setter function which sets the x coordinate of the enemy.">setX</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" kindref="member">x</ref>=a;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62" refid="classEnemytype_1a873a843e7f6eba7dd8ef41d4041661f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a873a843e7f6eba7dd8ef41d4041661f6" kindref="member" tooltip="Setter function which sets the Y coordinate of the enemy.">setY</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" kindref="member">y</ref>=b;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classEnemytype_1adc3cce767c80a8dee47acd0e48691ac3" refkind="member"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1adc3cce767c80a8dee47acd0e48691ac3" kindref="member" tooltip="a getter function which gets the set speed of the enemy">getMS</ref>(){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" kindref="member">moveSpeed</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classEnemytype_1a315e220bfb4ffe6c67f31ac57b015679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><ref refid="classEnemytype_1a315e220bfb4ffe6c67f31ac57b015679" kindref="member" tooltip="Constructor : Creates the enemy to come from the right side of the screen(the x coordinate...">Enemytype</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>s){</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEnemytype_1ac73360c104ab8e6f4cad79af69e904dd" kindref="member">x</ref>=640;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEnemytype_1a22ab8ba090798eb7fad364b0319f4d13" kindref="member">y</ref>=a;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classEnemytype_1a7fbb15c1e006c25cc926b55cd3ea23dd" kindref="member">moveSpeed</ref>=s;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classEnemyOne" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEnemyOne" kindref="compound">EnemyOne</ref></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93" refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" refkind="member"><highlight class="normal">ALLEGRO_BITMAP<sp/>*<ref refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" kindref="member">Ebitmap</ref>;<sp/></highlight></codeline>
+<codeline lineno="94" refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" refkind="member"><highlight class="normal"><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" kindref="member">Ebitmap2</ref>;<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96" refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/>list&lt;Enemytype*&gt;<sp/><ref refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" kindref="member">Elist</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><ref refid="classEnemyOne_1a876b7dc33899c1627a0ee1e08b34baf8" kindref="member" tooltip="Constructor : Sets the images for the two enemy types to NULL before they are actually...">EnemyOne</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classEnemyOne_1ad7999ae2c8228030d3f07df562a5aa0a" kindref="member" tooltip="Destructor : Destroys any enemy type created dynamically.">~EnemyOne</ref>();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" kindref="member" tooltip="Creates an Enemy object dynamically at the coordinates given by b &amp;amp; s which represent...">addEnemy</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" kindref="member" tooltip="Loads the image name in the parameter list onto the Ebitmap object.">setEnemy</ref>(std::string<sp/>name);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/>ALLEGRO_BITMAP<sp/>*<ref refid="classEnemyOne_1a348b86c31e258c7ccf83a4f44397f542" kindref="member" tooltip="Getter function to get the set Enemy image.">getEnemy</ref>();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" kindref="member" tooltip="A draw function that draws the image loaded onto the enemy bitmap.">drawE</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/sylj2720/project/EnemyOne.h"/>
+  </compounddef>
+</doxygen>

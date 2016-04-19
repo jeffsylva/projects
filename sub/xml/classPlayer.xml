@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classPlayer" kind="class" prot="public">
+    <compoundname>Player</compoundname>
+    <basecompoundref refid="classbullet" prot="public" virt="non-virtual">bullet</basecompoundref>
+    <includes refid="Player_8h" local="no">Player.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPlayer_1aad33b52bfe73c4c978a3135172f286a0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player::health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="20" bodyfile="/home/sylj2720/project/Player.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player::moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rate at which the player can be moved </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="21" bodyfile="/home/sylj2720/project/Player.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPlayer_1a33023a67c031eceeef05268f01eae43d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player::bMoveSpeed</definition>
+        <argsstring></argsstring>
+        <name>bMoveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>speed of the <ref refid="classbullet" kindref="compound">bullet</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="22" bodyfile="/home/sylj2720/project/Player.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPlayer_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Player::Player</definition>
+        <argsstring>()</argsstring>
+        <name>Player</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="31" bodyfile="/home/sylj2720/project/Player.cc" bodystart="12" bodyend="17"/>
+        <references refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" compoundref="Player_8h" startline="20">bMoveSpeed</references>
+        <references refid="classPlayer_1aad33b52bfe73c4c978a3135172f286a0" compoundref="Player_8h" startline="20">health</references>
+        <references refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" compoundref="Player_8h" startline="20">moveSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlayer_1a749d2c00e1fe0f5c2746f7505a58c062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Player::~Player</definition>
+        <argsstring>()</argsstring>
+        <name>~Player</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="38" bodyfile="/home/sylj2720/project/Player.cc" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>Void Player::doLogic</definition>
+        <argsstring>(Keyboard keyboard)</argsstring>
+        <name>doLogic</name>
+        <param>
+          <type><ref refid="classKeyboard" kindref="compound">Keyboard</ref></type>
+          <declname>keyboard</declname>
+        </param>
+        <briefdescription>
+<para>Defines the movement key controls for the player object so it can be moved using a keyboard. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes in a <ref refid="classKeyboard" kindref="compound">Keyboard</ref> object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="44" bodyfile="/home/sylj2720/project/Player.cc" bodystart="23" bodyend="33"/>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712a9b0b4a95b99523966e0e34ffdadac9da" compoundref="Keyboard_8h" startline="13">DOWN</references>
+        <references refid="classKeyboard_1aad6d0d22cffc14a293b3a3b6a98da05d" compoundref="Keyboard_8h" startline="21">Keyboard::key</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712adb45120aafd37a973140edee24708065" compoundref="Keyboard_8h" startline="13">LEFT</references>
+        <references refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" compoundref="Player_8h" startline="20">moveSpeed</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aec8379af7490bb9eaaf579cf17876f38" compoundref="Keyboard_8h" startline="13">RIGHT</references>
+        <references refid="Keyboard_8h_1a3121b5e20cccb8e49edcbd3e9ac77712aba595d8bca8bc5e67c37c0a9d89becfa" compoundref="Keyboard_8h" startline="13">UP</references>
+        <references refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" compoundref="Plane_8h" startline="22">Plane::x</references>
+        <references refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" compoundref="Plane_8h" startline="22">Plane::y</references>
+      </memberdef>
+      <memberdef kind="function" id="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player::moveBullet</definition>
+        <argsstring>()</argsstring>
+        <name>moveBullet</name>
+        <briefdescription>
+<para>This function initializes the movement of the <ref refid="classbullet" kindref="compound">bullet</ref> through the display. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes no parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Player.h" line="52" bodyfile="/home/sylj2720/project/Player.cc" bodystart="36" bodyend="40"/>
+        <references refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" compoundref="bullet_8h" startline="79">bullet::Blist</references>
+        <references refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" compoundref="Player_8h" startline="20">bMoveSpeed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Player</label>
+        <link refid="classPlayer"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>bullet</label>
+        <link refid="classbullet"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Player</label>
+        <link refid="classPlayer"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Plane</label>
+        <link refid="classPlane"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sylj2720/project/Player.h" line="18" bodyfile="/home/sylj2720/project/Player.h" bodystart="17" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classbullet_1a426140d3b62940f83861048560a570bd" prot="public" virt="non-virtual"><scope>Player</scope><name>addBullet</name></member>
+      <member refid="classbullet_1ae5e6772fcf149f67b495de01c350d83f" prot="protected" virt="non-virtual"><scope>Player</scope><name>Bbitmap</name></member>
+      <member refid="classPlane_1a5f3754de26e2b832d79fd83752b0f2df" prot="protected" virt="non-virtual"><scope>Player</scope><name>bitmap</name></member>
+      <member refid="classbullet_1ae700876dfc6875705a5c40ff4b80f94d" prot="public" virt="non-virtual"><scope>Player</scope><name>Blist</name></member>
+      <member refid="classPlayer_1a33023a67c031eceeef05268f01eae43d" prot="private" virt="non-virtual"><scope>Player</scope><name>bMoveSpeed</name></member>
+      <member refid="classbullet_1a56eac386b0e6268b746bd7ed4883e1df" prot="public" virt="non-virtual"><scope>Player</scope><name>bullet</name></member>
+      <member refid="classPlayer_1addf356ccfe6223db41eb4a06d5661a60" prot="public" virt="non-virtual"><scope>Player</scope><name>doLogic</name></member>
+      <member refid="classPlane_1a8877358878e91929c4c01bad40cbdb78" prot="public" virt="non-virtual"><scope>Player</scope><name>draw</name></member>
+      <member refid="classbullet_1a93cf5a76bb99163b52f5e42a359ea2e8" prot="public" virt="non-virtual"><scope>Player</scope><name>drawB</name></member>
+      <member refid="classPlane_1a0d2bb766e1d07c7097fd741adff8c4d8" prot="public" virt="non-virtual"><scope>Player</scope><name>getBitmap</name></member>
+      <member refid="classbullet_1a16ea275b798ae9236015b3ff2e8fcb25" prot="public" virt="non-virtual"><scope>Player</scope><name>getBulletMap</name></member>
+      <member refid="classPlane_1ab0db534796dff1c2ff490fe989261cda" prot="public" virt="non-virtual"><scope>Player</scope><name>getX</name></member>
+      <member refid="classPlane_1a8c754851771ba75ecd163a55d2f31800" prot="public" virt="non-virtual"><scope>Player</scope><name>getY</name></member>
+      <member refid="classPlayer_1aad33b52bfe73c4c978a3135172f286a0" prot="private" virt="non-virtual"><scope>Player</scope><name>health</name></member>
+      <member refid="classPlane_1a6f961e4c2c03b03bac2bd61749ec51e1" prot="public" virt="non-virtual"><scope>Player</scope><name>initialPlane</name></member>
+      <member refid="classPlayer_1a4c994edd3d4c3b3378501353d73e30cb" prot="public" virt="non-virtual"><scope>Player</scope><name>moveBullet</name></member>
+      <member refid="classPlayer_1a84469d0950bc9151404b8930e6cf0ebb" prot="private" virt="non-virtual"><scope>Player</scope><name>moveSpeed</name></member>
+      <member refid="classPlane_1acac0d9c003e0ab10d07b146c3566a0c7" prot="public" virt="non-virtual"><scope>Player</scope><name>Plane</name></member>
+      <member refid="classPlayer_1affe0cc3cb714f6deb4e62f0c0d3f1fd8" prot="public" virt="non-virtual"><scope>Player</scope><name>Player</name></member>
+      <member refid="classPlane_1a41fc70cf581d5f3d5efaba227d0b406b" prot="public" virt="non-virtual"><scope>Player</scope><name>setBitmap</name></member>
+      <member refid="classbullet_1a32b293b38ec5efd19c86c5cc95ab0e25" prot="public" virt="non-virtual"><scope>Player</scope><name>setBullet</name></member>
+      <member refid="classPlane_1a31fa7567ef20b26ca2cafad6f17a776b" prot="protected" virt="non-virtual"><scope>Player</scope><name>x</name></member>
+      <member refid="classPlane_1ace518f4f4d6d29db13e41276a327c323" prot="protected" virt="non-virtual"><scope>Player</scope><name>y</name></member>
+      <member refid="classbullet_1a82a107fafc86d136e4a78ff13d14ceaf" prot="public" virt="non-virtual"><scope>Player</scope><name>~bullet</name></member>
+      <member refid="classPlane_1a69abd86051c880dcb44b249ad10c4436" prot="public" virt="virtual"><scope>Player</scope><name>~Plane</name></member>
+      <member refid="classPlayer_1a749d2c00e1fe0f5c2746f7505a58c062" prot="public" virt="non-virtual"><scope>Player</scope><name>~Player</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

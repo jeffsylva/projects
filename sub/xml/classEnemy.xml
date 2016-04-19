@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="classEnemy" kind="class" prot="public">
+    <compoundname>Enemy</compoundname>
+    <basecompoundref refid="classEnemyOne" prot="public" virt="non-virtual">EnemyOne</basecompoundref>
+    <includes refid="Enemy_8h" local="no">Enemy.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classEnemy_1aedd5e7bf8ef07ee97be433c853a10d8d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Enemy::health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the health of the enemy which is set to 0 by the constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Enemy.h" line="18" bodyfile="/home/sylj2720/project/Enemy.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEnemy_1a94f30d348b6d2840fd71675472ba38dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Enemy::Enemy</definition>
+        <argsstring>()</argsstring>
+        <name>Enemy</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Enemy.h" line="26" bodyfile="/home/sylj2720/project/Enemy.cc" bodystart="15" bodyend="19"/>
+        <references refid="classEnemy_1aedd5e7bf8ef07ee97be433c853a10d8d" compoundref="Enemy_8h" startline="18">health</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemy_1ac0eec4755e28c02688065f9657150ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Enemy::~Enemy</definition>
+        <argsstring>()</argsstring>
+        <name>~Enemy</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Enemy.h" line="33" bodyfile="/home/sylj2720/project/Enemy.cc" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemy::moveEnemy</definition>
+        <argsstring>()</argsstring>
+        <name>moveEnemy</name>
+        <briefdescription>
+<para>Defines the movement of the first enemy type to move from right to left by subtracting the &apos;moveSpeed&apos; from the x coordinate. if enemy goes out of the screen on the left, it is reset to the right side. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Enemy.h" line="40" bodyfile="/home/sylj2720/project/Enemy.cc" bodystart="23" bodyend="31"/>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">EnemyOne::Elist</references>
+      </memberdef>
+      <memberdef kind="function" id="classEnemy_1a405168f47abea55981313377385d6c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Enemy::moveboss</definition>
+        <argsstring>()</argsstring>
+        <name>moveboss</name>
+        <briefdescription>
+<para>Defines the movement of the second enemy type to move from right to left by subracting the &apos;moveSpeed&apos; from the x coordinate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>No</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>No return value </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sylj2720/project/Enemy.h" line="47" bodyfile="/home/sylj2720/project/Enemy.cc" bodystart="32" bodyend="38"/>
+        <references refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" compoundref="EnemyOne_8h" startline="96">EnemyOne::Elist</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>EnemyOne</label>
+        <link refid="classEnemyOne"/>
+      </node>
+      <node id="17">
+        <label>Enemy</label>
+        <link refid="classEnemy"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>EnemyOne</label>
+        <link refid="classEnemyOne"/>
+      </node>
+      <node id="19">
+        <label>Enemy</label>
+        <link refid="classEnemy"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sylj2720/project/Enemy.h" line="16" bodyfile="/home/sylj2720/project/Enemy.h" bodystart="15" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classEnemyOne_1a428e216932e0a454b59b705f62d1c1a0" prot="public" virt="non-virtual"><scope>Enemy</scope><name>addEnemy</name></member>
+      <member refid="classEnemyOne_1a8017eb7f3cf8510043e542ed5314fbf9" prot="public" virt="non-virtual"><scope>Enemy</scope><name>drawE</name></member>
+      <member refid="classEnemyOne_1a186a44174a5f8c35d805209c1806d967" prot="protected" virt="non-virtual"><scope>Enemy</scope><name>Ebitmap</name></member>
+      <member refid="classEnemyOne_1ab42c5298a1849dd5a422dfaa1dc0f459" prot="protected" virt="non-virtual"><scope>Enemy</scope><name>Ebitmap2</name></member>
+      <member refid="classEnemyOne_1a1e46e43f2fe68dad65a79d57671159b6" prot="public" virt="non-virtual"><scope>Enemy</scope><name>Elist</name></member>
+      <member refid="classEnemy_1a94f30d348b6d2840fd71675472ba38dd" prot="public" virt="non-virtual"><scope>Enemy</scope><name>Enemy</name></member>
+      <member refid="classEnemyOne_1a876b7dc33899c1627a0ee1e08b34baf8" prot="public" virt="non-virtual"><scope>Enemy</scope><name>EnemyOne</name></member>
+      <member refid="classEnemyOne_1a348b86c31e258c7ccf83a4f44397f542" prot="public" virt="non-virtual"><scope>Enemy</scope><name>getEnemy</name></member>
+      <member refid="classEnemy_1aedd5e7bf8ef07ee97be433c853a10d8d" prot="protected" virt="non-virtual"><scope>Enemy</scope><name>health</name></member>
+      <member refid="classEnemy_1a405168f47abea55981313377385d6c37" prot="public" virt="non-virtual"><scope>Enemy</scope><name>moveboss</name></member>
+      <member refid="classEnemy_1a0dcca8a418323526c286c323a3fb2fd1" prot="public" virt="non-virtual"><scope>Enemy</scope><name>moveEnemy</name></member>
+      <member refid="classEnemyOne_1a53c380bf26465df0f0f7beaca93b952d" prot="public" virt="non-virtual"><scope>Enemy</scope><name>setEnemy</name></member>
+      <member refid="classEnemy_1ac0eec4755e28c02688065f9657150ac3" prot="public" virt="non-virtual"><scope>Enemy</scope><name>~Enemy</name></member>
+      <member refid="classEnemyOne_1ad7999ae2c8228030d3f07df562a5aa0a" prot="public" virt="virtual"><scope>Enemy</scope><name>~EnemyOne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
