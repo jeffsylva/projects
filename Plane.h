@@ -1,3 +1,13 @@
+/**@file Plane.h
+*  @brief Definition of the Plane class.
+*
+*  This contains the public and private member variables 
+*   and functions of the Plane class.
+*
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi
+*  @bug No known bugs.
+*/
+
 #ifndef PLANE_H_
 #define PLANE_H_
 
