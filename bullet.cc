@@ -1,3 +1,12 @@
+/**@file bullet.cc
+*  @brief Implementation of the bullet class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the bullet class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "bullet.h"
 
 bullet::bullet()
