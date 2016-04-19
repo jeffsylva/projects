@@ -1,3 +1,12 @@
+/**@file Keyboard.cc
+*  @brief Implementation of the Keyboard class.
+*  
+*  This contains the implementation of member variables 
+*  and functions of the Keyboard class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*  @bug No known bugs.
+*/
+
 #include "Keyboard.h"
 
 Keyboard::Keyboard()
