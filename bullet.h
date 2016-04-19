@@ -1,3 +1,11 @@
+/**@file bullet.h
+*  @brief Definition of the bulleyType and bullet class (which inherits from the Plane class).
+*  This contains the public and private member variables and functions of the bullet class
+*  @author Wang Kangning, Jefferson Sylva-Iriogbe and Yuhai Shi.
+*
+*  @bug No known bugs.
+*/
+
 #ifndef BULLET_H_
 #define BULLET_H_
 
