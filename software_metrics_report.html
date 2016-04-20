@@ -1,0 +1,482 @@
+<HTML><HEAD><TITLE>
+Report on software metrics
+</TITLE>
+</HEAD>
+<BODY>
+<TABLE BORDER WIDTH=100%>
+<TR><TH COLSPAN=2>
+CCCC Software Metrics Report
+<BR> generated Wed Apr 20 01:37:07 2016
+
+</TR>
+<TR>
+<TH><H4><A HREF="#projsum">Project Summary</A></H4></TH>
+<TD>
+Summary table of high level measures summed over all files processed in the current run.
+</TR>
+<TR>
+<TH><H4><A HREF="#procsum">Procedural Metrics Summary</A></H4></TH>
+<TD>
+Table of procedural measures (i.e. lines of code, lines of comment, McCabe's cyclomatic complexity summed over each module.
+</TR>
+<TR>
+<TH><H4><A HREF="#oodesign">Object Oriented Design</A></H4></TH>
+<TD>
+Table of four of the 6 metrics proposed by Chidamber and Kemerer in their various papers on 'a metrics suite for object oriented design'.
+</TR>
+<TR>
+<TH><H4><A HREF="#structsum">Structural Metrics Summary</A></H4></TH>
+<TD>
+Structural metrics based on the relationships of each module with others.  Includes fan-out (i.e. number of other modules the current module uses), fan-in (number of other modules which use the current module), and the Information Flow measure suggested by Henry and Kafura, which combines these to give a measure of coupling for the module.
+</TR>
+<TR>
+<TH><H4><A HREF="#other">Other Extents</A></H4></TH>
+<TD>
+Lexical counts for parts of submitted source files which the analyser was unable to assign to a module. Each record in this table relates to either a part of the code which triggered a parse failure, or to the residual lexical counts relating to parts of a file not associated with a specific module.
+</TR>
+<TR>
+<TH><H4><A HREF="#infocccc">About CCCC</A></H4></TH>
+<TD>
+A description of the CCCC program.
+</TR>
+</TR></TABLE>
+<H1><A NAME="projsum">Project Summary</A></H1>
+This table shows measures over the project as a whole.
+<UL>
+<LI>NOM = Number of modules<BR>
+Number of non-trivial modules identified by the analyser.  Non-trivial modules include all classes, and any other module for which member functions are identified.
+<LI>LOC = Lines of Code<BR>
+Number of non-blank, non-comment lines of source code counted by the analyser.
+<LI>COM = Lines of Comments<BR>
+Number of lines of comment identified by the analyser
+<LI>MVG = McCabe's Cyclomatic Complexity<BR>
+A measure of the decision complexity of the functions which make up the program.The strict definition of this measure is that it is the number of linearly independent routes through a directed acyclic graph which maps the flow of control of a subprogram.  The analyser counts this by recording the number of distinct decision outcomes contained within each function, which yields a good approximation to the formally defined version of the measure.
+<LI>L_C = Lines of code per line of comment<BR>
+Indicates density of comments with respect to textual size of program
+<LI>M_C = Cyclomatic Complexity per line of comment<BR>
+Indicates density of comments with respect to logical complexity of program
+<LI>IF4 = Information Flow measure<BR>
+Measure of information flow between modules suggested by Henry and Kafura. The analyser makes an approximate count of this by counting inter-module couplings identified in the module interfaces.
+</UL>
+Two variants on the information flow measure IF4 are also presented, one (IF4v) calculated using only relationships in the visible part of the module interface, and the other (IF4c) calculated using only those relationships which imply that changes to the client must be recompiled of the supplier's definition changes.
+
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR="AQUA" WIDTH=70%>Metric</TH><TH BGCOLOR="AQUA" WIDTH=10%>Tag</TH><TH BGCOLOR="AQUA" WIDTH=10%>Overall</TH><TH BGCOLOR="AQUA" WIDTH=10%>Per Module</TH></TR>
+<TR>
+<TD>Number of modules</TD><TD>NOM</TD><TD ALIGN=RIGHT>    24</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD WIDTH=700%>Lines of Code</TD><TD WIDTH=120%>LOC</TD><TD ALIGN=RIGHT>   664</TD><TD ALIGN=RIGHT>27.667</TD></TR>
+<TR>
+<TD>McCabe's Cyclomatic Number</TD><TD>MVG</TD><TD ALIGN=RIGHT>   108</TD><TD ALIGN=RIGHT> 4.500</TD></TR>
+<TR>
+<TD>Lines of Comment</TD><TD>COM</TD><TD ALIGN=RIGHT>   424</TD><TD ALIGN=RIGHT>17.667</TD></TR>
+<TR>
+<TD>LOC/COM</TD><TD>L_C</TD><TD ALIGN=RIGHT> 1.566</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>MVG/COM</TD><TD>M_C</TD><TD ALIGN=RIGHT> 0.255</TD><TD>&nbsp;</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;inclusive&nbsp;)</TD><TD>IF4</TD><TD ALIGN=RIGHT>    15</TD><TD ALIGN=RIGHT>   0.625</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;visible&nbsp;)</TD><TD>IF4v</TD><TD ALIGN=RIGHT>    14</TD><TD ALIGN=RIGHT>   0.583</TD></TR>
+<TR>
+<TD>Information Flow measure ( &nbsp;concrete&nbsp;)</TD><TD>IF4c</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>   0.250</TD></TR>
+<TR>
+<TD>Lines of Code rejected by parser</TD><TD>REJ</TD><TD ALIGN=RIGHT>    32</TD><TD>&nbsp;</TD></TR>
+</TABLE>
+<H1><A NAME="procsum">Procedural Metrics Summary</A></H1>
+For descriptions of each of these metrics see the information preceding the project summary table.
+
+The label cell for each row in this table provides a link to the functions table in the detailed report for the module in question
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR="AQUA">Module Name</TH><TH BGCOLOR="AQUA" WIDTH=8%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=8%>MVG</TH><TH BGCOLOR="AQUA" WIDTH=8%>COM</TH><TH BGCOLOR="AQUA" WIDTH=8%>L_C</TH><TH BGCOLOR="AQUA" WIDTH=8%>M_C</TH></TR>
+<TR>
+<TD><A HREF="ALLEGRO_BITMAP.html#procdet">
+ALLEGRO_BITMAP</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_DISPLAY.html#procdet">
+ALLEGRO_DISPLAY</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_EVENT_QUEUE.html#procdet">
+ALLEGRO_EVENT_QUEUE</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_FONT.html#procdet">
+ALLEGRO_FONT</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_TIMER.html#procdet">
+ALLEGRO_TIMER</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Allegro.html#procdet">
+Allegro</A>
+</TD><TD ALIGN=RIGHT>   303</TD><TD ALIGN=RIGHT>    66</TD><TD ALIGN=RIGHT>    60</TD><TD ALIGN=RIGHT> 5.050</TD><TD ALIGN=RIGHT> 1.100</TD></TR>
+<TR>
+<TD><A HREF="CollisionTests.html#procdet">
+CollisionTests</A>
+</TD><TD ALIGN=RIGHT>    25</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT> 2.778</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Enemy.html#procdet">
+Enemy</A>
+</TD><TD ALIGN=RIGHT>    28</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>    35</TD><TD ALIGN=RIGHT> 0.800</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="EnemyOne.html#procdet">
+EnemyOne</A>
+</TD><TD ALIGN=RIGHT>    39</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>    41</TD><TD ALIGN=RIGHT> 0.951</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Enemytype.html#procdet">
+Enemytype</A>
+</TD><TD ALIGN=RIGHT>    30</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>    34</TD><TD ALIGN=RIGHT> 0.882</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Keyboard.html#procdet">
+Keyboard</A>
+</TD><TD ALIGN=RIGHT>    17</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Plane.html#procdet">
+Plane</A>
+</TD><TD ALIGN=RIGHT>    47</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>    65</TD><TD ALIGN=RIGHT> 0.723</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="Player.html#procdet">
+Player</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="TestFixture.html#procdet">
+TestFixture</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="anonymous.html#procdet">
+anonymous</A>
+</TD><TD ALIGN=RIGHT>    67</TD><TD ALIGN=RIGHT>    24</TD><TD ALIGN=RIGHT>    45</TD><TD ALIGN=RIGHT> 1.489</TD><TD ALIGN=RIGHT> 0.533</TD></TR>
+<TR>
+<TD><A HREF="bool.html#procdet">
+bool</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="bullet.html#procdet">
+bullet</A>
+</TD><TD ALIGN=RIGHT>    41</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>    40</TD><TD ALIGN=RIGHT> 1.025</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="bulletType.html#procdet">
+bulletType</A>
+</TD><TD ALIGN=RIGHT>    23</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>    28</TD><TD ALIGN=RIGHT> 0.821</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest.html#procdet">
+bulletcollsiontest</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest1.html#procdet">
+bulletcollsiontest1</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="collisiontest.html#procdet">
+collisiontest</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="collisiontest1.html#procdet">
+collisiontest1</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="list.html#procdet">
+list</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+<TR>
+<TD><A HREF="string.html#procdet">
+string</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>------</TD><TD ALIGN=RIGHT>------</TD></TR>
+</TABLE>
+<H1><A NAME="oodesign">Object Oriented Design</A></H1>
+<UL>
+<LI>WMC = Weighted methods per class<BR>
+The sum of a weighting function over the functions of the module.  Two different weighting functions are applied: WMC1 uses the nominal weight of 1 for each function, and hence measures the number of functions, WMCv uses a weighting function which is 1 for functions accessible to other modules, 0 for private functions.
+<LI>DIT = Depth of inheritance tree<BR>
+The length of the longest path of inheritance ending at the current module.  The deeper the inheritance tree for a module, the harder it may be to predict its behaviour.  On the other hand, increasing depth gives the potential of greater reuse by the current module of behaviour defined for ancestor classes.
+<LI>NOC = Number of children<BR>
+The number of modules which inherit directly from the current module.  Moderate values of this measure indicate scope for reuse, however high values may indicate an inappropriate abstraction in the design.
+<LI>CBO = Coupling between objects<BR>
+The number of other modules which are coupled to the current module either as a client or a supplier. Excessive coupling indicates weakness of module encapsulation and may inhibit reuse.
+</UL>
+
+The label cell for each row in this table provides a link to the module summary table in the detailed report for the module in question
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR="AQUA" WIDTH=50%>Module Name</TH><TH BGCOLOR="AQUA" WIDTH=10%>WMC1</TH><TH BGCOLOR="AQUA" WIDTH=10%>WMCv</TH><TH BGCOLOR="AQUA" WIDTH=10%>DIT</TH><TH BGCOLOR="AQUA" WIDTH=10%>NOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>CBO</TH></TR>
+<TR>
+<TD><A HREF="ALLEGRO_BITMAP.html#summary">
+ALLEGRO_BITMAP</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_DISPLAY.html#summary">
+ALLEGRO_DISPLAY</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_EVENT_QUEUE.html#summary">
+ALLEGRO_EVENT_QUEUE</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_FONT.html#summary">
+ALLEGRO_FONT</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_TIMER.html#summary">
+ALLEGRO_TIMER</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="Allegro.html#summary">
+Allegro</A>
+</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     9</TD></TR>
+<TR>
+<TD><A HREF="CollisionTests.html#summary">
+CollisionTests</A>
+</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>    10</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     5</TD></TR>
+<TR>
+<TD><A HREF="Enemy.html#summary">
+Enemy</A>
+</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
+<TR>
+<TD><A HREF="EnemyOne.html#summary">
+EnemyOne</A>
+</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     4</TD></TR>
+<TR>
+<TD><A HREF="Enemytype.html#summary">
+Enemytype</A>
+</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="Keyboard.html#summary">
+Keyboard</A>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
+<TR>
+<TD><A HREF="Plane.html#summary">
+Plane</A>
+</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     3</TD></TR>
+<TR>
+<TD><A HREF="Player.html#summary">
+Player</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="TestFixture.html#summary">
+TestFixture</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="anonymous.html#summary">
+anonymous</A>
+</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bool.html#summary">
+bool</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
+<TR>
+<TD><A HREF="bullet.html#summary">
+bullet</A>
+</TD><TD ALIGN=RIGHT>     6</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD></TR>
+<TR>
+<TD><A HREF="bulletType.html#summary">
+bulletType</A>
+</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest.html#summary">
+bulletcollsiontest</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest1.html#summary">
+bulletcollsiontest1</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="collisiontest.html#summary">
+collisiontest</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="collisiontest1.html#summary">
+collisiontest1</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="list.html#summary">
+list</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD></TR>
+<TR>
+<TD><A HREF="string.html#summary">
+string</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     3</TD></TR>
+</TABLE>
+<H1><A NAME="structsum">Structural Metrics Summary</A></H1>
+<UL>
+<LI>FI = Fan-in<BR>
+The number of other modules which pass information into the current module.
+<LI>FO = Fan-out<BR>
+The number of other modules into which the current module passes information
+<LI>IF4 = Information Flow measure<BR>
+A composite measure of structural complexity, calculated as the square of the product of the fan-in and fan-out of a single module.  Proposed by Henry and Kafura.
+</UL>
+Note that the fan-in and fan-out are calculated by examining the interface of each module.  As noted above, three variants of each each of these measures are presented: a count restricted to the part of the interface which is externally visible, a count which only includes relationships which imply the client module needs to be recompiled if the supplier's implementation changes, and an inclusive count
+
+The label cell for each row in this table provides a link to the relationships table in the detailed report for the module in question
+
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR=AQUA ROWSPAN=2>Module Name</TH>
+<TH BGCOLOR=AQUA COLSPAN=3>Fan-out</TH>
+<TH BGCOLOR=AQUA COLSPAN=3>Fan-in</TH>
+<TH BGCOLOR=AQUA COLSPAN=3>IF4</TH>
+</TR>
+<TH BGCOLOR="AQUA" WIDTH=7%>vis</TH><TH BGCOLOR="AQUA" WIDTH=7%>con</TH><TH BGCOLOR="AQUA" WIDTH=7%>inc</TH><TH BGCOLOR="AQUA" WIDTH=7%>vis</TH><TH BGCOLOR="AQUA" WIDTH=7%>con</TH><TH BGCOLOR="AQUA" WIDTH=7%>incl</TH><TH BGCOLOR="AQUA" WIDTH=7%>vis</TH><TH BGCOLOR="AQUA" WIDTH=7%>con</TH><TH BGCOLOR="AQUA" WIDTH=7%>inc</TH></TR>
+<TR>
+<TD><A HREF="ALLEGRO_BITMAP.html#structdet">
+ALLEGRO_BITMAP</A>
+</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_DISPLAY.html#structdet">
+ALLEGRO_DISPLAY</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_EVENT_QUEUE.html#structdet">
+ALLEGRO_EVENT_QUEUE</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_FONT.html#structdet">
+ALLEGRO_FONT</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="ALLEGRO_TIMER.html#structdet">
+ALLEGRO_TIMER</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="Allegro.html#structdet">
+Allegro</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="CollisionTests.html#structdet">
+CollisionTests</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     5</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="Enemy.html#structdet">
+Enemy</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="EnemyOne.html#structdet">
+EnemyOne</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     9</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     9</TD></TR>
+<TR>
+<TD><A HREF="Enemytype.html#structdet">
+Enemytype</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="Keyboard.html#structdet">
+Keyboard</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD></TR>
+<TR>
+<TD><A HREF="Plane.html#structdet">
+Plane</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     4</TD></TR>
+<TR>
+<TD><A HREF="Player.html#structdet">
+Player</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="TestFixture.html#structdet">
+TestFixture</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="anonymous.html#structdet">
+anonymous</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bool.html#structdet">
+bool</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bullet.html#structdet">
+bullet</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     4</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bulletType.html#structdet">
+bulletType</A>
+</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest.html#structdet">
+bulletcollsiontest</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="bulletcollsiontest1.html#structdet">
+bulletcollsiontest1</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="collisiontest.html#structdet">
+collisiontest</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="collisiontest1.html#structdet">
+collisiontest1</A>
+</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="list.html#structdet">
+list</A>
+</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR>
+<TD><A HREF="string.html#structdet">
+string</A>
+</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     3</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD><TD ALIGN=RIGHT>     0</TD></TR>
+</TABLE>
+<H1><A NAME="other">Other Extents</A></H1>
+<TABLE BORDER WIDTH=100%>
+<TR>
+<TH BGCOLOR="AQUA" WIDTH=25%>Location</TH><TH BGCOLOR="AQUA" WIDTH=45%>Text</TH><TH BGCOLOR="AQUA" WIDTH=10%>LOC</TH><TH BGCOLOR="AQUA" WIDTH=10%>COM</TH><TH BGCOLOR="AQUA" WIDTH=10%>MVG</TH></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\Allegro.h:         1">C:\Allegro.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\AllegroTest.h:         1">C:\AllegroTest.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\bullet.h:         1">C:\bullet.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     7</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\collisiontests.h:         1">C:\collisiontests.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\Enemy.h:         1">C:\Enemy.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\EnemyOne.h:         1">C:\EnemyOne.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\Keyboard.h:         1">C:\Keyboard.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     2</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#C:\Plane.h:         1">C:\Plane.h:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#Allegro.cc:         1">Allegro.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>    13</TD><TD ALIGN=RIGHT>     8</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#AllegroTest.cc:         1">AllegroTest.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#bullet.cc:         1">bullet.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#Enemy.cc:         1">Enemy.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#EnemyOne.cc:         1">EnemyOne.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#Keyboard.cc:         1">Keyboard.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#main.cc:         1">main.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#mainTest.cc:         1">mainTest.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+<TR><TD><CODE><A HREF="cccc_src.html#Plane.cc:         1">Plane.cc:1</A></CODE><BR>
+</TD>
+<TD>&lt;file scope items&gt;</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     1</TD><TD ALIGN=RIGHT>     0</TD></TR>
+</TABLE>
+<H1><A NAME="infocccc">About CCCC</A></H1>
+<P>This report was generated by the program CCCC, which is FREELY REDISTRIBUTABLE but carries NO WARRANTY.
+<P>CCCC was developed by Tim Littlefair. 
+as part of a PhD research project. This project is now completed and descriptions of the findings can be accessed at <A HREF=http://www.chs.ecu.edu.au/~tlittlef>http://www.chs.ecu.edu.au/~tlittlef</A>. <P>User support for CCCC can be obtained by <A HREF=mailto:cccc-users@lists.sourceforge.net>mailing the list cccc-users@lists.sourceforge.net</A>.<P>Please also visit the CCCC development website at <A HREF=http://cccc.sourceforge.net>http://cccc.sourceforge.net</A>.
+</BODY></HTML>
